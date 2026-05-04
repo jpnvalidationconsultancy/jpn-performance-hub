@@ -1,0 +1,28 @@
+name: Refresh TrainerRoad Calendar
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-trainerroad:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and convert TrainerRoad calendar
+        env:
+          TRAINERROAD_ICS_URL: ${{ secrets.TRAINERROAD_ICS_URL }}
+        run: python scripts/refresh_trainerroad.py
+
+      - name: Commit updated TrainerRoad plan
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Refresh TrainerRoad plan JSON"
+          file_pattern: data/trainerroad-plan.json
