@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-05-04T21:11:44.097290Z",
+  "updated_at": "2026-05-04T22:33:28.346583Z",
   "sessions": [
+    {
+      "summary": "1:00 - Pioneer -2",
+      "date": "2026-04-04",
+      "day": "Saturday",
+      "description": "TSS 54, IF 0.74, kJ(Cal) 475.  Description: Pioneer -2 is a 45-minute segment between 75-80% FTP nestled inside of an hour-long workout. Goals: Tempo rides are the height of aerobic endurance and while rather uncomfortable, they aren't too stressful to keep you from spending pretty long durations at a productive work level that isn't too demanding in terms of recovery.This is where conservative long-course and aggressive ultra-distance triathletes will live for hours at a time. This is also where a lot of time is spent during any long road ride.Use portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power. Try to do so with a cadence above 85rpm, preferably above 90rpm.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.",
+      "location": ""
+    },
+    {
+      "summary": "0:50 - Continuous Base Swim",
+      "date": "2026-04-05",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
+      "location": ""
+    },
+    {
+      "summary": "0:30 - Base Run",
+      "date": "2026-04-15",
+      "day": "Wednesday",
+      "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
     {
       "summary": "1:00 - Obelisk",
       "date": "2026-04-16",
@@ -58,13 +79,6 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-04-28",
-      "day": "Tuesday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
       "summary": "0:44 - Swim Base + VO2max Intervals",
       "date": "2026-04-29",
       "day": "Wednesday",
@@ -114,6 +128,13 @@
       "location": ""
     },
     {
+      "summary": "Rest Day",
+      "date": "2026-05-07",
+      "day": "Thursday",
+      "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
       "summary": "0:50 - Race Pace Run",
       "date": "2026-05-08",
       "day": "Friday",
@@ -139,6 +160,13 @@
       "date": "2026-05-10",
       "day": "Sunday",
       "description": "Description: 100min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Lazy Mountain -1",
+      "date": "2026-05-12",
+      "day": "Tuesday",
+      "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
@@ -597,24 +625,10 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Lazy Mountain -1",
-      "date": "2026-05-12",
-      "day": "Tuesday",
-      "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
       "summary": "0:56 - Continuous Base Swim",
       "date": "2026-05-10",
       "day": "Sunday",
       "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-05-07",
-      "day": "Thursday",
-      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -650,6 +664,13 @@
       "date": "2026-04-29",
       "day": "Wednesday",
       "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  4x5min Hard RPE7 (10k) pace, 3min easy  13min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-04-28",
+      "day": "Tuesday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -713,13 +734,6 @@
       "date": "2026-04-15",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Half Catch-Up drills w/ 10s rest between drills 5x100m Easy-Moderate, RPE5 w/ 5s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Half Catch-Up (HCU) - This abbreviated catch-up will bring the full catch-up drill closer to your actual freestyle stroke. Instead of waiting until your working arm reaches your lead arm, start pulling with your lead hand a little earlier when your working hand is even with your lead arm's elbow.",
-      "location": ""
-    },
-    {
-      "summary": "0:30 - Base Run",
-      "date": "2026-04-15",
-      "day": "Wednesday",
-      "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
       "location": ""
     },
     {
@@ -814,24 +828,10 @@
       "location": ""
     },
     {
-      "summary": "0:50 - Continuous Base Swim",
-      "date": "2026-04-05",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
-      "location": ""
-    },
-    {
       "summary": "0:20 - Brick Run",
       "date": "2026-04-04",
       "day": "Saturday",
       "description": "Description: 20min at a Comfortable RPE5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 20 minutes of running look downright effortless...even if it doesn?t feel that way.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Pioneer -2",
-      "date": "2026-04-04",
-      "day": "Saturday",
-      "description": "TSS 54, IF 0.74, kJ(Cal) 475.  Description: Pioneer -2 is a 45-minute segment between 75-80% FTP nestled inside of an hour-long workout. Goals: Tempo rides are the height of aerobic endurance and while rather uncomfortable, they aren't too stressful to keep you from spending pretty long durations at a productive work level that isn't too demanding in terms of recovery.This is where conservative long-course and aggressive ultra-distance triathletes will live for hours at a time. This is also where a lot of time is spent during any long road ride.Use portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power. Try to do so with a cadence above 85rpm, preferably above 90rpm.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.",
       "location": ""
     },
     {
