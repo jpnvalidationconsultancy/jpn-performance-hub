@@ -1,0 +1,10 @@
+PASS - GitHub workflow created
+PASS - Refresh script created
+PASS - TrainerRoad secret referenced
+PASS - JSON feed exists
+PASS - App can load JSON feed
+PASS - Food log exists
+PASS - Hydration log exists
+PASS - Macro assessment exists
+PASS - Embedded logos present
+PASS - PWA manifest standalone

@@ -1,0 +1,10 @@
+{
+  "name": "JPN Performance Hub V4",
+  "short_name": "JPN Hub V4",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "TrainerRoad GitHub sync, Garmin metrics, food, hydration and macros dashboard.",
+  "icons": []
+}
