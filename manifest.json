@@ -7,11 +7,6 @@
   "theme_color": "#07111f",
   "description": "TrainerRoad GitHub sync, Garmin metrics, food, hydration and macros dashboard.",
   "icons": [
-    {
-      "src": "assets/jpn-logo.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    {"src":"assets/jpn-logo.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}
   ]
 }
