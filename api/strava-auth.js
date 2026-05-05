@@ -1,42 +1,52 @@
 export default async function handler(req, res) {
-  const { code, error } = req.query;
+  try {
+    const refreshResponse = await fetch("https://www.strava.com/oauth/token", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        client_id: process.env.STRAVA_CLIENT_ID,
+        client_secret: process.env.STRAVA_CLIENT_SECRET,
+        refresh_token: process.env.STRAVA_REFRESH_TOKEN,
+        grant_type: "refresh_token"
+      })
+    });
 
-  if (error) {
-    return res.status(400).json({ status: "Strava returned an error", error });
-  }
+    const tokenData = await refreshResponse.json();
 
-  if (!code) {
+    if (!refreshResponse.ok) {
+      return res.status(400).json({
+        status: "Refresh token failed",
+        tokenData
+      });
+    }
+
+    const activitiesResponse = await fetch(
+      "https://www.strava.com/api/v3/athlete/activities?per_page=20",
+      {
+        headers: {
+          Authorization: `Bearer ${tokenData.access_token}`
+        }
+      }
+    );
+
+    const activities = await activitiesResponse.json();
+
+    if (!activitiesResponse.ok) {
+      return res.status(400).json({
+        status: "Activities fetch failed",
+        activities
+      });
+    }
+
     return res.status(200).json({
-      status: "API route is working",
-      expectedCallback: process.env.STRAVA_REDIRECT_URI
+      status: "Activities loaded",
+      count: activities.length,
+      activities
+    });
+  } catch (error) {
+    return res.status(500).json({
+      status: "Server error",
+      error: error.message
     });
   }
-
-  const response = await fetch("https://www.strava.com/oauth/token", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      client_id: process.env.STRAVA_CLIENT_ID,
-      client_secret: process.env.STRAVA_CLIENT_SECRET,
-      code,
-      grant_type: "authorization_code"
-    })
-  });
-
-  const data = await response.json();
-
-  if (!response.ok) {
-    return res.status(400).json({
-      status: "Token exchange failed",
-      data
-    });
-  }
-
-  return res.status(200).json({
-    status: "Token exchange successful",
-    athlete: data.athlete,
-    access_token: data.access_token,
-    refresh_token: data.refresh_token,
-    expires_at: data.expires_at
-  });
 }
