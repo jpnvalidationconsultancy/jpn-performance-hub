@@ -1,52 +1,31 @@
 export default async function handler(req, res) {
   try {
-    const refreshResponse = await fetch("https://www.strava.com/oauth/token", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        client_id: process.env.STRAVA_CLIENT_ID,
-        client_secret: process.env.STRAVA_CLIENT_SECRET,
-        refresh_token: process.env.STRAVA_REFRESH_TOKEN,
-        grant_type: "refresh_token"
-      })
-    });
+    const access_token = process.env.STRAVA_ACCESS_TOKEN;
 
-    const tokenData = await refreshResponse.json();
-
-    if (!refreshResponse.ok) {
-      return res.status(400).json({
-        status: "Refresh token failed",
-        tokenData
-      });
+    if (!access_token) {
+      return res.status(400).json({ error: "No access token set" });
     }
 
-    const activitiesResponse = await fetch(
+    const response = await fetch(
       "https://www.strava.com/api/v3/athlete/activities?per_page=20",
       {
         headers: {
-          Authorization: `Bearer ${tokenData.access_token}`
-        }
+          Authorization: `Bearer ${access_token}`,
+        },
       }
     );
 
-    const activities = await activitiesResponse.json();
-
-    if (!activitiesResponse.ok) {
-      return res.status(400).json({
-        status: "Activities fetch failed",
-        activities
-      });
-    }
+    const data = await response.json();
 
     return res.status(200).json({
       status: "Activities loaded",
-      count: activities.length,
-      activities
+      count: data.length,
+      activities: data,
     });
   } catch (error) {
     return res.status(500).json({
-      status: "Server error",
-      error: error.message
+      error: "Failed to load activities",
+      details: error.message,
     });
   }
 }
