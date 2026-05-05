@@ -49,3 +49,11 @@ button{cursor:pointer}.glass-card button{background:linear-gradient(135deg,var(-
   height: 240px !important;
   max-height: 240px !important;
 }
+
+html{scroll-behavior:smooth}
+main{padding:24px;max-height:100vh;overflow:auto}
+.hero h1{font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;letter-spacing:.02em}
+.primary-cta{font-size:16px;padding:14px 18px;box-shadow:0 14px 30px rgba(59,130,246,.35)}
+.glass-card{border-radius:18px}
+#todayPlan .plan-card{background:linear-gradient(135deg,rgba(15,23,42,.9),rgba(16,77,92,.35));border:1px solid rgba(45,212,191,.35)}
+#todayPlan .plan-card h3{font-size:22px}
