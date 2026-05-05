@@ -1,4 +1,5 @@
 const DEFAULT_SETTINGS={weight:100,bodyFat:20,proteinGkg:2.1,runLimit:30,hydrationTarget:3000};
+
 const DEFAULT_WEEK=[
 {day:"Monday",type:"Hard / red-aware",training:"TrainerRoad bike or recovery depending on fatigue",weights:"No weights. Optional 15–20 min light upper only if fresh.",load:"hard"},
 {day:"Tuesday",type:"Recovery",training:"Easy bike / recovery",weights:"No weights",load:"recovery"},
@@ -6,117 +7,77 @@ const DEFAULT_WEEK=[
 {day:"Thursday",type:"Endurance",training:"Zone 2 bike",weights:"No weights",load:"moderate"},
 {day:"Friday",type:"Moderate",training:"Run max 30 min + swim",weights:"No weights",load:"moderate"},
 {day:"Saturday",type:"Easy + strength",training:"Easy bike",weights:"Controlled lower body + ankle rehab",load:"moderate"},
-{day:"Sunday",type:"Endurance",training:"Run max 30 min then bike/swim replacement if needed",weights:"No weights",load:"hard"}];
+{day:"Sunday",type:"Endurance",training:"Run max 30 min then bike/swim replacement if needed",weights:"No weights",load:"hard"}
+];
+
 const FOOD_DB={
-"chicken breast":{cal:165,p:31,c:0,f:3.6,unit:"100g"},"chicken thigh":{cal:209,p:26,c:0,f:10.9,unit:"100g"},"rice":{cal:130,p:2.7,c:28,f:0.3,unit:"100g cooked"},"salmon":{cal:208,p:20,c:0,f:13,unit:"100g"},"tuna":{cal:132,p:29,c:0,f:1,unit:"100g"},"oats":{cal:389,p:17,c:66,f:7,unit:"100g"},"banana":{cal:89,p:1.1,c:23,f:0.3,unit:"100g"},"semi skimmed milk":{cal:50,p:3.6,c:4.8,f:1.8,unit:"100ml"},"yogurt":{cal:61,p:3.5,c:4.7,f:3.3,unit:"100g"},"lentils":{cal:116,p:9,c:20,f:0.4,unit:"100g cooked"},"pork steak":{cal:220,p:27,c:0,f:12,unit:"100g"},"mixed nuts":{cal:607,p:20,c:21,f:54,unit:"100g"},"peanut butter":{cal:588,p:25,c:20,f:50,unit:"100g"},"collagen":{cal:360,p:90,c:0,f:0,unit:"100g"},"honey":{cal:304,p:0.3,c:82,f:0,unit:"100g"}};
+"chicken breast":{cal:165,p:31,c:0,f:3.6,unit:"100g"},
+"chicken thigh":{cal:209,p:26,c:0,f:10.9,unit:"100g"},
+"rice":{cal:130,p:2.7,c:28,f:0.3,unit:"100g cooked"},
+"salmon":{cal:208,p:20,c:0,f:13,unit:"100g"},
+"tuna":{cal:132,p:29,c:0,f:1,unit:"100g"},
+"oats":{cal:389,p:17,c:66,f:7,unit:"100g"},
+"banana":{cal:89,p:1.1,c:23,f:0.3,unit:"100g"},
+"semi skimmed milk":{cal:50,p:3.6,c:4.8,f:1.8,unit:"100ml"},
+"yogurt":{cal:61,p:3.5,c:4.7,f:3.3,unit:"100g"},
+"lentils":{cal:116,p:9,c:20,f:0.4,unit:"100g cooked"},
+"pork steak":{cal:220,p:27,c:0,f:12,unit:"100g"},
+"mixed nuts":{cal:607,p:20,c:21,f:54,unit:"100g"},
+"peanut butter":{cal:588,p:25,c:20,f:50,unit:"100g"},
+"collagen":{cal:360,p:90,c:0,f:0,unit:"100g"},
+"honey":{cal:304,p:0.3,c:82,f:0,unit:"100g"}
+};
+
+let chartInstances = {};
+
 function getStore(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch(e){return f}}
 function setStore(k,v){localStorage.setItem(k,JSON.stringify(v))}
-function settings(){return getStore("settings",DEFAULT_SETTINGS)} function sessions(){return getStore("sessions",[])} function metrics(){return getStore("metrics",[])} function foods(){return getStore("foods",[])} function hydrations(){return getStore("hydrations",[])}
-function todayIso(){return new Date().toISOString().slice(0,10)} function todayName(){return new Date().toLocaleDateString("en-GB",{weekday:"long"})}
-function dayClass(load){return load==="hard"?"red":load==="recovery"?"yellow":"green"} function kcalFor(load){if(load==="hard")return 2900;if(load==="recovery")return 2450;return 2700}
+function settings(){return getStore("settings",DEFAULT_SETTINGS)}
+function sessions(){return getStore("sessions",[])}
+function metrics(){return getStore("metrics",[])}
+function foods(){return getStore("foods",[])}
+function hydrations(){return getStore("hydrations",[])}
+function todayIso(){return new Date().toISOString().slice(0,10)}
+function todayName(){return new Date().toLocaleDateString("en-GB",{weekday:"long"})}
+function dayClass(load){return load==="hard"?"red":load==="recovery"?"yellow":"green"}
+function kcalFor(load){if(load==="hard")return 2900;if(load==="recovery")return 2450;return 2700}
 function kcalLabel(load){if(load==="hard")return"2,800–2,950 kcal";if(load==="recovery")return"2,350–2,500 kcal";return"2,600–2,750 kcal"}
-function initNav(){document.querySelectorAll(".nav").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".nav").forEach(x=>x.classList.remove("active"));document.querySelectorAll(".tab").forEach(x=>x.classList.remove("show"));b.classList.add("active");document.getElementById(b.dataset.tab).classList.add("show");renderAll()}))}
+
+function initNav(){
+  document.querySelectorAll(".nav").forEach(b=>b.addEventListener("click",()=>{
+    document.querySelectorAll(".nav").forEach(x=>x.classList.remove("active"));
+    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("show"));
+    b.classList.add("active");
+    document.getElementById(b.dataset.tab).classList.add("show");
+    renderAll();
+  }))
+}
+
 function unfoldIcs(text){return text.replace(/\r\n/g,"\n").replace(/\r/g,"\n").replace(/\n[ \t]/g,"")}
 function getIcsField(block,field){const lines=block.split("\n");for(const line of lines){if(line.startsWith(field+":")||line.startsWith(field+";")){const idx=line.indexOf(":");if(idx>-1)return line.slice(idx+1).replace(/\\n/g," ").replace(/\\,/g,",").replace(/\\;/g,";").trim()}}return""}
 function parseIcs(text){text=unfoldIcs(text);const blocks=text.split("BEGIN:VEVENT").slice(1).map(b=>b.split("END:VEVENT")[0]);return blocks.map(block=>{const summary=getIcsField(block,"SUMMARY")||"Workout";const description=getIcsField(block,"DESCRIPTION");const location=getIcsField(block,"LOCATION");const dtstart=getIcsField(block,"DTSTART");let date="";const match=dtstart.match(/(\d{8})/);if(match){const d=match[1];date=`${d.slice(0,4)}-${d.slice(4,6)}-${d.slice(6,8)}`}const day=date?new Date(date+"T12:00:00").toLocaleDateString("en-GB",{weekday:"long"}):"";return{summary,date,day,description,location}}).filter(e=>e.summary&&(e.date||e.description||e.location))}
+
 async function loadTrainerRoadJson(){try{const res=await fetch("data/trainerroad-plan.json?ts="+Date.now());if(!res.ok)throw new Error("No JSON feed found");const data=await res.json();const arr=Array.isArray(data)?data:data.sessions||[];setStore("sessions",arr);document.getElementById("jsonStatus").innerHTML=`<p class='score-good'>Loaded ${arr.length} sessions from JSON feed.</p>`;renderAll()}catch(e){document.getElementById("jsonStatus").innerHTML=`<p class='score-bad'>Could not load JSON feed. If testing locally, use manual .ics import first.</p>`}}
 function importIcs(){const text=document.getElementById("icsText").value.trim();if(!text){alert("Paste .ics content first.");return}const parsed=parseIcs(text);if(!parsed.length){alert("No sessions found.");return}setStore("sessions",parsed);renderAll();alert(`Imported ${parsed.length} sessions.`)}
 function importIcsFile(){const f=document.getElementById("icsFile").files[0];if(!f){alert("Choose a .ics file first.");return}const r=new FileReader();r.onload=()=>{const parsed=parseIcs(String(r.result));if(!parsed.length){alert("No sessions found.");return}setStore("sessions",parsed);renderAll();alert(`Imported ${parsed.length} sessions.`)};r.readAsText(f)}
 function clearSessions(){setStore("sessions",[]);renderAll()}
-function getReadinessState(score){   if(score>=80) return "high";   if(score>=60) return "moderate";   if(score>=40) return "low";   return "recovery"; }  function planForToday(){   const base = DEFAULT_WEEK.find(x=>x.day===todayName())||DEFAULT_WEEK[0];   const latest = metrics()[0];   const readiness = latest ? calculateReadiness(latest) : 0;   const state = getReadinessState(readiness);    if(state==="recovery"){     return {...base, type:"Recovery override", training:"Light movement only / mobility", load:"recovery"};   }    if(state==="low" && base.load==="hard"){     return {...base, type:"Reduced load", training:"Convert to Zone 2 / technique work", load:"moderate"};   }    if(state==="high" && base.load!=="hard"){     return {...base, type:"Upgraded session", training:base.training+" (push intensity)", load:"hard"};   }    return base; }
+
+function getReadinessState(score){if(score>=80)return"high";if(score>=60)return"moderate";if(score>=40)return"low";return"recovery"}
+function calculateReadiness(entry){if(!entry)return 0;const sleepScore=entry.sleep?Math.min(entry.sleep/8,1)*25:0;const hrvScore=entry.hrv?Math.min(entry.hrv/80,1)*25:0;const rhrScore=entry.resting_hr?(1-Math.min(entry.resting_hr/70,1))*25:0;const stressScore=entry.stress?(1-Math.min(entry.stress/100,1))*25:0;return Math.round(sleepScore+hrvScore+rhrScore+stressScore)}
+function planForToday(){const base=DEFAULT_WEEK.find(x=>x.day===todayName())||DEFAULT_WEEK[0];const latest=metrics()[0];const readiness=latest?calculateReadiness(latest):0;const state=getReadinessState(readiness);if(state==="recovery")return{...base,type:"Recovery override",training:"Light movement only / mobility",load:"recovery"};if(state==="low"&&base.load==="hard")return{...base,type:"Reduced load",training:"Convert to Zone 2 / technique work",load:"moderate"};if(state==="high"&&base.load!=="hard")return{...base,type:"Upgraded session",training:base.training+" (push intensity)",load:"hard"};return base}
 function dailyTarget(){return kcalFor(planForToday().load)}
 function latestWeight(){const m=metrics().find(x=>x.weight);return m?m.weight+" kg":settings().weight+" kg"}
-function todayFoods(){return foods().filter(f=>f.date===todayIso())} function todayHydration(){return hydrations().filter(h=>h.date===todayIso())}
+function todayFoods(){return foods().filter(f=>f.date===todayIso())}
+function todayHydration(){return hydrations().filter(h=>h.date===todayIso())}
 function sumFood(date=todayIso()){return foods().filter(f=>f.date===date).reduce((a,f)=>({cal:a.cal+(+f.calories||0),p:a.p+(+f.protein||0),c:a.c+(+f.carbs||0),fat:a.fat+(+f.fat||0)}),{cal:0,p:0,c:0,fat:0})}
 function sumHydration(date=todayIso()){return hydrations().filter(h=>h.date===date).reduce((a,h)=>a+(+h.ml||0),0)}
-function macroAssessment(){const s=settings(), total=sumFood(), target=dailyTarget(), proteinTarget=Math.round(s.weight*s.proteinGkg), hyd=sumHydration(), hydTarget=s.hydrationTarget;let notes=[];if(total.cal<target-500)notes.push("Calories are very low for an endurance day; performance/recovery may suffer.");else if(total.cal>target+250)notes.push("Calories are above today’s fat-loss target.");else notes.push("Calories are broadly aligned to today’s target.");if(total.p<proteinTarget-25)notes.push("Protein is low; add lean protein to protect muscle.");else notes.push("Protein is on track.");if(hyd<hydTarget*0.7)notes.push("Hydration is behind target.");else notes.push("Hydration is reasonable.");return{total,target,proteinTarget,hyd,hydTarget,notes}}
-function calculateReadiness(entry){
-  if(!entry) return 0;
+function macroAssessment(){const s=settings(),total=sumFood(),target=dailyTarget(),proteinTarget=Math.round(s.weight*s.proteinGkg),hyd=sumHydration(),hydTarget=s.hydrationTarget;let notes=[];if(total.cal<target-500)notes.push("Calories are very low for an endurance day; performance/recovery may suffer.");else if(total.cal>target+250)notes.push("Calories are above today’s fat-loss target.");else notes.push("Calories are broadly aligned to today’s target.");if(total.p<proteinTarget-25)notes.push("Protein is low; add lean protein to protect muscle.");else notes.push("Protein is on track.");if(hyd<hydTarget*0.7)notes.push("Hydration is behind target.");else notes.push("Hydration is reasonable.");return{total,target,proteinTarget,hyd,hydTarget,notes}}
 
-  const sleepScore = entry.sleep ? Math.min(entry.sleep / 8, 1) * 25 : 0;
-  const hrvScore = entry.hrv ? Math.min(entry.hrv / 80, 1) * 25 : 0;
-  const rhrScore = entry.resting_hr ? (1 - Math.min(entry.resting_hr / 70, 1)) * 25 : 0;
-  const stressScore = entry.stress ? (1 - Math.min(entry.stress / 100, 1)) * 25 : 0;
+function calculateTrainingLoad(activities){if(!activities||!activities.length)return[];const daily={};activities.forEach(a=>{const date=a.start_date_local.slice(0,10);let load=0;if(a.weighted_average_watts){load=a.weighted_average_watts*(a.moving_time/3600)}else if(a.average_heartrate){load=a.average_heartrate*(a.moving_time/3600)}else{load=a.moving_time/60}daily[date]=(daily[date]||0)+load});const dates=Object.keys(daily).sort();let ctl=0;let atl=0;return dates.map(date=>{const load=daily[date];ctl=ctl+(load-ctl)*(1/42);atl=atl+(load-atl)*(1/7);return{date,load:Math.round(load),ctl:Math.round(ctl),atl:Math.round(atl),tsb:Math.round(ctl-atl)}})}
 
-  return Math.round(sleepScore + hrvScore + rhrScore + stressScore);
-}
-function calculateTrainingLoad(activities){
-  if(!activities || !activities.length) return [];
+async function loadStravaDashboard(){const box=document.getElementById("stravaDashboard");if(!box)return;box.innerHTML="<p>Loading Strava activities...</p>";try{const res=await fetch("/api/strava-activities");const data=await res.json();if(!res.ok||!data.activities){box.innerHTML="<p>Could not load Strava activities.</p>";return}const latest=data.activities.slice(0,5);box.innerHTML=latest.map(a=>{const km=(a.distance/1000).toFixed(1);const mins=Math.round(a.moving_time/60);const hr=a.average_heartrate?` · Avg HR ${Math.round(a.average_heartrate)}`:"";const watts=a.weighted_average_watts?` · NP ${Math.round(a.weighted_average_watts)}W`:"";return`<div class="session"><strong>${a.name}</strong><span>${a.sport_type} · ${km} km</span><small>${mins} min${hr}${watts}</small></div>`}).join("")}catch(e){box.innerHTML="<p>Strava connection error.</p>"}}
 
-  const daily = {};
-
-  activities.forEach(a=>{
-    const date = a.start_date_local.slice(0,10);
-    let load = 0;
-
-    if(a.weighted_average_watts){
-      load = a.weighted_average_watts * (a.moving_time / 3600);
-    }else if(a.average_heartrate){
-      load = a.average_heartrate * (a.moving_time / 3600);
-    }else{
-      load = a.moving_time / 60;
-    }
-
-    daily[date] = (daily[date] || 0) + load;
-  });
-
-  const dates = Object.keys(daily).sort();
-
-  let ctl = 0;
-  let atl = 0;
-
-  return dates.map(date=>{
-    const load = daily[date];
-
-    ctl = ctl + (load - ctl) * (1 / 42);
-    atl = atl + (load - atl) * (1 / 7);
-
-    return {
-      date,
-      load: Math.round(load),
-      ctl: Math.round(ctl),
-      atl: Math.round(atl),
-      tsb: Math.round(ctl - atl)
-    };
-  });
-}
-async function loadStravaDashboard(){
-  const box = document.getElementById("stravaDashboard");
-  if(!box) return;
-
-  box.innerHTML = "<p>Loading Strava activities...</p>";
-
-  try{
-    const res = await fetch("/api/strava-activities");
-    const data = await res.json();
-
-    if(!res.ok || !data.activities){
-      box.innerHTML = "<p>Could not load Strava activities.</p>";
-      return;
-    }
-
-    const latest = data.activities.slice(0,5);
-
-    box.innerHTML = latest.map(a=>{
-      const km = (a.distance/1000).toFixed(1);
-      const mins = Math.round(a.moving_time/60);
-      const hr = a.average_heartrate ? ` · Avg HR ${Math.round(a.average_heartrate)}` : "";
-      const watts = a.weighted_average_watts ? ` · NP ${Math.round(a.weighted_average_watts)}W` : "";
-
-      return `
-        <div class="session">
-          <strong>${a.name}</strong>
-          <span>${a.sport_type} · ${km} km</span>
-          <small>${mins} min${hr}${watts}</small>
-        </div>
-      `;
-    }).join("");
-
-  }catch(e){
-    box.innerHTML = "<p>Strava connection error.</p>";
-  }
-}
-function renderDashboard(){ const set=settings(); const plan=planForToday(); const todaySessions=sessions().filter(s=>s.date===todayIso()).slice(0,5); const assess=macroAssessment(); const latest = metrics()[0]; const readiness = latest ? calculateReadiness(latest) : 0;  document.getElementById("summaryCards").innerHTML=`<div class="stat-card"><span>Weight</span><strong>${latestWeight()}</strong><small>current recorded value</small></div><div class="stat-card"><span>Calories Today</span><strong>${Math.round(assess.total.cal)}</strong><small>target ${assess.target}</small></div><div class="stat-card"><span>Hydration</span><strong>${assess.hyd} ml</strong><small>target ${assess.hydTarget} ml</small></div><div class="stat-card"><span>Readiness</span><strong>${readiness}</strong><small>${getReadinessState(readiness)}</small></div>`;  document.getElementById("todayPlan").innerHTML=`<div class="plan-card ${dayClass(plan.load)} readiness-${getReadinessState(readiness)}"><h3>${todayName()}: ${plan.type}</h3><p><strong>Training:</strong> ${plan.training}</p><p><strong>Weights:</strong> ${plan.weights}</p><p><strong>Calories:</strong> ${kcalLabel(plan.load)}</p>${todaySessions.length?("<h3>TrainerRoad</h3>"+todaySessions.map(s=>`<div class="session"><strong>${s.summary}</strong><span>${s.date||""}</span><small>${s.location||""}</small></div>`).join("")):"<p>No imported TrainerRoad sessions for today.</p>"}<h3>Latest Strava Activities</h3><div id="stravaDashboard"></div></div>`;  loadStravaDashboard(); renderNutritionScore(); renderHydrationStatus(); document.getElementById("latestMetrics").innerHTML=metrics().length   ? metricCard(metrics()[0]) + `<p><strong>Readiness decision:</strong> ${       getReadinessState(readiness)==="high" ? "Green light — full session permitted." :       getReadinessState(readiness)==="moderate" ? "Proceed as planned, monitor fatigue." :       getReadinessState(readiness)==="low" ? "Reduce intensity if today is hard." :       "Recovery override — light movement only."     }</p>`   : "<p>No Garmin-style metrics saved yet.</p>"; }
+function renderDashboard(){const plan=planForToday();const todaySessions=sessions().filter(s=>s.date===todayIso()).slice(0,5);const assess=macroAssessment();const latest=metrics()[0];const readiness=latest?calculateReadiness(latest):0;document.getElementById("summaryCards").innerHTML=`<div class="stat-card"><span>Weight</span><strong>${latestWeight()}</strong><small>current recorded value</small></div><div class="stat-card"><span>Calories Today</span><strong>${Math.round(assess.total.cal)}</strong><small>target ${assess.target}</small></div><div class="stat-card"><span>Hydration</span><strong>${assess.hyd} ml</strong><small>target ${assess.hydTarget} ml</small></div><div class="stat-card"><span>Readiness</span><strong>${readiness}</strong><small>${getReadinessState(readiness)}</small></div>`;document.getElementById("todayPlan").innerHTML=`<div class="plan-card ${dayClass(plan.load)} readiness-${getReadinessState(readiness)}"><h3>${todayName()}: ${plan.type}</h3><p><strong>Training:</strong> ${plan.training}</p><p><strong>Weights:</strong> ${plan.weights}</p><p><strong>Calories:</strong> ${kcalLabel(plan.load)}</p>${todaySessions.length?("<h3>TrainerRoad</h3>"+todaySessions.map(s=>`<div class="session"><strong>${s.summary}</strong><span>${s.date||""}</span><small>${s.location||""}</small></div>`).join("")):"<p>No imported TrainerRoad sessions for today.</p>"}<h3>Latest Strava Activities</h3><div id="stravaDashboard"></div></div>`;loadStravaDashboard();renderNutritionScore();renderHydrationStatus();document.getElementById("latestMetrics").innerHTML=metrics().length?metricCard(metrics()[0])+`<p><strong>Readiness decision:</strong> ${getReadinessState(readiness)==="high"?"Green light — full session permitted.":getReadinessState(readiness)==="moderate"?"Proceed as planned, monitor fatigue.":getReadinessState(readiness)==="low"?"Reduce intensity if today is hard.":"Recovery override — light movement only."}</p>`:"<p>No Garmin-style metrics saved yet.</p>"}
 function renderNutritionScore(){const a=macroAssessment();const pct=Math.min(140,Math.round((a.total.cal/a.target)*100));document.getElementById("dailyNutritionScore").innerHTML=`<span class="pill">Calories ${Math.round(a.total.cal)} / ${a.target}</span><span class="pill">Protein ${Math.round(a.total.p)} / ${a.proteinTarget} g</span><span class="pill">Carbs ${Math.round(a.total.c)} g</span><span class="pill">Fat ${Math.round(a.total.fat)} g</span><div class="progress"><div class="bar" style="width:${Math.min(100,pct)}%"></div></div>${a.notes.map(n=>`<p>${n}</p>`).join("")}`}
 function renderHydrationStatus(){const a=macroAssessment();const pct=Math.min(100,Math.round((a.hyd/a.hydTarget)*100));document.getElementById("hydrationStatus").innerHTML=`<span class="pill">${a.hyd} / ${a.hydTarget} ml</span><div class="progress"><div class="bar" style="width:${pct}%"></div></div><p>${pct<70?"Behind target — add fluids earlier in the day.":pct<100?"On the way — keep sipping steadily.":"Target met — maintain electrolytes around training."}</p>`}
 function metricCard(m){return`<div class="metric-card"><h4>${m.date}</h4><span class="pill">Weight: ${m.weight||"-"} kg</span><span class="pill">Sleep: ${m.sleep||"-"} h</span><span class="pill">Steps: ${m.steps||"-"}</span><span class="pill">RHR: ${m.resting_hr||"-"}</span><span class="pill">Battery: ${m.body_battery||"-"}</span><p>${m.notes||""}</p></div>`}
@@ -135,79 +96,13 @@ function renderSettings(){const s=settings();setWeight.value=s.weight;setBodyFat
 function saveSettings(){const cur=settings();const next={weight:parseFloat(setWeight.value)||cur.weight,bodyFat:parseFloat(setBodyFat.value)||cur.bodyFat,proteinGkg:parseFloat(setProtein.value)||cur.proteinGkg,runLimit:parseInt(setRunLimit.value)||cur.runLimit,hydrationTarget:parseInt(setHydration.value)||cur.hydrationTarget};setStore("settings",next);renderAll();alert("Settings saved.")}
 function exportData(){const blob=new Blob([JSON.stringify({settings:settings(),sessions:sessions(),metrics:metrics(),foods:foods(),hydrations:hydrations()},null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="jpn-performance-hub-v4-backup.json";a.click()}
 function resetData(){if(confirm("Reset all local app data?")){localStorage.clear();renderAll()}}
-function loadDemoData(){setStore("metrics",[{date:todayIso(),weight:"100.0",sleep:"7.2",steps:"8420",resting_hr:"54",body_battery:"68",notes:"Demo readiness entry."}]);setStore("sessions",[{summary:"TrainerRoad Endurance Ride",date:todayIso(),day:todayName(),description:"Demo session",location:"TrainerRoad"}]);setStore("foods",[{date:todayIso(),meal:"Lunch",name:"Chicken breast and rice",qty:"manual",calories:620,protein:55,carbs:70,fat:12}]);setStore("hydrations",[{date:todayIso(),ml:750,electrolytes:"Yes",context:"During workout"}]);renderAll()}
-function renderAll(){   renderDashboard();   renderSessions();   renderMetrics();   renderFood();   renderHydration();   renderNutrition();   renderSettings();   renderCharts(); }
-if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}initNav();renderAll();
+function loadDemoData(){setStore("metrics",[{date:todayIso(),weight:"100.0",sleep:"7.2",steps:"8420",resting_hr:"54",body_battery:"68",hrv:"45",stress:"25",notes:"Demo readiness entry."}]);setStore("sessions",[{summary:"TrainerRoad Endurance Ride",date:todayIso(),day:todayName(),description:"Demo session",location:"TrainerRoad"}]);setStore("foods",[{date:todayIso(),meal:"Lunch",name:"Chicken breast and rice",qty:"manual",calories:620,protein:55,carbs:70,fat:12}]);setStore("hydrations",[{date:todayIso(),ml:750,electrolytes:"Yes",context:"During workout"}]);renderAll()}
 
-// =========================
-// CHART INITIALISATION
-// =========================
+function renderCharts(){const metricData=metrics().slice(0,7).reverse();const labels=metricData.length?metricData.map(m=>m.date.slice(5)):["No data"];const weightData=metricData.length?metricData.map(m=>parseFloat(m.weight)||null):[null];const readinessData=metricData.length?metricData.map(m=>calculateReadiness(m)):[null];makeChart("weightChart",labels,weightData,"Body Weight");makeChart("readinessChart",labels,readinessData,"Readiness");makeChart("loadChart",labels,[null],"Training Load");makeChart("fatigueChart",labels,[null],"Fatigue")}
+function makeChart(canvasId,labels,data,label){const canvas=document.getElementById(canvasId);if(!canvas)return;if(chartInstances[canvasId])chartInstances[canvasId].destroy();chartInstances[canvasId]=new Chart(canvas,{type:"line",data:{labels:labels,datasets:[{label:label,data:data,tension:0.35}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:"#dce6f2",boxWidth:12}}},scales:{x:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}},y:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}}}}})}
 
-let chartInstances = {};
+function renderAll(){renderDashboard();renderSessions();renderMetrics();renderFood();renderHydration();renderNutrition();renderSettings();renderCharts()}
 
-function renderCharts() {
-  const metricData = metrics().slice(0, 7).reverse();
-
-  const labels = metricData.length
-    ? metricData.map(m => m.date.slice(5))
-    : ["No data"];
-
-  const weightData = metricData.length
-    ? metricData.map(m => parseFloat(m.weight) || null)
-    : [null];
-
-  const readinessData = metricData.length
-    ? metricData.map(m => calculateReadiness(m))
-    : [null];
-
-  makeChart("weightChart", labels, weightData, "Body Weight");
-  makeChart("readinessChart", labels, readinessData, "Readiness");
-
-  makeChart("loadChart", labels, [null], "Training Load");
-  makeChart("fatigueChart", labels, [null], "Fatigue");
-}
-
-function makeChart(canvasId, labels, data, label) {
-  const canvas = document.getElementById(canvasId);
-  if (!canvas) return;
-
-  if (chartInstances[canvasId]) {
-    chartInstances[canvasId].destroy();
-  }
-
-  chartInstances[canvasId] = new Chart(canvas, {
-    type: "line",
-    data: {
-      labels: labels,
-      datasets: [{
-        label: label,
-        data: data,
-        tension: 0.35
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: {
-          labels: {
-            color: "#dce6f2",
-            boxWidth: 12
-          }
-        }
-      },
-      scales: {
-        x: {
-          ticks: { color: "#9fb0c3" },
-          grid: { color: "rgba(255,255,255,0.08)" }
-        },
-        y: {
-          ticks: { color: "#9fb0c3" },
-          grid: { color: "rgba(255,255,255,0.08)" }
-        }
-      }
-    }
-  });
-}
-
-document.addEventListener("DOMContentLoaded", renderCharts);
+if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}
+initNav();
+renderAll();
