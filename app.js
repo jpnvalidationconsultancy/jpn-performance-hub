@@ -146,12 +146,25 @@ if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch
 let chartInstances = {};
 
 function renderCharts() {
-  const labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  const metricData = metrics().slice(0, 7).reverse();
 
-  makeChart("loadChart", labels, [45, 60, 35, 75, 50, 90, 40], "Training Load");
-  makeChart("fatigueChart", labels, [30, 42, 38, 55, 48, 65, 45], "Fatigue");
-  makeChart("weightChart", labels, [103, 102.8, 102.6, 102.4, 102.2, 102.1, 101.9], "Body Weight");
-  makeChart("readinessChart", labels, [72, 68, 75, 62, 70, 66, 78], "Readiness");
+  const labels = metricData.length
+    ? metricData.map(m => m.date.slice(5))
+    : ["No data"];
+
+  const weightData = metricData.length
+    ? metricData.map(m => parseFloat(m.weight) || null)
+    : [null];
+
+  const readinessData = metricData.length
+    ? metricData.map(m => calculateReadiness(m))
+    : [null];
+
+  makeChart("weightChart", labels, weightData, "Body Weight");
+  makeChart("readinessChart", labels, readinessData, "Readiness");
+
+  makeChart("loadChart", labels, [null], "Training Load");
+  makeChart("fatigueChart", labels, [null], "Fatigue");
 }
 
 function makeChart(canvasId, labels, data, label) {
