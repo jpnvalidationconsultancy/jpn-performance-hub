@@ -138,3 +138,45 @@ function resetData(){if(confirm("Reset all local app data?")){localStorage.clear
 function loadDemoData(){setStore("metrics",[{date:todayIso(),weight:"100.0",sleep:"7.2",steps:"8420",resting_hr:"54",body_battery:"68",notes:"Demo readiness entry."}]);setStore("sessions",[{summary:"TrainerRoad Endurance Ride",date:todayIso(),day:todayName(),description:"Demo session",location:"TrainerRoad"}]);setStore("foods",[{date:todayIso(),meal:"Lunch",name:"Chicken breast and rice",qty:"manual",calories:620,protein:55,carbs:70,fat:12}]);setStore("hydrations",[{date:todayIso(),ml:750,electrolytes:"Yes",context:"During workout"}]);renderAll()}
 function renderAll(){renderDashboard();renderSessions();renderMetrics();renderFood();renderHydration();renderNutrition();renderSettings()}
 if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}initNav();renderAll();
+
+// =========================
+// CHART INITIALISATION
+// =========================
+
+function renderCharts() {
+  const labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+  const loadData = [45, 60, 35, 75, 50, 90, 40];
+  const fatigueData = [30, 42, 38, 55, 48, 65, 45];
+  const weightData = [103, 102.8, 102.6, 102.4, 102.2, 102.1, 101.9];
+  const readinessData = [72, 68, 75, 62, 70, 66, 78];
+
+  makeChart("loadChart", labels, loadData, "Training Load");
+  makeChart("fatigueChart", labels, fatigueData, "Fatigue");
+  makeChart("weightChart", labels, weightData, "Body Weight");
+  makeChart("readinessChart", labels, readinessData, "Readiness");
+}
+
+function makeChart(canvasId, labels, data, label) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+
+  new Chart(canvas, {
+    type: "line",
+    data: {
+      labels: labels,
+      datasets: [{
+        label: label,
+        data: data,
+        tension: 0.35
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false
+    }
+  });
+}
+
+// Run when page loads
+document.addEventListener("DOMContentLoaded", renderCharts);
