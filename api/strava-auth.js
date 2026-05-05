@@ -1,14 +1,23 @@
 export default async function handler(req, res) {
-  const clientId = process.env.STRAVA_CLIENT_ID;
-  const redirectUri = process.env.STRAVA_REDIRECT_URI;
+  const { code, error } = req.query;
 
-  const url = `https://www.strava.com/oauth/authorize
-    ?client_id=${clientId}
-    &response_type=code
-    &redirect_uri=${redirectUri}
-    &approval_prompt=auto
-    &scope=activity:read_all`;
+  if (error) {
+    return res.status(400).json({
+      status: "Strava returned an error",
+      error
+    });
+  }
 
-  res.writeHead(302, { Location: url.replace(/\s/g, "") });
-  res.end();
+  if (!code) {
+    return res.status(200).json({
+      status: "API route is working",
+      message: "No Strava code received yet. Use the Strava authorize link to generate a code.",
+      expectedCallback: process.env.STRAVA_REDIRECT_URI || "STRAVA_REDIRECT_URI not set"
+    });
+  }
+
+  return res.status(200).json({
+    status: "Strava code received",
+    code
+  });
 }
