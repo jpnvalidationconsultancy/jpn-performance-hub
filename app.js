@@ -136,7 +136,7 @@ function saveSettings(){const cur=settings();const next={weight:parseFloat(setWe
 function exportData(){const blob=new Blob([JSON.stringify({settings:settings(),sessions:sessions(),metrics:metrics(),foods:foods(),hydrations:hydrations()},null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="jpn-performance-hub-v4-backup.json";a.click()}
 function resetData(){if(confirm("Reset all local app data?")){localStorage.clear();renderAll()}}
 function loadDemoData(){setStore("metrics",[{date:todayIso(),weight:"100.0",sleep:"7.2",steps:"8420",resting_hr:"54",body_battery:"68",notes:"Demo readiness entry."}]);setStore("sessions",[{summary:"TrainerRoad Endurance Ride",date:todayIso(),day:todayName(),description:"Demo session",location:"TrainerRoad"}]);setStore("foods",[{date:todayIso(),meal:"Lunch",name:"Chicken breast and rice",qty:"manual",calories:620,protein:55,carbs:70,fat:12}]);setStore("hydrations",[{date:todayIso(),ml:750,electrolytes:"Yes",context:"During workout"}]);renderAll()}
-function renderAll(){renderDashboard();renderSessions();renderMetrics();renderFood();renderHydration();renderNutrition();renderSettings()}
+function renderAll(){   renderDashboard();   renderSessions();   renderMetrics();   renderFood();   renderHydration();   renderNutrition();   renderSettings();   renderCharts(); }
 if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{})}initNav();renderAll();
 
 // =========================
