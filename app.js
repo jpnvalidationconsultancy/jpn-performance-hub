@@ -116,7 +116,7 @@ async function loadStravaDashboard(){
     box.innerHTML = "<p>Strava connection error.</p>";
   }
 }
-function renderDashboard(){ const set=settings(); const plan=planForToday(); const todaySessions=sessions().filter(s=>s.date===todayIso()).slice(0,5); const assess=macroAssessment(); const latest = metrics()[0]; const readiness = latest ? calculateReadiness(latest) : 0;  document.getElementById("summaryCards").innerHTML=`<div class="stat-card"><span>Weight</span><strong>${latestWeight()}</strong><small>current recorded value</small></div><div class="stat-card"><span>Calories Today</span><strong>${Math.round(assess.total.cal)}</strong><small>target ${assess.target}</small></div><div class="stat-card"><span>Hydration</span><strong>${assess.hyd} ml</strong><small>target ${assess.hydTarget} ml</small></div><div class="stat-card"><span>Readiness</span><strong>${readiness}</strong><small>${getReadinessState(readiness)}</small></div>`;  document.getElementById("todayPlan").innerHTML=`<div class="plan-card ${dayClass(plan.load)} readiness-${getReadinessState(readiness)}"><h3>${todayName()}: ${plan.type}</h3><p><strong>Training:</strong> ${plan.training}</p><p><strong>Weights:</strong> ${plan.weights}</p><p><strong>Calories:</strong> ${kcalLabel(plan.load)}</p>${todaySessions.length?("<h3>TrainerRoad</h3>"+todaySessions.map(s=>`<div class="session"><strong>${s.summary}</strong><span>${s.date||""}</span><small>${s.location||""}</small></div>`).join("")):"<p>No imported TrainerRoad sessions for today.</p>"}<h3>Training Load Trend</h3><canvas id="loadChart" height="120"></canvas><h3>Latest Strava Activities</h3><div id="stravaDashboard"></div></div>`;  loadStravaDashboard(); renderNutritionScore(); renderHydrationStatus(); document.getElementById("latestMetrics").innerHTML=metrics().length   ? metricCard(metrics()[0]) + `<p><strong>Readiness decision:</strong> ${       getReadinessState(readiness)==="high" ? "Green light — full session permitted." :       getReadinessState(readiness)==="moderate" ? "Proceed as planned, monitor fatigue." :       getReadinessState(readiness)==="low" ? "Reduce intensity if today is hard." :       "Recovery override — light movement only."     }</p>`   : "<p>No Garmin-style metrics saved yet.</p>"; }
+function renderDashboard(){ const set=settings(); const plan=planForToday(); const todaySessions=sessions().filter(s=>s.date===todayIso()).slice(0,5); const assess=macroAssessment(); const latest = metrics()[0]; const readiness = latest ? calculateReadiness(latest) : 0;  document.getElementById("summaryCards").innerHTML=`<div class="stat-card"><span>Weight</span><strong>${latestWeight()}</strong><small>current recorded value</small></div><div class="stat-card"><span>Calories Today</span><strong>${Math.round(assess.total.cal)}</strong><small>target ${assess.target}</small></div><div class="stat-card"><span>Hydration</span><strong>${assess.hyd} ml</strong><small>target ${assess.hydTarget} ml</small></div><div class="stat-card"><span>Readiness</span><strong>${readiness}</strong><small>${getReadinessState(readiness)}</small></div>`;  document.getElementById("todayPlan").innerHTML=`<div class="plan-card ${dayClass(plan.load)} readiness-${getReadinessState(readiness)}"><h3>${todayName()}: ${plan.type}</h3><p><strong>Training:</strong> ${plan.training}</p><p><strong>Weights:</strong> ${plan.weights}</p><p><strong>Calories:</strong> ${kcalLabel(plan.load)}</p>${todaySessions.length?("<h3>TrainerRoad</h3>"+todaySessions.map(s=>`<div class="session"><strong>${s.summary}</strong><span>${s.date||""}</span><small>${s.location||""}</small></div>`).join("")):"<p>No imported TrainerRoad sessions for today.</p>"}<h3>Latest Strava Activities</h3><div id="stravaDashboard"></div></div>`;  loadStravaDashboard(); renderNutritionScore(); renderHydrationStatus(); document.getElementById("latestMetrics").innerHTML=metrics().length   ? metricCard(metrics()[0]) + `<p><strong>Readiness decision:</strong> ${       getReadinessState(readiness)==="high" ? "Green light — full session permitted." :       getReadinessState(readiness)==="moderate" ? "Proceed as planned, monitor fatigue." :       getReadinessState(readiness)==="low" ? "Reduce intensity if today is hard." :       "Recovery override — light movement only."     }</p>`   : "<p>No Garmin-style metrics saved yet.</p>"; }
 function renderNutritionScore(){const a=macroAssessment();const pct=Math.min(140,Math.round((a.total.cal/a.target)*100));document.getElementById("dailyNutritionScore").innerHTML=`<span class="pill">Calories ${Math.round(a.total.cal)} / ${a.target}</span><span class="pill">Protein ${Math.round(a.total.p)} / ${a.proteinTarget} g</span><span class="pill">Carbs ${Math.round(a.total.c)} g</span><span class="pill">Fat ${Math.round(a.total.fat)} g</span><div class="progress"><div class="bar" style="width:${Math.min(100,pct)}%"></div></div>${a.notes.map(n=>`<p>${n}</p>`).join("")}`}
 function renderHydrationStatus(){const a=macroAssessment();const pct=Math.min(100,Math.round((a.hyd/a.hydTarget)*100));document.getElementById("hydrationStatus").innerHTML=`<span class="pill">${a.hyd} / ${a.hydTarget} ml</span><div class="progress"><div class="bar" style="width:${pct}%"></div></div><p>${pct<70?"Behind target — add fluids earlier in the day.":pct<100?"On the way — keep sipping steadily.":"Target met — maintain electrolytes around training."}</p>`}
 function metricCard(m){return`<div class="metric-card"><h4>${m.date}</h4><span class="pill">Weight: ${m.weight||"-"} kg</span><span class="pill">Sleep: ${m.sleep||"-"} h</span><span class="pill">Steps: ${m.steps||"-"}</span><span class="pill">RHR: ${m.resting_hr||"-"}</span><span class="pill">Battery: ${m.body_battery||"-"}</span><p>${m.notes||""}</p></div>`}
@@ -143,25 +143,26 @@ if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch
 // CHART INITIALISATION
 // =========================
 
+let chartInstances = {};
+
 function renderCharts() {
   const labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-  const loadData = [45, 60, 35, 75, 50, 90, 40];
-  const fatigueData = [30, 42, 38, 55, 48, 65, 45];
-  const weightData = [103, 102.8, 102.6, 102.4, 102.2, 102.1, 101.9];
-  const readinessData = [72, 68, 75, 62, 70, 66, 78];
-
-  makeChart("loadChart", labels, loadData, "Training Load");
-  makeChart("fatigueChart", labels, fatigueData, "Fatigue");
-  makeChart("weightChart", labels, weightData, "Body Weight");
-  makeChart("readinessChart", labels, readinessData, "Readiness");
+  makeChart("loadChart", labels, [45, 60, 35, 75, 50, 90, 40], "Training Load");
+  makeChart("fatigueChart", labels, [30, 42, 38, 55, 48, 65, 45], "Fatigue");
+  makeChart("weightChart", labels, [103, 102.8, 102.6, 102.4, 102.2, 102.1, 101.9], "Body Weight");
+  makeChart("readinessChart", labels, [72, 68, 75, 62, 70, 66, 78], "Readiness");
 }
 
 function makeChart(canvasId, labels, data, label) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
 
-  new Chart(canvas, {
+  if (chartInstances[canvasId]) {
+    chartInstances[canvasId].destroy();
+  }
+
+  chartInstances[canvasId] = new Chart(canvas, {
     type: "line",
     data: {
       labels: labels,
@@ -171,27 +172,29 @@ function makeChart(canvasId, labels, data, label) {
         tension: 0.35
       }]
     },
-options: {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: {
-      labels: {
-        color: "#dce6f2",
-        boxWidth: 12
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          labels: {
+            color: "#dce6f2",
+            boxWidth: 12
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: "#9fb0c3" },
+          grid: { color: "rgba(255,255,255,0.08)" }
+        },
+        y: {
+          ticks: { color: "#9fb0c3" },
+          grid: { color: "rgba(255,255,255,0.08)" }
+        }
       }
     }
-  },
-  scales: {
-    x: {
-      ticks: { color: "#9fb0c3" },
-      grid: { color: "rgba(255,255,255,0.08)" }
-    },
-    y: {
-      ticks: { color: "#9fb0c3" },
-      grid: { color: "rgba(255,255,255,0.08)" }
-    }
+  });
 }
 
-// Run when page loads
 document.addEventListener("DOMContentLoaded", renderCharts);
