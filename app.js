@@ -171,11 +171,26 @@ function makeChart(canvasId, labels, data, label) {
         tension: 0.35
       }]
     },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false
+options: {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: {
+      labels: {
+        color: "#dce6f2",
+        boxWidth: 12
+      }
     }
-  });
+  },
+  scales: {
+    x: {
+      ticks: { color: "#9fb0c3" },
+      grid: { color: "rgba(255,255,255,0.08)" }
+    },
+    y: {
+      ticks: { color: "#9fb0c3" },
+      grid: { color: "rgba(255,255,255,0.08)" }
+    }
 }
 
 // Run when page loads
