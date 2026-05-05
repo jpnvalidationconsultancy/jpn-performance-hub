@@ -1,24 +1,14 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/manifest.json b/manifest.json
-index 9fdc2d22d8f174c42f0c7bd6e3c7e5de240dabc7..01a4b8576dcb233e6f2feffa975e72852e2c8785 100644
---- a/manifest.json
-+++ b/manifest.json
-@@ -1,10 +1,12 @@
- {
-   "name": "JPN Performance Hub V4",
-   "short_name": "JPN Hub V4",
-   "start_url": "./index.html",
-   "display": "standalone",
-   "background_color": "#07111f",
-   "theme_color": "#07111f",
-   "description": "TrainerRoad GitHub sync, Garmin metrics, food, hydration and macros dashboard.",
--  "icons": []
--}
-\ No newline at end of file
-+  "icons": [
-+    {"src":"assets/jpn-logo.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}
-+  ]
-+}
- 
-EOF
-)
+{
+  "name": "JPN Performance Hub V4",
+  "short_name": "JPN Hub V4",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "TrainerRoad GitHub sync, Garmin metrics, food, hydration and macros dashboard.",
+  "icons": []
+}
+  "icons": [
+    {"src":"assets/jpn-logo.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
