@@ -40,6 +40,46 @@ function calculateReadiness(entry){
 
   return Math.round(sleepScore + hrvScore + rhrScore + stressScore);
 }
+function calculateTrainingLoad(activities){
+  if(!activities || !activities.length) return [];
+
+  const daily = {};
+
+  activities.forEach(a=>{
+    const date = a.start_date_local.slice(0,10);
+    let load = 0;
+
+    if(a.weighted_average_watts){
+      load = a.weighted_average_watts * (a.moving_time / 3600);
+    }else if(a.average_heartrate){
+      load = a.average_heartrate * (a.moving_time / 3600);
+    }else{
+      load = a.moving_time / 60;
+    }
+
+    daily[date] = (daily[date] || 0) + load;
+  });
+
+  const dates = Object.keys(daily).sort();
+
+  let ctl = 0;
+  let atl = 0;
+
+  return dates.map(date=>{
+    const load = daily[date];
+
+    ctl = ctl + (load - ctl) * (1 / 42);
+    atl = atl + (load - atl) * (1 / 7);
+
+    return {
+      date,
+      load: Math.round(load),
+      ctl: Math.round(ctl),
+      atl: Math.round(atl),
+      tsb: Math.round(ctl - atl)
+    };
+  });
+}
 async function loadStravaDashboard(){
   const box = document.getElementById("stravaDashboard");
   if(!box) return;
