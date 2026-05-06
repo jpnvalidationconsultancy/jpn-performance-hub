@@ -136,12 +136,18 @@ function loadDemoData(){setStore("metrics",[{date:todayIso(),weight:"100.0",slee
 
 function renderCharts(){const metricData=metrics().slice(0,7).reverse();const labels=metricData.length?metricData.map(m=>m.date.slice(5)):["No data"];const weightData=metricData.length?metricData.map(m=>parseFloat(m.weight)||null):[null];const readinessData=metricData.length?metricData.map(m=>calculateReadiness(m)):[null];const loadData=metricData.length?metricData.map(m=>{const steps=parseFloat(m.steps)||0;const stress=parseFloat(m.stress)||0;const sleep=parseFloat(m.sleep)||0;return Math.round((steps/120)+(stress*1.2)+Math.max(0,(8-sleep)*8))}):[null];const fatigueData=metricData.length?metricData.map((_,i)=>{const slice=loadData.slice(Math.max(0,i-2),i+1).filter(v=>v!=null);if(!slice.length)return null;return Math.round(slice.reduce((a,v)=>a+v,0)/slice.length)}):[null];makeChart("weightChart",labels,weightData,"Body Weight");makeChart("readinessChart",labels,readinessData,"Readiness");makeChart("loadChart",labels,loadData,"Training Load (Estimated)");makeChart("fatigueChart",labels,fatigueData,"Fatigue (3-day avg)")}
 <<<<<<< ours
+<<<<<<< ours
 function makeChart(canvasId,labels,data,label){const canvas=document.getElementById(canvasId);if(!canvas||typeof Chart==="undefined")return;if(chartInstances[canvasId])chartInstances[canvasId].destroy();chartInstances[canvasId]=new Chart(canvas,{type:"line",data:{labels:labels,datasets:[{label:label,data:data,tension:0.35}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:"#dce6f2",boxWidth:12}}},scales:{x:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}},y:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}}}}})}
 =======
+=======
+>>>>>>> theirs
 function renderStravaCharts(activities){const load=calculateTrainingLoad(activities).slice(-14);if(!load.length)return;const labels=load.map(x=>x.date.slice(5));makeChart("loadChart",labels,load.map(x=>x.load),"Daily Training Load");makeMultiChart("fatigueChart",labels,[{label:"Fitness (CTL)",data:load.map(x=>x.ctl),borderColor:"#22c55e"},{label:"Fatigue (ATL)",data:load.map(x=>x.atl),borderColor:"#f59e0b"},{label:"Form (TSB)",data:load.map(x=>x.tsb),borderColor:"#3b82f6"}])}
 function chartOptions(){return{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:"#dce6f2",boxWidth:12}}},scales:{x:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}},y:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}}}}}
 function makeChart(canvasId,labels,data,label){makeMultiChart(canvasId,labels,[{label:label,data:data,borderColor:"#20a89c"}])}
 function makeMultiChart(canvasId,labels,datasets){const canvas=document.getElementById(canvasId);if(!canvas||typeof Chart==="undefined")return;if(chartInstances[canvasId])chartInstances[canvasId].destroy();chartInstances[canvasId]=new Chart(canvas,{type:"line",data:{labels:labels,datasets:datasets.map(d=>({label:d.label,data:d.data,tension:0.35,borderColor:d.borderColor,backgroundColor:d.borderColor,pointRadius:2}))},options:chartOptions()})}
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 
 function renderAll(){renderDashboard();renderSessions();renderMetrics();renderFood();renderHydration();renderNutrition();renderSettings();renderCharts()}
@@ -157,7 +163,11 @@ renderAll();
 function hasTodayMetrics(){return metrics().some(m=>m.date===todayIso())}
 function enableReminder(){if(!("Notification" in window)){alert("Notifications are not supported on this device/browser.");return}Notification.requestPermission().then(p=>{const box=document.getElementById("reminderStatus");if(p!=="granted"){if(box)box.innerHTML="<p class='score-bad'>Notification permission not granted.</p>";return}localStorage.setItem("dailyReminderEnabled","1");if(box)box.innerHTML="<p class='score-good'>8:00 PM reminder enabled.</p>";scheduleReminderCheck()})}
 <<<<<<< ours
+<<<<<<< ours
 function scheduleReminderCheck(){if(localStorage.getItem("dailyReminderEnabled")!=="1")return;const now=new Date();const target=new Date();target.setHours(20,0,0,0);if(now>target)target.setDate(target.getDate()+1);const delay=target-now;setTimeout(()=>{if(!hasTodayMetrics()&&Notification.permission==="granted"){new Notification("JPN Performance Hub",{body:"Reminder: add Garmin data before day end.",icon:"assets/jpn-logo.svg"})}scheduleReminderCheck()},delay)}
+=======
+function scheduleReminderCheck(){if(localStorage.getItem("dailyReminderEnabled")!=="1")return;const now=new Date();const target=new Date();target.setHours(20,0,0,0);if(now>target)target.setDate(target.getDate()+1);const delay=target-now;setTimeout(()=>{if(!hasTodayMetrics()&&Notification.permission==="granted"){new Notification("JPN Performance Hub",{body:"Reminder: add Garmin data before day end.",icon:"assets/jpn-technologies-logo.png"})}scheduleReminderCheck()},delay)}
+>>>>>>> theirs
 =======
 function scheduleReminderCheck(){if(localStorage.getItem("dailyReminderEnabled")!=="1")return;const now=new Date();const target=new Date();target.setHours(20,0,0,0);if(now>target)target.setDate(target.getDate()+1);const delay=target-now;setTimeout(()=>{if(!hasTodayMetrics()&&Notification.permission==="granted"){new Notification("JPN Performance Hub",{body:"Reminder: add Garmin data before day end.",icon:"assets/jpn-technologies-logo.png"})}scheduleReminderCheck()},delay)}
 >>>>>>> theirs
