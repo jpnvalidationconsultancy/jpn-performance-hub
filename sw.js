@@ -1,12 +1,16 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 const CACHE = 'jpn-performance-hub-v7';
 =======
 const CACHE = 'jpn-performance-hub-v9';
 >>>>>>> theirs
 =======
 const CACHE = 'jpn-performance-hub-v10';
+>>>>>>> theirs
+=======
+const CACHE = 'jpn-performance-hub-v11';
 >>>>>>> theirs
 const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.json'];
 =======

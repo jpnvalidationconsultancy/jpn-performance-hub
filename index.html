@@ -172,7 +172,7 @@
             <div class="form-grid">
               <label>Date<input type="date" id="foodDate"></label>
               <label>Meal<select id="foodMeal"><option>Breakfast</option><option>Lunch</option><option>Dinner</option><option>Snack</option><option>Pre-workout</option><option>Post-workout</option></select></label>
-              <label>Food / meal<input id="foodName" placeholder="e.g. chicken breast, rice, salmon"></label>
+              <label>Food / meal<input id="foodName" list="foodOptions" autocomplete="off" placeholder="e.g. chicken breast, rice, salmon"><datalist id="foodOptions"></datalist></label>
               <label>Quantity / serving<input id="foodQty" placeholder="e.g. 200g, 1 bowl, 1 wrap"></label>
               <label>Calories<input type="number" id="foodCalories" placeholder="Auto if food found"></label>
               <label>Protein g<input type="number" id="foodProtein" placeholder="Auto if food found"></label>
