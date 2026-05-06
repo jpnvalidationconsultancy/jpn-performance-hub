@@ -1,4 +1,4 @@
-const CACHE = 'jpn-performance-hub-v6';
+const CACHE = 'jpn-performance-hub-v7';
 const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.json'];
 
 self.addEventListener('install', (event) => {

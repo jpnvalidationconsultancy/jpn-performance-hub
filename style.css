@@ -26,3 +26,4 @@ button{cursor:pointer}.glass-card button{background:linear-gradient(135deg,var(-
 .chart-card{height:320px;max-height:320px;overflow:hidden}
 .chart-card canvas{width:100%!important;height:240px!important;max-height:240px!important}
 html{scroll-behavior:smooth}
+.check-row{display:flex;align-items:center;gap:10px}.check-row input{width:auto;margin:0}
