@@ -81,6 +81,7 @@ function saveFoodToDatabaseIfNew(entry){
   custom[name]=item;
   setStore("customFoodDb",custom);
 }
+
 function settings(){return getStore("settings",DEFAULT_SETTINGS)}
 function sessions(){return getStore("sessions",[])}
 function metrics(){return getStore("metrics",[])}
