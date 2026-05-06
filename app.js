@@ -65,6 +65,27 @@ function stravaApiUrl(path){return STRAVA_API_BASE?`${STRAVA_API_BASE}${path}`:p
 
 function getStore(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch(e){return f}}
 function setStore(k,v){localStorage.setItem(k,JSON.stringify(v))}
+function byId(id){return document.getElementById(id)}
+const metricDate=byId("metricDate"),metricWeight=byId("metricWeight"),metricSleep=byId("metricSleep"),metricSteps=byId("metricSteps"),metricRhr=byId("metricRhr"),metricBattery=byId("metricBattery"),metricHRV=byId("metricHRV"),metricStress=byId("metricStress"),metricCalories=byId("metricCalories"),metricNotes=byId("metricNotes");
+const foodDate=byId("foodDate"),foodMeal=byId("foodMeal"),foodName=byId("foodName"),foodQty=byId("foodQty"),foodCalories=byId("foodCalories"),foodProtein=byId("foodProtein"),foodCarbs=byId("foodCarbs"),foodFat=byId("foodFat");
+const hydrationDate=byId("hydrationDate"),hydrationMl=byId("hydrationMl"),hydrationElectrolytes=byId("hydrationElectrolytes"),hydrationContext=byId("hydrationContext");
+const setWeight=byId("setWeight"),setBodyFat=byId("setBodyFat"),setProtein=byId("setProtein"),setRunLimit=byId("setRunLimit"),setHydration=byId("setHydration");
+function loadCustomFoodDb(){
+  const custom=getStore("customFoodDb",{});
+  Object.keys(custom).forEach(name=>{
+    if(!FOOD_DB[name])FOOD_DB[name]=custom[name];
+  });
+}
+function saveFoodToDatabaseIfNew(entry){
+  const name=(entry.name||"").trim().toLowerCase();
+  if(!name||name==="food")return;
+  if(FOOD_DB[name])return;
+  const item={cal:+entry.calories||0,p:+entry.protein||0,c:+entry.carbs||0,f:+entry.fat||0,unit:entry.qty||"manual entry"};
+  FOOD_DB[name]=item;
+  const custom=getStore("customFoodDb",{});
+  custom[name]=item;
+  setStore("customFoodDb",custom);
+}
 function settings(){return getStore("settings",DEFAULT_SETTINGS)}
 function sessions(){return getStore("sessions",[])}
 function metrics(){return getStore("metrics",[])}
@@ -135,20 +156,10 @@ function resetData(){if(confirm("Reset all local app data?")){localStorage.clear
 function loadDemoData(){setStore("metrics",[{date:todayIso(),weight:"100.0",sleep:"7.2",steps:"8420",resting_hr:"54",body_battery:"68",hrv:"45",stress:"25",notes:"Demo readiness entry."}]);setStore("sessions",[{summary:"TrainerRoad Endurance Ride",date:todayIso(),day:todayName(),description:"Demo session",location:"TrainerRoad"}]);setStore("foods",[{date:todayIso(),meal:"Lunch",name:"Chicken breast and rice",qty:"manual",calories:620,protein:55,carbs:70,fat:12}]);setStore("hydrations",[{date:todayIso(),ml:750,electrolytes:"Yes",context:"During workout"}]);renderAll()}
 
 function renderCharts(){const metricData=metrics().slice(0,7).reverse();const labels=metricData.length?metricData.map(m=>m.date.slice(5)):["No data"];const weightData=metricData.length?metricData.map(m=>parseFloat(m.weight)||null):[null];const readinessData=metricData.length?metricData.map(m=>calculateReadiness(m)):[null];const loadData=metricData.length?metricData.map(m=>{const steps=parseFloat(m.steps)||0;const stress=parseFloat(m.stress)||0;const sleep=parseFloat(m.sleep)||0;return Math.round((steps/120)+(stress*1.2)+Math.max(0,(8-sleep)*8))}):[null];const fatigueData=metricData.length?metricData.map((_,i)=>{const slice=loadData.slice(Math.max(0,i-2),i+1).filter(v=>v!=null);if(!slice.length)return null;return Math.round(slice.reduce((a,v)=>a+v,0)/slice.length)}):[null];makeChart("weightChart",labels,weightData,"Body Weight");makeChart("readinessChart",labels,readinessData,"Readiness");makeChart("loadChart",labels,loadData,"Training Load (Estimated)");makeChart("fatigueChart",labels,fatigueData,"Fatigue (3-day avg)")}
-<<<<<<< ours
-<<<<<<< ours
-function makeChart(canvasId,labels,data,label){const canvas=document.getElementById(canvasId);if(!canvas||typeof Chart==="undefined")return;if(chartInstances[canvasId])chartInstances[canvasId].destroy();chartInstances[canvasId]=new Chart(canvas,{type:"line",data:{labels:labels,datasets:[{label:label,data:data,tension:0.35}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:"#dce6f2",boxWidth:12}}},scales:{x:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}},y:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}}}}})}
-=======
-=======
->>>>>>> theirs
 function renderStravaCharts(activities){const load=calculateTrainingLoad(activities).slice(-14);if(!load.length)return;const labels=load.map(x=>x.date.slice(5));makeChart("loadChart",labels,load.map(x=>x.load),"Daily Training Load");makeMultiChart("fatigueChart",labels,[{label:"Fitness (CTL)",data:load.map(x=>x.ctl),borderColor:"#22c55e"},{label:"Fatigue (ATL)",data:load.map(x=>x.atl),borderColor:"#f59e0b"},{label:"Form (TSB)",data:load.map(x=>x.tsb),borderColor:"#3b82f6"}])}
 function chartOptions(){return{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:"#dce6f2",boxWidth:12}}},scales:{x:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}},y:{ticks:{color:"#9fb0c3"},grid:{color:"rgba(255,255,255,0.08)"}}}}}
 function makeChart(canvasId,labels,data,label){makeMultiChart(canvasId,labels,[{label:label,data:data,borderColor:"#20a89c"}])}
 function makeMultiChart(canvasId,labels,datasets){const canvas=document.getElementById(canvasId);if(!canvas||typeof Chart==="undefined")return;if(chartInstances[canvasId])chartInstances[canvasId].destroy();chartInstances[canvasId]=new Chart(canvas,{type:"line",data:{labels:labels,datasets:datasets.map(d=>({label:d.label,data:d.data,tension:0.35,borderColor:d.borderColor,backgroundColor:d.borderColor,pointRadius:2}))},options:chartOptions()})}
-<<<<<<< ours
->>>>>>> theirs
-=======
->>>>>>> theirs
 
 function renderAll(){renderDashboard();renderSessions();renderMetrics();renderFood();renderHydration();renderNutrition();renderSettings();renderCharts()}
 
@@ -162,12 +173,4 @@ renderAll();
 
 function hasTodayMetrics(){return metrics().some(m=>m.date===todayIso())}
 function enableReminder(){if(!("Notification" in window)){alert("Notifications are not supported on this device/browser.");return}Notification.requestPermission().then(p=>{const box=document.getElementById("reminderStatus");if(p!=="granted"){if(box)box.innerHTML="<p class='score-bad'>Notification permission not granted.</p>";return}localStorage.setItem("dailyReminderEnabled","1");if(box)box.innerHTML="<p class='score-good'>8:00 PM reminder enabled.</p>";scheduleReminderCheck()})}
-<<<<<<< ours
-<<<<<<< ours
 function scheduleReminderCheck(){if(localStorage.getItem("dailyReminderEnabled")!=="1")return;const now=new Date();const target=new Date();target.setHours(20,0,0,0);if(now>target)target.setDate(target.getDate()+1);const delay=target-now;setTimeout(()=>{if(!hasTodayMetrics()&&Notification.permission==="granted"){new Notification("JPN Performance Hub",{body:"Reminder: add Garmin data before day end.",icon:"assets/jpn-logo.svg"})}scheduleReminderCheck()},delay)}
-=======
-function scheduleReminderCheck(){if(localStorage.getItem("dailyReminderEnabled")!=="1")return;const now=new Date();const target=new Date();target.setHours(20,0,0,0);if(now>target)target.setDate(target.getDate()+1);const delay=target-now;setTimeout(()=>{if(!hasTodayMetrics()&&Notification.permission==="granted"){new Notification("JPN Performance Hub",{body:"Reminder: add Garmin data before day end.",icon:"assets/jpn-technologies-logo.png"})}scheduleReminderCheck()},delay)}
->>>>>>> theirs
-=======
-function scheduleReminderCheck(){if(localStorage.getItem("dailyReminderEnabled")!=="1")return;const now=new Date();const target=new Date();target.setHours(20,0,0,0);if(now>target)target.setDate(target.getDate()+1);const delay=target-now;setTimeout(()=>{if(!hasTodayMetrics()&&Notification.permission==="granted"){new Notification("JPN Performance Hub",{body:"Reminder: add Garmin data before day end.",icon:"assets/jpn-technologies-logo.png"})}scheduleReminderCheck()},delay)}
->>>>>>> theirs
