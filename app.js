@@ -63,8 +63,15 @@ let chartInstances = {};
 const STRAVA_API_BASE=((window.STRAVA_API_BASE_URL||"").trim().replace(/\/$/,""));
 function stravaApiUrl(path){return STRAVA_API_BASE?`${STRAVA_API_BASE}${path}`:path}
 
+<<<<<<< ours
 function getStore(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch(e){return f}}
 function setStore(k,v){localStorage.setItem(k,JSON.stringify(v))}
+=======
+const memoryStore={};
+function getStore(k,f){try{const raw=localStorage.getItem(k);if(raw===null)return f;const parsed=JSON.parse(raw);return parsed==null?f:parsed}catch(e){try{const raw=memoryStore[k];return raw?JSON.parse(raw):f}catch(_){return f}}}
+function setStore(k,v){const raw=JSON.stringify(v);try{localStorage.setItem(k,raw)}catch(e){memoryStore[k]=raw}}
+function getArrayStore(k){const value=getStore(k,[]);return Array.isArray(value)?value:[]}
+>>>>>>> theirs
 function byId(id){return document.getElementById(id)}
 const metricDate=byId("metricDate"),metricWeight=byId("metricWeight"),metricSleep=byId("metricSleep"),metricSteps=byId("metricSteps"),metricRhr=byId("metricRhr"),metricBattery=byId("metricBattery"),metricHRV=byId("metricHRV"),metricStress=byId("metricStress"),metricCalories=byId("metricCalories"),metricNotes=byId("metricNotes");
 const foodDate=byId("foodDate"),foodMeal=byId("foodMeal"),foodName=byId("foodName"),foodOptions=byId("foodOptions"),foodQty=byId("foodQty"),foodCalories=byId("foodCalories"),foodProtein=byId("foodProtein"),foodCarbs=byId("foodCarbs"),foodFat=byId("foodFat");
@@ -88,10 +95,10 @@ function saveFoodToDatabaseIfNew(entry){
 }
 function refreshFoodOptions(){if(!foodOptions)return;foodOptions.innerHTML=Object.keys(FOOD_DB).sort().map(name=>`<option value="${name}"></option>`).join("")}
 function settings(){return getStore("settings",DEFAULT_SETTINGS)}
-function sessions(){return getStore("sessions",[])}
-function metrics(){return getStore("metrics",[])}
-function foods(){return getStore("foods",[])}
-function hydrations(){return getStore("hydrations",[])}
+function sessions(){return getArrayStore("sessions")}
+function metrics(){return getArrayStore("metrics")}
+function foods(){return getArrayStore("foods")}
+function hydrations(){return getArrayStore("hydrations")}
 function todayIso(){return new Date().toISOString().slice(0,10)}
 function todayName(){return new Date().toLocaleDateString("en-GB",{weekday:"long"})}
 function dayClass(load){return load==="hard"?"red":load==="recovery"?"yellow":"green"}
@@ -168,13 +175,17 @@ function chartOptions(){return{responsive:true,maintainAspectRatio:false,plugins
 function makeChart(canvasId,labels,data,label){makeMultiChart(canvasId,labels,[{label:label,data:data,borderColor:"#20a89c"}])}
 function makeMultiChart(canvasId,labels,datasets){const canvas=document.getElementById(canvasId);if(!canvas||typeof Chart==="undefined")return;if(chartInstances[canvasId])chartInstances[canvasId].destroy();chartInstances[canvasId]=new Chart(canvas,{type:"line",data:{labels:labels,datasets:datasets.map(d=>({label:d.label,data:d.data,tension:0.35,borderColor:d.borderColor,backgroundColor:d.borderColor,pointRadius:2}))},options:chartOptions()})}
 
-function renderAll(){renderDashboard();renderSessions();renderMetrics();renderFood();renderHydration();renderNutrition();renderSettings();renderCharts()}
+function renderAll(){[renderDashboard,renderSessions,renderMetrics,renderFood,renderHydration,renderNutrition,renderSettings,renderCharts].forEach(fn=>{try{fn()}catch(e){console.error("JPN Hub render error",e)}})}
 
 if("serviceWorker" in navigator){window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").then(reg=>{reg.update();setInterval(()=>reg.update(),60*1000)}).catch(()=>{});let refreshing=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(refreshing)return;refreshing=true;window.location.reload()})})}
 foodQty&&foodQty.addEventListener("input",()=>{if(foodName.value.trim())autoEstimateFood()});
 foodName&&foodName.addEventListener("input",()=>{renderFood()});
 foodName&&foodName.addEventListener("change",()=>{if(foodName.value.trim())autoEstimateFood()});
+<<<<<<< ours
 function exposeActions(){Object.assign(window,{loadTrainerRoadJson,importIcs,importIcsFile,clearSessions,saveMetric,importCsvFile,autoEstimateFood,saveFood,saveHydration,saveSettings,exportData,resetData,loadDemoData,enableReminder})}
+=======
+function exposeActions(){Object.assign(window,{loadTrainerRoadJson,importIcs,importIcsFile,clearSessions,saveMetric,importCsvFile,autoEstimateFood,saveFood,saveHydration,saveSettings,exportData,resetData,loadDemoData,enableReminder,renderAll})}
+>>>>>>> theirs
 function bindAction(id,handler){const el=byId(id);if(el)el.addEventListener("click",handler)}
 function bindUiActions(){
   bindAction("loadTrainerRoadJsonBtn",loadTrainerRoadJson);
