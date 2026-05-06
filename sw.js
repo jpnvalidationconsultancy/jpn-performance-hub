@@ -2,6 +2,7 @@
 <<<<<<< ours
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 const CACHE = 'jpn-performance-hub-v7';
 =======
 const CACHE = 'jpn-performance-hub-v9';
@@ -16,6 +17,10 @@ const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.jso
 =======
 const CACHE = 'jpn-performance-hub-v8';
 const ASSETS = ['./', './index.html', './style.css?v=20260506-restore', './app.js?v=20260506-restore', './manifest.json'];
+>>>>>>> theirs
+=======
+const CACHE = 'jpn-performance-hub-v12';
+const ASSETS = ['./', './index.html', './style.css?v=20260506-ui-recover', './app.js?v=20260506-ui-recover', './manifest.json'];
 >>>>>>> theirs
 
 self.addEventListener('install', (event) => {

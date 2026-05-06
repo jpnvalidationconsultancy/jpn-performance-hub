@@ -68,7 +68,11 @@ function setStore(k,v){localStorage.setItem(k,JSON.stringify(v))}
 function byId(id){return document.getElementById(id)}
 const metricDate=byId("metricDate"),metricWeight=byId("metricWeight"),metricSleep=byId("metricSleep"),metricSteps=byId("metricSteps"),metricRhr=byId("metricRhr"),metricBattery=byId("metricBattery"),metricHRV=byId("metricHRV"),metricStress=byId("metricStress"),metricCalories=byId("metricCalories"),metricNotes=byId("metricNotes");
 <<<<<<< ours
+<<<<<<< ours
 const foodDate=byId("foodDate"),foodMeal=byId("foodMeal"),foodName=byId("foodName"),foodQty=byId("foodQty"),foodCalories=byId("foodCalories"),foodProtein=byId("foodProtein"),foodCarbs=byId("foodCarbs"),foodFat=byId("foodFat");
+=======
+const foodDate=byId("foodDate"),foodMeal=byId("foodMeal"),foodName=byId("foodName"),foodOptions=byId("foodOptions"),foodQty=byId("foodQty"),foodCalories=byId("foodCalories"),foodProtein=byId("foodProtein"),foodCarbs=byId("foodCarbs"),foodFat=byId("foodFat");
+>>>>>>> theirs
 =======
 const foodDate=byId("foodDate"),foodMeal=byId("foodMeal"),foodName=byId("foodName"),foodOptions=byId("foodOptions"),foodQty=byId("foodQty"),foodCalories=byId("foodCalories"),foodProtein=byId("foodProtein"),foodCarbs=byId("foodCarbs"),foodFat=byId("foodFat");
 >>>>>>> theirs
@@ -182,11 +186,15 @@ foodName&&foodName.addEventListener("change",()=>{if(foodName.value.trim())autoE
 =======
 loadCustomFoodDb();
 refreshFoodOptions();
+<<<<<<< ours
+>>>>>>> theirs
+=======
 >>>>>>> theirs
 initNav();
 renderAll();
 
 
+Object.assign(window,{loadTrainerRoadJson,importIcs,importIcsFile,clearSessions,saveMetric,importCsvFile,autoEstimateFood,saveFood,saveHydration,saveSettings,exportData,resetData,loadDemoData,enableReminder});
 function hasTodayMetrics(){return metrics().some(m=>m.date===todayIso())}
 function enableReminder(){if(!("Notification" in window)){alert("Notifications are not supported on this device/browser.");return}Notification.requestPermission().then(p=>{const box=document.getElementById("reminderStatus");if(p!=="granted"){if(box)box.innerHTML="<p class='score-bad'>Notification permission not granted.</p>";return}localStorage.setItem("dailyReminderEnabled","1");if(box)box.innerHTML="<p class='score-good'>8:00 PM reminder enabled.</p>";scheduleReminderCheck()})}
 function scheduleReminderCheck(){if(localStorage.getItem("dailyReminderEnabled")!=="1")return;const now=new Date();const target=new Date();target.setHours(20,0,0,0);if(now>target)target.setDate(target.getDate()+1);const delay=target-now;setTimeout(()=>{if(!hasTodayMetrics()&&Notification.permission==="granted"){new Notification("JPN Performance Hub",{body:"Reminder: add Garmin data before day end.",icon:"assets/jpn-technologies-logo.png"})}scheduleReminderCheck()},delay)}
