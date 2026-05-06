@@ -55,7 +55,67 @@ const FOOD_DB={
 "pork scratchings (25g pack)":{cal:150,p:10,c:0,f:12,unit:"25g pack"},
 "pork scratchings":{cal:600,p:40,c:0,f:48,unit:"100g"},
 "myprotein impact whey protein":{cal:120,p:24,c:3,f:1.5,unit:"1 scoop (30g)"},
-"semi skimmed milk":{cal:50,p:3.4,c:5,f:1.5,unit:"100ml"}
+"semi skimmed milk":{cal:50,p:3.4,c:5,f:1.5,unit:"100ml"},
+
+"pasta (cooked)":{cal:157,p:5.8,c:31,f:0.9,unit:"100g cooked"},
+"pasta (dry)":{cal:350,p:12,c:72,f:1.5,unit:"100g dry"},
+"bolognese sauce":{cal:120,p:6,c:8,f:6,unit:"100g"},
+"spaghetti bolognese meal":{cal:650,p:35,c:75,f:22,unit:"1 bowl (~450g)"},
+"katsu chicken curry":{cal:780,p:38,c:95,f:28,unit:"1 serving"},
+"chicken katsu":{cal:420,p:30,c:32,f:18,unit:"1 breaded chicken portion"},
+"katsu curry sauce":{cal:110,p:2,c:18,f:3,unit:"100g"},
+"latte":{cal:150,p:8,c:12,f:7,unit:"1 medium with semi-skimmed milk"},
+"flat white":{cal:120,p:7,c:9,f:6,unit:"1 regular with semi-skimmed milk"},
+"magnum ice cream":{cal:260,p:3,c:25,f:16,unit:"1 standard bar"},
+"brownie":{cal:280,p:4,c:35,f:14,unit:"1 slice (~70g)"},
+"ginger cake":{cal:250,p:3,c:42,f:8,unit:"1 slice (~70g)"},
+"mars bar":{cal:228,p:2,c:40,f:8,unit:"1 standard bar"},
+"kit kat":{cal:104,p:1.5,c:13,f:5,unit:"2 finger bar"},
+"aldi spanish grains":{cal:210,p:6,c:34,f:5,unit:"100g cooked pouch"},
+"aldi french lentils":{cal:160,p:10,c:22,f:3,unit:"100g cooked pouch"},
+"pesto":{cal:420,p:5,c:8,f:41,unit:"100g"},
+"pesto (1 tbsp)":{cal:85,p:1,c:2,f:8,unit:"1 tbsp (20g)"},
+"parmigiano reggiano":{cal:402,p:32,c:0,f:30,unit:"100g"},
+"parmesan (10g)":{cal:40,p:3.2,c:0,f:3,unit:"10g grated"},
+"tomatoes":{cal:18,p:0.9,c:3.9,f:0.2,unit:"100g"},
+"onions":{cal:40,p:1.1,c:9.3,f:0.1,unit:"100g"},
+"garlic":{cal:149,p:6.4,c:33,f:0.5,unit:"100g"},
+"garlic clove":{cal:5,p:0.2,c:1,f:0,unit:"1 clove (~3g)"},
+"olives":{cal:145,p:1,c:4,f:15,unit:"100g"},
+"apple":{cal:52,p:0.3,c:14,f:0.2,unit:"100g"},
+"apple (1 medium)":{cal:95,p:0.5,c:25,f:0.3,unit:"1 medium"},
+"coke":{cal:140,p:0,c:35,f:0,unit:"330ml can"},
+"diet coke":{cal:1,p:0,c:0,f:0,unit:"330ml can"},
+"coke zero":{cal:1,p:0,c:0,f:0,unit:"330ml can"},
+"vimto":{cal:70,p:0,c:17,f:0,unit:"250ml diluted serving"},
+"cruzcampo":{cal:145,p:1,c:11,f:0,unit:"330ml bottle/can"},
+"guinness":{cal:210,p:2,c:18,f:0,unit:"1 pint"},
+"skyr yoghurt":{cal:65,p:11,c:4,f:0.2,unit:"100g"},
+"white chocolate kvarg yoghurt":{cal:160,p:15,c:18,f:3,unit:"1 pot"},
+"kefir":{cal:60,p:3.5,c:5,f:2.5,unit:"100ml"},
+"impact whey protein":{cal:120,p:24,c:3,f:1.5,unit:"1 scoop (30g)"},
+"ginger":{cal:80,p:1.8,c:18,f:0.8,unit:"100g"},
+"ginger slice":{cal:2,p:0,c:0.4,f:0,unit:"1 thin slice"},
+"oats":{cal:389,p:17,c:66,f:7,unit:"100g"},
+"oats (40g)":{cal:156,p:6.8,c:26,f:2.8,unit:"40g"},
+"greek yoghurt 0%":{cal:59,p:10,c:3.6,f:0.4,unit:"100g"},
+"cottage cheese":{cal:98,p:11,c:3.4,f:4.3,unit:"100g"},
+"eggs":{cal:140,p:12,c:1,f:10,unit:"2 large eggs"},
+"5% beef mince":{cal:137,p:21,c:0,f:5,unit:"100g"},
+"turkey mince":{cal:150,p:22,c:0,f:7,unit:"100g"},
+"chicken thighs":{cal:209,p:26,c:0,f:11,unit:"100g cooked"},
+"pork shoulder steak":{cal:250,p:25,c:0,f:16,unit:"100g cooked"},
+"lentils cooked":{cal:116,p:9,c:20,f:0.4,unit:"100g"},
+"rice cakes":{cal:35,p:0.7,c:7.3,f:0.3,unit:"1 cake"},
+"popcorn":{cal:120,p:3,c:19,f:4,unit:"30g serving"},
+"bagel":{cal:250,p:9,c:50,f:2,unit:"1 plain bagel"},
+"sourdough bread":{cal:110,p:4,c:22,f:1,unit:"1 slice"},
+"blueberries":{cal:57,p:0.7,c:14,f:0.3,unit:"100g"},
+"spinach":{cal:23,p:2.9,c:3.6,f:0.4,unit:"100g"},
+"peppers":{cal:31,p:1,c:6,f:0.3,unit:"100g"},
+"mushrooms":{cal:22,p:3.1,c:3.3,f:0.3,unit:"100g"},
+"salmon fillet":{cal:416,p:40,c:0,f:26,unit:"1 fillet (~200g)"},
+"tuna steak":{cal:132,p:28,c:0,f:1.3,unit:"100g"}
 };
 
 
@@ -137,10 +197,9 @@ function parseCsv(text){const lines=text.trim().split(/\r?\n/);if(lines.length<2
 function importCsvFile(){const f=document.getElementById("csvFile").files[0];if(!f){alert("Choose a CSV file first.");return}const r=new FileReader();r.onload=()=>{const parsed=parseCsv(String(r.result));if(!parsed.length){alert("No metric rows found.");return}setStore("metrics",parsed.sort((a,b)=>b.date.localeCompare(a.date)));renderAll();alert(`Imported ${parsed.length} metric rows.`)};r.readAsText(f)}
 function renderMetrics(){document.getElementById("metricsList").innerHTML=metrics().length?metrics().slice(0,10).map(metricCard).join(""):"<p>No metric data saved yet.</p>"}
 function parseQuantityMultiplier(qty,unit){const q=(qty||"").toLowerCase().trim();if(!q)return 1;const n=(q.match(/\d+(?:\.\d+)?/)||[])[0];const amount=n?parseFloat(n):null;const hasG=q.includes("g");const hasMl=q.includes("ml");if((unit.includes("100g")&&hasG&&amount)||(unit.includes("100ml")&&hasMl&&amount))return amount/100;if(unit.includes("1 whole")&&amount)return amount/150;if(unit.includes("1 cup")&&amount&&hasG)return amount/180;if(unit.includes("1 medium")&&amount&&hasG)return amount/150;if(unit.includes("1 slice")&&amount&&hasG)return amount/40;return 1}
-function autoEstimateFood(){const name=foodName.value.toLowerCase();const match=Object.keys(FOOD_DB).find(k=>name.includes(k));if(!match){alert("No food match found. Enter macros manually or try a simpler food name.");return}const item=FOOD_DB[match];const mult=parseQuantityMultiplier(foodQty.value,item.unit);foodCalories.value=Math.round(item.cal*mult);foodProtein.value=Math.round((item.p*mult)*10)/10;foodCarbs.value=Math.round((item.c*mult)*10)/10;foodFat.value=Math.round((item.f*mult)*10)/10;foodQty.value=foodQty.value||item.unit;document.getElementById("foodAutoHint")&&(document.getElementById("foodAutoHint").innerHTML=`<small>Auto-filled from <strong>${match}</strong> using quantity multiplier ×${mult.toFixed(2)}.</small>`)}
+function autoEstimateFood(){const name=foodName.value.toLowerCase().trim();const keys=Object.keys(FOOD_DB).sort((a,b)=>b.length-a.length);const match=FOOD_DB[name]?name:keys.find(k=>name.includes(k)||k.includes(name));if(!match){alert("No food match found. Enter macros manually or try a simpler food name.");return}const item=FOOD_DB[match];const mult=parseQuantityMultiplier(foodQty.value,item.unit);foodCalories.value=Math.round(item.cal*mult);foodProtein.value=Math.round((item.p*mult)*10)/10;foodCarbs.value=Math.round((item.c*mult)*10)/10;foodFat.value=Math.round((item.f*mult)*10)/10;foodQty.value=foodQty.value||item.unit;document.getElementById("foodAutoHint")&&(document.getElementById("foodAutoHint").innerHTML=`<small>Auto-filled from <strong>${match}</strong> using quantity multiplier ×${mult.toFixed(2)}.</small>`) }
 function saveFood(){const entry={date:foodDate.value||todayIso(),meal:foodMeal.value,name:foodName.value||"Food",qty:foodQty.value,calories:+foodCalories.value||0,protein:+foodProtein.value||0,carbs:+foodCarbs.value||0,fat:+foodFat.value||0};saveFoodToDatabaseIfNew(entry);const all=foods();all.unshift(entry);setStore("foods",all);foodName.value=foodQty.value=foodCalories.value=foodProtein.value=foodCarbs.value=foodFat.value="";renderAll()}
-function renderFood(){const list=todayFoods();document.getElementById("foodDbList").innerHTML=Object.entries(FOOD_DB).slice(0,15).map(([k,v])=>`<div class="session"><strong>${k}</strong><span>${v.unit}</span><small>${v.cal} kcal · P${v.p} C${v.c} F${v.f}</small></div>`).join("");document.getElementById("foodList").innerHTML=list.length?list.map(f=>`<div class="session"><strong>${f.meal}: ${f.name}</strong><span>${f.qty||""}</span><small>${f.calories} kcal · P${f.protein} C${f.carbs} F${f.fat}</small></div>`).join(""):"<p>No food logged today.</p>"}
-function saveHydration(){const entry={date:hydrationDate.value||todayIso(),ml:+hydrationMl.value||0,electrolytes:hydrationElectrolytes.value,context:hydrationContext.value};const all=hydrations();all.unshift(entry);setStore("hydrations",all);hydrationMl.value="";renderAll()}
+function renderFood(){const list=todayFoods();const dbEntries=Object.entries(FOOD_DB).sort(([a],[b])=>a.localeCompare(b));const suggestionList=document.getElementById("foodSuggestions");if(suggestionList){suggestionList.innerHTML=dbEntries.map(([k])=>`<option value="${k}"></option>`).join("")}document.getElementById("foodDbList").innerHTML=dbEntries.map(([k,v])=>`<div class="session"><strong>${k}</strong><span>${v.unit}</span><small>${v.cal} kcal · P${v.p} C${v.c} F${v.f}</small></div>`).join("");document.getElementById("foodList").innerHTML=list.length?list.map(f=>`<div class="session"><strong>${f.meal}: ${f.name}</strong><span>${f.qty||""}</span><small>${f.calories} kcal · P${f.protein} C${f.carbs} F${f.fat}</small></div>`).join(""):"<p>No food logged today.</p>"}
 function renderHydration(){const list=todayHydration();const target=settings().hydrationTarget;const total=sumHydration();document.getElementById("hydrationGuidance").innerHTML=`<span class="pill">${total} / ${target} ml</span><p>On hard bike/swim days, add electrolytes around longer or sweaty sessions. Keep most fluid earlier rather than catching up late at night.</p>`;document.getElementById("hydrationList").innerHTML=list.length?list.map(h=>`<div class="session"><strong>${h.context}</strong><span>${h.ml} ml</span><small>Electrolytes: ${h.electrolytes}</small></div>`).join(""):"<p>No hydration logged today.</p>"}
 function renderNutrition(){const s=settings();document.getElementById("proteinTarget").textContent=`${Math.round(s.weight*s.proteinGkg)} g`;document.getElementById("runCap").textContent=`${s.runLimit} min`;document.getElementById("nutritionList").innerHTML=DEFAULT_WEEK.map(d=>`<div class="session"><strong>${d.day}</strong><span>${d.type}</span><small>${kcalLabel(d.load)}</small></div>`).join("")}
 function renderSettings(){const s=settings();setWeight.value=s.weight;setBodyFat.value=s.bodyFat;setProtein.value=s.proteinGkg;setRunLimit.value=s.runLimit;setHydration.value=s.hydrationTarget}
