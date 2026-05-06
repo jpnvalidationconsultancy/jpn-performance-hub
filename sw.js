@@ -1,5 +1,10 @@
+<<<<<<< ours
 const CACHE = 'jpn-performance-hub-v7';
 const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.json'];
+=======
+const CACHE = 'jpn-performance-hub-v8';
+const ASSETS = ['./', './index.html', './style.css?v=20260506-restore', './app.js?v=20260506-restore', './manifest.json'];
+>>>>>>> theirs
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
