@@ -5,13 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JPN Performance Hub V4</title>
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css?v=20260506-root-fix">
-  <link rel="stylesheet" href="style.css?v=20260506-ui-recover">
-  <link rel="stylesheet" href="style.css?v=20260506-ui-working">
+  <link rel="stylesheet" href="style.css">
   <meta name="theme-color" content="#07111f">
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="app.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/chart.js" onload="window.renderAll && window.renderAll()"></script>
 </head>
 <body>
   <div class="app-shell">
@@ -20,10 +15,8 @@
         <img src="assets/jpn-technologies-logo.png" alt="JPN Technologies" class="jpn-logo">
         <div class="divider"></div>
         <img src="assets/ironman-logo.png" alt="Ironman" class="iron-logo">
-        <img src="assets/jpn-technologies-logo.png" alt="JPN Technologies" class="jpn-logo">
-        <div class="divider"></div>
-        <img src="assets/ironman-logo.png" alt="Ironman" class="iron-logo">
       </div>
+
       <nav>
         <button type="button" class="nav active" data-tab="dashboard">Dashboard</button>
         <button type="button" class="nav" data-tab="plan">TrainerRoad</button>
@@ -34,6 +27,7 @@
         <button type="button" class="nav" data-tab="strength">Strength</button>
         <button type="button" class="nav" data-tab="setup">Setup</button>
       </nav>
+
       <div class="rail-card">
         <span class="label">V4</span>
         <strong>GitHub Sync Ready</strong>
@@ -45,7 +39,8 @@
       <header class="hero">
         <div>
           <span class="eyebrow">JPN Technologies · Connected Endurance Cut</span>
-          <h1>James Noone</h1> <p>Road to Greatness</p>
+          <h1>James Noone</h1>
+          <p>Road to Greatness</p>
           <p>TrainerRoad auto-refresh via GitHub Actions, Garmin-style readiness metrics, food logging, hydration and macro assessment.</p>
         </div>
         <div class="hero-score">
@@ -63,7 +58,8 @@
         <div class="metric-grid" id="summaryCards"></div>
         <div class="two-col">
           <div class="glass-card">
-            <h3>Today’s Training Spotlight</h3><p class="helper">Focus, fuel, and recovery cues for today.</p>
+            <h3>Today’s Training Spotlight</h3>
+            <p class="helper">Focus, fuel, and recovery cues for today.</p>
             <div id="todayPlan"></div>
           </div>
           <div class="glass-card">
@@ -82,28 +78,25 @@
           </div>
         </div>
         <div class="two-col">
-  <div class="glass-card chart-card">
-    <h3>Training Load Trend</h3>
-    <canvas id="loadChart"></canvas>
-  </div>
-
-  <div class="glass-card chart-card">
-    <h3>Fatigue / Fitness Model</h3>
-    <canvas id="fatigueChart"></canvas>
-  </div>
-</div>
-
-<div class="two-col">
-  <div class="glass-card chart-card">
-    <h3>Body Weight Trend</h3>
-    <canvas id="weightChart"></canvas>
-  </div>
-
-  <div class="glass-card chart-card">
-    <h3>Readiness Trend</h3>
-    <canvas id="readinessChart"></canvas>
-  </div>
-</div>
+          <div class="glass-card chart-card">
+            <h3>Training Load Trend</h3>
+            <canvas id="loadChart"></canvas>
+          </div>
+          <div class="glass-card chart-card">
+            <h3>Fatigue / Fitness Model</h3>
+            <canvas id="fatigueChart"></canvas>
+          </div>
+        </div>
+        <div class="two-col">
+          <div class="glass-card chart-card">
+            <h3>Body Weight Trend</h3>
+            <canvas id="weightChart"></canvas>
+          </div>
+          <div class="glass-card chart-card">
+            <h3>Readiness Trend</h3>
+            <canvas id="readinessChart"></canvas>
+          </div>
+        </div>
       </section>
 
       <section id="plan" class="tab">
@@ -115,16 +108,12 @@
           <div class="glass-card">
             <h3>Auto-load JSON Feed</h3>
             <p class="helper">When hosted on GitHub Pages, the app can read <code>data/trainerroad-plan.json</code>.</p>
-            <button id="loadTrainerRoadJsonBtn">Load latest JSON feed</button>
             <button type="button" id="loadTrainerRoadJsonBtn">Load latest JSON feed</button>
             <div id="jsonStatus"></div>
           </div>
           <div class="glass-card">
             <h3>Manual fallback: .ics</h3>
             <textarea id="icsText" placeholder="Paste TrainerRoad .ics text here..."></textarea>
-            <button id="importIcsBtn">Import pasted .ics</button>
-            <input type="file" id="icsFile" accept=".ics,text/calendar">
-            <button id="importIcsFileBtn">Import .ics file</button>
             <button type="button" id="importIcsBtn">Import pasted .ics</button>
             <input type="file" id="icsFile" accept=".ics,text/calendar">
             <button type="button" id="importIcsFileBtn">Import .ics file</button>
@@ -133,7 +122,6 @@
         <div class="glass-card">
           <div class="card-head">
             <h3>Imported Sessions</h3>
-            <button class="ghost" id="clearSessionsBtn">Clear local sessions</button>
             <button type="button" class="ghost" id="clearSessionsBtn">Clear local sessions</button>
           </div>
           <div id="sessionsList"></div>
@@ -160,14 +148,12 @@
               <label>Calories Burned<input type="number" id="metricCalories" placeholder="3200"></label>
             </div>
             <label>Notes<textarea id="metricNotes" placeholder="Ankle, fatigue, stress, hunger..."></textarea></label>
-            <button class="primary-cta" id="saveMetricBtn">Add Garmin Data</button>
             <button type="button" class="primary-cta" id="saveMetricBtn">Add Garmin Data</button>
           </div>
           <div class="glass-card">
             <h3>Import Garmin-style CSV</h3>
             <p class="helper">Accepted headers: date, weight, sleep, steps, resting_hr, body_battery, notes</p>
             <input type="file" id="csvFile" accept=".csv,text/csv">
-            <button id="importCsvFileBtn">Import CSV</button>
             <button type="button" id="importCsvFileBtn">Import CSV</button>
             <div class="warning-box">Do not store Garmin credentials inside GitHub Pages or app files.</div>
           </div>
@@ -187,16 +173,12 @@
               <label>Date<input type="date" id="foodDate"></label>
               <label>Meal<select id="foodMeal"><option>Breakfast</option><option>Lunch</option><option>Dinner</option><option>Snack</option><option>Pre-workout</option><option>Post-workout</option></select></label>
               <label>Food / meal<input id="foodName" list="foodOptions" autocomplete="off" placeholder="e.g. chicken breast, rice, salmon"><datalist id="foodOptions"></datalist></label>
-              <label>Food / meal<input id="foodName" list="foodOptions" autocomplete="off" placeholder="e.g. chicken breast, rice, salmon"><datalist id="foodOptions"></datalist></label>
               <label>Quantity / serving<input id="foodQty" placeholder="e.g. 200g, 1 bowl, 1 wrap"></label>
               <label>Calories<input type="number" id="foodCalories" placeholder="Auto if food found"></label>
               <label>Protein g<input type="number" id="foodProtein" placeholder="Auto if food found"></label>
               <label>Carbs g<input type="number" id="foodCarbs" placeholder="Auto if food found"></label>
               <label>Fat g<input type="number" id="foodFat" placeholder="Auto if food found"></label>
             </div>
-            <button id="autoEstimateFoodBtn">Auto-populate from database</button>
-            <div id="foodAutoHint" class="helper"></div>
-            <button id="saveFoodBtn">Save food</button>
             <button type="button" id="autoEstimateFoodBtn">Auto-populate from database</button>
             <div id="foodAutoHint" class="helper"></div>
             <button type="button" id="saveFoodBtn">Save food</button>
@@ -224,7 +206,6 @@
               <label>Electrolytes?<select id="hydrationElectrolytes"><option>No</option><option>Yes</option></select></label>
               <label>Context<select id="hydrationContext"><option>General</option><option>Pre-workout</option><option>During workout</option><option>Post-workout</option></select></label>
             </div>
-            <button id="saveHydrationBtn">Save hydration</button>
             <button type="button" id="saveHydrationBtn">Save hydration</button>
           </div>
           <div class="glass-card">
@@ -248,9 +229,6 @@
         <div class="glass-card"><h3>Calories by Day Type</h3><div id="nutritionList"></div></div>
       </section>
 
-      <div class="glass-card"><h3>Daily Reminder</h3><p class="helper">Enable a local 8:00 PM reminder if Garmin data is missing for today.</p><button id="enableReminderBtn">Enable 8:00 PM Reminder</button><div id="reminderStatus"></div></div>
-      <div class="glass-card"><h3>Daily Reminder</h3><p class="helper">Enable a local 8:00 PM reminder if Garmin data is missing for today.</p><button type="button" id="enableReminderBtn">Enable 8:00 PM Reminder</button><div id="reminderStatus"></div></div>
-
       <section id="strength" class="tab">
         <div class="section-title"><h2>Strength Work</h2><p>Support body composition without increasing red-day risk.</p></div>
         <div class="two-col">
@@ -271,25 +249,6 @@
               <label>Run limit minutes<input id="setRunLimit" type="number" step="1"></label>
               <label>Hydration target ml<input id="setHydration" type="number" step="100"></label>
             </div>
-            <button id="saveSettingsBtn">Save settings</button>
-          </div>
-          <div class="glass-card">
-            <h3>Data Control</h3>
-            <button id="exportDataBtn">Export backup JSON</button>
-            <button class="danger" id="resetDataBtn">Reset all local data</button>
-            <button class="ghost" id="loadDemoDataBtn">Load demo data</button>
-          </div>
-          <div class="glass-card">
-            <h3>PC / iPhone Sync</h3>
-            <p class="helper">Syncs Garmin metrics and food logs through your Supabase-backed hub API.</p>
-            <label>Hub API base URL<input id="syncApiBase" placeholder="Same site or https://your-backend.vercel.app"></label>
-            <label>Sync key<input id="syncKey" type="password" placeholder="HUB_SYNC_KEY"></label>
-            <label class="check-row"><input id="syncAuto" type="checkbox"> Auto-sync after food or Garmin saves</label>
-            <button onclick="saveSyncSettings()">Save sync settings</button>
-            <button onclick="syncFromCloud()">Pull from cloud</button>
-            <button onclick="syncToCloud()">Push to cloud</button>
-            <button class="primary-cta" onclick="syncNow()">Sync now</button>
-            <div id="syncStatus" class="helper"></div>
             <button type="button" id="saveSettingsBtn">Save settings</button>
           </div>
           <div class="glass-card">
@@ -299,8 +258,17 @@
             <button type="button" class="ghost" id="loadDemoDataBtn">Load demo data</button>
           </div>
         </div>
+        <div class="glass-card">
+          <h3>Daily Reminder</h3>
+          <p class="helper">Enable a local 8:00 PM reminder if Garmin data is missing for today.</p>
+          <button type="button" id="enableReminderBtn">Enable 8:00 PM Reminder</button>
+          <div id="reminderStatus"></div>
+        </div>
       </section>
     </main>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="app.js"></script>
 </body>
 </html>
