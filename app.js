@@ -59,46 +59,28 @@ const FOOD_DB={
 };
 
 
-const CUSTOM_FOOD_DB_KEY = "customFoodDb";
-
-function customFoodDb(){
-  return getStore(CUSTOM_FOOD_DB_KEY,{});
-}
-
-function saveCustomFoodDb(db){
-  setStore(CUSTOM_FOOD_DB_KEY,db);
-}
-
-function allFoodDb(){
-  return {...FOOD_DB,...customFoodDb()};
-}
-
-function addFoodToDbIfMissing(entry){
-  const name=(entry.name||"").trim().toLowerCase();
-  if(!name)return;
-
-  const db=allFoodDb();
-  if(db[name])return;
-
-  const custom=customFoodDb();
-  custom[name]={
-    cal:+entry.calories||0,
-    p:+entry.protein||0,
-    c:+entry.carbs||0,
-    f:+entry.fat||0,
-    unit:entry.qty||"manual entry"
-  };
-
-  saveCustomFoodDb(custom);
-}
-
-
 let chartInstances = {};
 const STRAVA_API_BASE=((window.STRAVA_API_BASE_URL||"").trim().replace(/\/$/,""));
 function stravaApiUrl(path){return STRAVA_API_BASE?`${STRAVA_API_BASE}${path}`:path}
 
 function getStore(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch(e){return f}}
 function setStore(k,v){localStorage.setItem(k,JSON.stringify(v))}
+function loadCustomFoodDb(){
+  const custom=getStore("customFoodDb",{});
+  Object.keys(custom).forEach(name=>{
+    if(!FOOD_DB[name])FOOD_DB[name]=custom[name];
+  });
+}
+function saveFoodToDatabaseIfNew(entry){
+  const name=(entry.name||"").trim().toLowerCase();
+  if(!name||name==="food")return;
+  if(FOOD_DB[name])return;
+  const item={cal:+entry.calories||0,p:+entry.protein||0,c:+entry.carbs||0,f:+entry.fat||0,unit:entry.qty||"manual entry"};
+  FOOD_DB[name]=item;
+  const custom=getStore("customFoodDb",{});
+  custom[name]=item;
+  setStore("customFoodDb",custom);
+}
 function settings(){return getStore("settings",DEFAULT_SETTINGS)}
 function sessions(){return getStore("sessions",[])}
 function metrics(){return getStore("metrics",[])}
@@ -155,51 +137,9 @@ function parseCsv(text){const lines=text.trim().split(/\r?\n/);if(lines.length<2
 function importCsvFile(){const f=document.getElementById("csvFile").files[0];if(!f){alert("Choose a CSV file first.");return}const r=new FileReader();r.onload=()=>{const parsed=parseCsv(String(r.result));if(!parsed.length){alert("No metric rows found.");return}setStore("metrics",parsed.sort((a,b)=>b.date.localeCompare(a.date)));renderAll();alert(`Imported ${parsed.length} metric rows.`)};r.readAsText(f)}
 function renderMetrics(){document.getElementById("metricsList").innerHTML=metrics().length?metrics().slice(0,10).map(metricCard).join(""):"<p>No metric data saved yet.</p>"}
 function parseQuantityMultiplier(qty,unit){const q=(qty||"").toLowerCase().trim();if(!q)return 1;const n=(q.match(/\d+(?:\.\d+)?/)||[])[0];const amount=n?parseFloat(n):null;const hasG=q.includes("g");const hasMl=q.includes("ml");if((unit.includes("100g")&&hasG&&amount)||(unit.includes("100ml")&&hasMl&&amount))return amount/100;if(unit.includes("1 whole")&&amount)return amount/150;if(unit.includes("1 cup")&&amount&&hasG)return amount/180;if(unit.includes("1 medium")&&amount&&hasG)return amount/150;if(unit.includes("1 slice")&&amount&&hasG)return amount/40;return 1}
-function autoEstimateFood(){
-  const name=foodName.value.toLowerCase();
-  const db=allFoodDb();
-  const match=Object.keys(db).find(k=>name.includes(k));
-
-  if(!match){
-    alert("No food match found. Enter macros manually. This food will be added to your database when saved.");
-    return;
-  }
-
-  const item=db[match];
-  const mult=parseQuantityMultiplier(foodQty.value,item.unit);
-  foodCalories.value=Math.round(item.cal*mult);
-  foodProtein.value=Math.round((item.p*mult)*10)/10;
-  foodCarbs.value=Math.round((item.c*mult)*10)/10;
-  foodFat.value=Math.round((item.f*mult)*10)/10;
-  foodQty.value=foodQty.value||item.unit;
-  document.getElementById("foodAutoHint")&&(document.getElementById("foodAutoHint").innerHTML=`<small>Auto-filled from <strong>${match}</strong> using quantity multiplier ×${mult.toFixed(2)}.</small>`);
-}
-function saveFood(){
-  const entry={
-    date:foodDate.value||todayIso(),
-    meal:foodMeal.value,
-    name:foodName.value||"Food",
-    qty:foodQty.value,
-    calories:+foodCalories.value||0,
-    protein:+foodProtein.value||0,
-    carbs:+foodCarbs.value||0,
-    fat:+foodFat.value||0
-  };
-
-  addFoodToDbIfMissing(entry);
-
-  const all=foods();
-  all.unshift(entry);
-  setStore("foods",all);
-  foodName.value=foodQty.value=foodCalories.value=foodProtein.value=foodCarbs.value=foodFat.value="";
-  renderAll();
-}
-function renderFood(){
-  const list=todayFoods();
-  const db=allFoodDb();
-  document.getElementById("foodDbList").innerHTML=Object.entries(db).slice(0,15).map(([k,v])=>`<div class="session"><strong>${k}</strong><span>${v.unit}</span><small>${v.cal} kcal · P${v.p} C${v.c} F${v.f}</small></div>`).join("");
-  document.getElementById("foodList").innerHTML=list.length?list.map(f=>`<div class="session"><strong>${f.meal}: ${f.name}</strong><span>${f.qty||""}</span><small>${f.calories} kcal · P${f.protein} C${f.carbs} F${f.fat}</small></div>`).join(""):"<p>No food logged today.</p>";
-}
+function autoEstimateFood(){const name=foodName.value.toLowerCase();const match=Object.keys(FOOD_DB).find(k=>name.includes(k));if(!match){alert("No food match found. Enter macros manually or try a simpler food name.");return}const item=FOOD_DB[match];const mult=parseQuantityMultiplier(foodQty.value,item.unit);foodCalories.value=Math.round(item.cal*mult);foodProtein.value=Math.round((item.p*mult)*10)/10;foodCarbs.value=Math.round((item.c*mult)*10)/10;foodFat.value=Math.round((item.f*mult)*10)/10;foodQty.value=foodQty.value||item.unit;document.getElementById("foodAutoHint")&&(document.getElementById("foodAutoHint").innerHTML=`<small>Auto-filled from <strong>${match}</strong> using quantity multiplier ×${mult.toFixed(2)}.</small>`)}
+function saveFood(){const entry={date:foodDate.value||todayIso(),meal:foodMeal.value,name:foodName.value||"Food",qty:foodQty.value,calories:+foodCalories.value||0,protein:+foodProtein.value||0,carbs:+foodCarbs.value||0,fat:+foodFat.value||0};saveFoodToDatabaseIfNew(entry);const all=foods();all.unshift(entry);setStore("foods",all);foodName.value=foodQty.value=foodCalories.value=foodProtein.value=foodCarbs.value=foodFat.value="";renderAll()}
+function renderFood(){const list=todayFoods();document.getElementById("foodDbList").innerHTML=Object.entries(FOOD_DB).slice(0,15).map(([k,v])=>`<div class="session"><strong>${k}</strong><span>${v.unit}</span><small>${v.cal} kcal · P${v.p} C${v.c} F${v.f}</small></div>`).join("");document.getElementById("foodList").innerHTML=list.length?list.map(f=>`<div class="session"><strong>${f.meal}: ${f.name}</strong><span>${f.qty||""}</span><small>${f.calories} kcal · P${f.protein} C${f.carbs} F${f.fat}</small></div>`).join(""):"<p>No food logged today.</p>"}
 function saveHydration(){const entry={date:hydrationDate.value||todayIso(),ml:+hydrationMl.value||0,electrolytes:hydrationElectrolytes.value,context:hydrationContext.value};const all=hydrations();all.unshift(entry);setStore("hydrations",all);hydrationMl.value="";renderAll()}
 function renderHydration(){const list=todayHydration();const target=settings().hydrationTarget;const total=sumHydration();document.getElementById("hydrationGuidance").innerHTML=`<span class="pill">${total} / ${target} ml</span><p>On hard bike/swim days, add electrolytes around longer or sweaty sessions. Keep most fluid earlier rather than catching up late at night.</p>`;document.getElementById("hydrationList").innerHTML=list.length?list.map(h=>`<div class="session"><strong>${h.context}</strong><span>${h.ml} ml</span><small>Electrolytes: ${h.electrolytes}</small></div>`).join(""):"<p>No hydration logged today.</p>"}
 function renderNutrition(){const s=settings();document.getElementById("proteinTarget").textContent=`${Math.round(s.weight*s.proteinGkg)} g`;document.getElementById("runCap").textContent=`${s.runLimit} min`;document.getElementById("nutritionList").innerHTML=DEFAULT_WEEK.map(d=>`<div class="session"><strong>${d.day}</strong><span>${d.type}</span><small>${kcalLabel(d.load)}</small></div>`).join("")}
@@ -217,6 +157,7 @@ function renderAll(){renderDashboard();renderSessions();renderMetrics();renderFo
 if("serviceWorker" in navigator){window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").then(reg=>{reg.update();setInterval(()=>reg.update(),60*1000)}).catch(()=>{});let refreshing=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(refreshing)return;refreshing=true;window.location.reload()})})}
 foodQty&&foodQty.addEventListener("input",()=>{if(foodName.value.trim())autoEstimateFood()});
 foodName&&foodName.addEventListener("change",()=>{if(foodName.value.trim())autoEstimateFood()});
+loadCustomFoodDb();
 initNav();
 renderAll();
 
