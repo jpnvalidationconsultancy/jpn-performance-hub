@@ -1,27 +1,5 @@
-<<<<<<< ours
-<<<<<<< ours
-<<<<<<< ours
-<<<<<<< ours
-<<<<<<< ours
-const CACHE = 'jpn-performance-hub-v7';
-=======
-const CACHE = 'jpn-performance-hub-v9';
->>>>>>> theirs
-=======
-const CACHE = 'jpn-performance-hub-v10';
->>>>>>> theirs
-=======
-const CACHE = 'jpn-performance-hub-v11';
->>>>>>> theirs
-const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.json'];
-=======
-const CACHE = 'jpn-performance-hub-v8';
-const ASSETS = ['./', './index.html', './style.css?v=20260506-restore', './app.js?v=20260506-restore', './manifest.json'];
->>>>>>> theirs
-=======
-const CACHE = 'jpn-performance-hub-v12';
-const ASSETS = ['./', './index.html', './style.css?v=20260506-ui-recover', './app.js?v=20260506-ui-recover', './manifest.json'];
->>>>>>> theirs
+const CACHE = 'jpn-performance-hub-v13';
+const ASSETS = ['./', './index.html', './style.css?v=20260506-root-fix', './app.js?v=20260506-root-fix', './manifest.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)).then(() => self.skipWaiting()));

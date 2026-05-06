@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JPN Performance Hub V4</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css?v=20260506-root-fix">
   <link rel="stylesheet" href="style.css?v=20260506-ui-recover">
   <meta name="theme-color" content="#07111f">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -13,6 +14,9 @@
   <div class="app-shell">
     <aside class="rail">
       <div class="logo-stack">
+        <img src="assets/jpn-technologies-logo.png" alt="JPN Technologies" class="jpn-logo">
+        <div class="divider"></div>
+        <img src="assets/ironman-logo.png" alt="Ironman" class="iron-logo">
         <img src="assets/jpn-technologies-logo.png" alt="JPN Technologies" class="jpn-logo">
         <div class="divider"></div>
         <img src="assets/ironman-logo.png" alt="Ironman" class="iron-logo">
@@ -108,21 +112,21 @@
           <div class="glass-card">
             <h3>Auto-load JSON Feed</h3>
             <p class="helper">When hosted on GitHub Pages, the app can read <code>data/trainerroad-plan.json</code>.</p>
-            <button onclick="loadTrainerRoadJson()">Load latest JSON feed</button>
+            <button id="loadTrainerRoadJsonBtn">Load latest JSON feed</button>
             <div id="jsonStatus"></div>
           </div>
           <div class="glass-card">
             <h3>Manual fallback: .ics</h3>
             <textarea id="icsText" placeholder="Paste TrainerRoad .ics text here..."></textarea>
-            <button onclick="importIcs()">Import pasted .ics</button>
+            <button id="importIcsBtn">Import pasted .ics</button>
             <input type="file" id="icsFile" accept=".ics,text/calendar">
-            <button onclick="importIcsFile()">Import .ics file</button>
+            <button id="importIcsFileBtn">Import .ics file</button>
           </div>
         </div>
         <div class="glass-card">
           <div class="card-head">
             <h3>Imported Sessions</h3>
-            <button class="ghost" onclick="clearSessions()">Clear local sessions</button>
+            <button class="ghost" id="clearSessionsBtn">Clear local sessions</button>
           </div>
           <div id="sessionsList"></div>
         </div>
@@ -148,13 +152,13 @@
               <label>Calories Burned<input type="number" id="metricCalories" placeholder="3200"></label>
             </div>
             <label>Notes<textarea id="metricNotes" placeholder="Ankle, fatigue, stress, hunger..."></textarea></label>
-            <button class="primary-cta" onclick="saveMetric()">Add Garmin Data</button>
+            <button class="primary-cta" id="saveMetricBtn">Add Garmin Data</button>
           </div>
           <div class="glass-card">
             <h3>Import Garmin-style CSV</h3>
             <p class="helper">Accepted headers: date, weight, sleep, steps, resting_hr, body_battery, notes</p>
             <input type="file" id="csvFile" accept=".csv,text/csv">
-            <button onclick="importCsvFile()">Import CSV</button>
+            <button id="importCsvFileBtn">Import CSV</button>
             <div class="warning-box">Do not store Garmin credentials inside GitHub Pages or app files.</div>
           </div>
         </div>
@@ -173,15 +177,16 @@
               <label>Date<input type="date" id="foodDate"></label>
               <label>Meal<select id="foodMeal"><option>Breakfast</option><option>Lunch</option><option>Dinner</option><option>Snack</option><option>Pre-workout</option><option>Post-workout</option></select></label>
               <label>Food / meal<input id="foodName" list="foodOptions" autocomplete="off" placeholder="e.g. chicken breast, rice, salmon"><datalist id="foodOptions"></datalist></label>
+              <label>Food / meal<input id="foodName" list="foodOptions" autocomplete="off" placeholder="e.g. chicken breast, rice, salmon"><datalist id="foodOptions"></datalist></label>
               <label>Quantity / serving<input id="foodQty" placeholder="e.g. 200g, 1 bowl, 1 wrap"></label>
               <label>Calories<input type="number" id="foodCalories" placeholder="Auto if food found"></label>
               <label>Protein g<input type="number" id="foodProtein" placeholder="Auto if food found"></label>
               <label>Carbs g<input type="number" id="foodCarbs" placeholder="Auto if food found"></label>
               <label>Fat g<input type="number" id="foodFat" placeholder="Auto if food found"></label>
             </div>
-            <button onclick="autoEstimateFood()">Auto-populate from database</button>
+            <button id="autoEstimateFoodBtn">Auto-populate from database</button>
             <div id="foodAutoHint" class="helper"></div>
-            <button onclick="saveFood()">Save food</button>
+            <button id="saveFoodBtn">Save food</button>
           </div>
           <div class="glass-card">
             <h3>Starter Food Database</h3>
@@ -206,7 +211,7 @@
               <label>Electrolytes?<select id="hydrationElectrolytes"><option>No</option><option>Yes</option></select></label>
               <label>Context<select id="hydrationContext"><option>General</option><option>Pre-workout</option><option>During workout</option><option>Post-workout</option></select></label>
             </div>
-            <button onclick="saveHydration()">Save hydration</button>
+            <button id="saveHydrationBtn">Save hydration</button>
           </div>
           <div class="glass-card">
             <h3>Hydration Guidance</h3>
@@ -229,7 +234,7 @@
         <div class="glass-card"><h3>Calories by Day Type</h3><div id="nutritionList"></div></div>
       </section>
 
-      <div class="glass-card"><h3>Daily Reminder</h3><p class="helper">Enable a local 8:00 PM reminder if Garmin data is missing for today.</p><button onclick="enableReminder()">Enable 8:00 PM Reminder</button><div id="reminderStatus"></div></div>
+      <div class="glass-card"><h3>Daily Reminder</h3><p class="helper">Enable a local 8:00 PM reminder if Garmin data is missing for today.</p><button id="enableReminderBtn">Enable 8:00 PM Reminder</button><div id="reminderStatus"></div></div>
 
       <section id="strength" class="tab">
         <div class="section-title"><h2>Strength Work</h2><p>Support body composition without increasing red-day risk.</p></div>
@@ -251,13 +256,13 @@
               <label>Run limit minutes<input id="setRunLimit" type="number" step="1"></label>
               <label>Hydration target ml<input id="setHydration" type="number" step="100"></label>
             </div>
-            <button onclick="saveSettings()">Save settings</button>
+            <button id="saveSettingsBtn">Save settings</button>
           </div>
           <div class="glass-card">
             <h3>Data Control</h3>
-            <button onclick="exportData()">Export backup JSON</button>
-            <button class="danger" onclick="resetData()">Reset all local data</button>
-            <button class="ghost" onclick="loadDemoData()">Load demo data</button>
+            <button id="exportDataBtn">Export backup JSON</button>
+            <button class="danger" id="resetDataBtn">Reset all local data</button>
+            <button class="ghost" id="loadDemoDataBtn">Load demo data</button>
           </div>
           <div class="glass-card">
             <h3>PC / iPhone Sync</h3>
@@ -275,6 +280,7 @@
       </section>
     </main>
   </div>
+<script src="app.js?v=20260506-root-fix"></script>
 <<<<<<< ours
 <script src="app.js?v=20260506-restore"></script>
 =======

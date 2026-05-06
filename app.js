@@ -67,15 +67,7 @@ function getStore(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch(e
 function setStore(k,v){localStorage.setItem(k,JSON.stringify(v))}
 function byId(id){return document.getElementById(id)}
 const metricDate=byId("metricDate"),metricWeight=byId("metricWeight"),metricSleep=byId("metricSleep"),metricSteps=byId("metricSteps"),metricRhr=byId("metricRhr"),metricBattery=byId("metricBattery"),metricHRV=byId("metricHRV"),metricStress=byId("metricStress"),metricCalories=byId("metricCalories"),metricNotes=byId("metricNotes");
-<<<<<<< ours
-<<<<<<< ours
-const foodDate=byId("foodDate"),foodMeal=byId("foodMeal"),foodName=byId("foodName"),foodQty=byId("foodQty"),foodCalories=byId("foodCalories"),foodProtein=byId("foodProtein"),foodCarbs=byId("foodCarbs"),foodFat=byId("foodFat");
-=======
 const foodDate=byId("foodDate"),foodMeal=byId("foodMeal"),foodName=byId("foodName"),foodOptions=byId("foodOptions"),foodQty=byId("foodQty"),foodCalories=byId("foodCalories"),foodProtein=byId("foodProtein"),foodCarbs=byId("foodCarbs"),foodFat=byId("foodFat");
->>>>>>> theirs
-=======
-const foodDate=byId("foodDate"),foodMeal=byId("foodMeal"),foodName=byId("foodName"),foodOptions=byId("foodOptions"),foodQty=byId("foodQty"),foodCalories=byId("foodCalories"),foodProtein=byId("foodProtein"),foodCarbs=byId("foodCarbs"),foodFat=byId("foodFat");
->>>>>>> theirs
 const hydrationDate=byId("hydrationDate"),hydrationMl=byId("hydrationMl"),hydrationElectrolytes=byId("hydrationElectrolytes"),hydrationContext=byId("hydrationContext");
 const setWeight=byId("setWeight"),setBodyFat=byId("setBodyFat"),setProtein=byId("setProtein"),setRunLimit=byId("setRunLimit"),setHydration=byId("setHydration");
 function loadCustomFoodDb(){
@@ -182,19 +174,30 @@ if("serviceWorker" in navigator){window.addEventListener("load",()=>{navigator.s
 foodQty&&foodQty.addEventListener("input",()=>{if(foodName.value.trim())autoEstimateFood()});
 foodName&&foodName.addEventListener("input",()=>{renderFood()});
 foodName&&foodName.addEventListener("change",()=>{if(foodName.value.trim())autoEstimateFood()});
-<<<<<<< ours
-=======
+function exposeActions(){Object.assign(window,{loadTrainerRoadJson,importIcs,importIcsFile,clearSessions,saveMetric,importCsvFile,autoEstimateFood,saveFood,saveHydration,saveSettings,exportData,resetData,loadDemoData,enableReminder})}
+function bindAction(id,handler){const el=byId(id);if(el)el.addEventListener("click",handler)}
+function bindUiActions(){
+  bindAction("loadTrainerRoadJsonBtn",loadTrainerRoadJson);
+  bindAction("importIcsBtn",importIcs);
+  bindAction("importIcsFileBtn",importIcsFile);
+  bindAction("clearSessionsBtn",clearSessions);
+  bindAction("saveMetricBtn",saveMetric);
+  bindAction("importCsvFileBtn",importCsvFile);
+  bindAction("autoEstimateFoodBtn",autoEstimateFood);
+  bindAction("saveFoodBtn",saveFood);
+  bindAction("saveHydrationBtn",saveHydration);
+  bindAction("enableReminderBtn",enableReminder);
+  bindAction("saveSettingsBtn",saveSettings);
+  bindAction("exportDataBtn",exportData);
+  bindAction("resetDataBtn",resetData);
+  bindAction("loadDemoDataBtn",loadDemoData);
+}
+exposeActions();
+bindUiActions();
 loadCustomFoodDb();
 refreshFoodOptions();
-<<<<<<< ours
->>>>>>> theirs
-=======
->>>>>>> theirs
 initNav();
 renderAll();
-
-
-Object.assign(window,{loadTrainerRoadJson,importIcs,importIcsFile,clearSessions,saveMetric,importCsvFile,autoEstimateFood,saveFood,saveHydration,saveSettings,exportData,resetData,loadDemoData,enableReminder});
 function hasTodayMetrics(){return metrics().some(m=>m.date===todayIso())}
 function enableReminder(){if(!("Notification" in window)){alert("Notifications are not supported on this device/browser.");return}Notification.requestPermission().then(p=>{const box=document.getElementById("reminderStatus");if(p!=="granted"){if(box)box.innerHTML="<p class='score-bad'>Notification permission not granted.</p>";return}localStorage.setItem("dailyReminderEnabled","1");if(box)box.innerHTML="<p class='score-good'>8:00 PM reminder enabled.</p>";scheduleReminderCheck()})}
 function scheduleReminderCheck(){if(localStorage.getItem("dailyReminderEnabled")!=="1")return;const now=new Date();const target=new Date();target.setHours(20,0,0,0);if(now>target)target.setDate(target.getDate()+1);const delay=target-now;setTimeout(()=>{if(!hasTodayMetrics()&&Notification.permission==="granted"){new Notification("JPN Performance Hub",{body:"Reminder: add Garmin data before day end.",icon:"assets/jpn-technologies-logo.png"})}scheduleReminderCheck()},delay)}
