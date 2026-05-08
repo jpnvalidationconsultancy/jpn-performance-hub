@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-05-08T17:22:34.306159Z",
+  "updated_at": "2026-05-08T18:52:33.232445Z",
   "sessions": [
-    {
-      "summary": "0:47 - Swim Time Trial",
-      "date": "2026-04-12",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 350m Easy, RPE4 1650m Hard, RPE8 Cool-Down 350m Easy, RPE4",
-      "location": ""
-    },
     {
       "summary": "1:00 - Obelisk",
       "date": "2026-04-16",
@@ -16,24 +9,10 @@
       "location": ""
     },
     {
-      "summary": "0:40 - Base Run",
-      "date": "2026-04-17",
-      "day": "Friday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "Lazy Mountain -2",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:42 - Swim Base + VO2max Intervals",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Bilateral Breathing drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Bilateral Breathing (BB) - Swim your regular freestyle stroke while breathing during every third stroke forcing yourself to discover and improve your weaker side. If this is challenging & uncoordinated at first, hang in there - your clumsy side will improve with practice.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "summary": "1:00 - Cloudripper -4",
+      "date": "2026-04-23",
+      "day": "Thursday",
+      "description": "TSS 68, IF 0.82, kJ(Cal) 464.  Description: Cloudripper -4 is 3x9-minute over-under intervals alternating between 2 minutes at 95% FTP and 1 minute at 105% FTP with 9-minute recoveries between intervals. Goals: The primary objective of over-unders is to increase your ability to tolerate and utilize the byproducts that accompany riding above your FTP, all while maintaining a reasonably high power output. In doing so, you'll develop the ability to handle changes in pace while doing quite a lot of work. The over-segments or 'surges' flood the muscle with metabolic byproducts bringing with them the desire to ease up - don't.Hold that burn, then back off only slightly during the under-segments or 'valleys' in order to work through the burn and effectively train your muscles to process the lactic buildup while still going pretty hard.These intervals can increase how long you can work above FTP as well as how quickly you can reprocess the lactate buildup that can lead to muscle acidity. Equally as important, the short efforts above your current FTP can actually lead to increases in FTP.Try to keep your cadence above 85rpm, preferably above 95rpm.",
       "location": ""
     },
     {
@@ -86,6 +65,13 @@
       "location": ""
     },
     {
+      "summary": "0:40 - Base Run",
+      "date": "2026-05-03",
+      "day": "Sunday",
+      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
       "summary": "0:50 - Continuous Base Swim",
       "date": "2026-05-03",
       "day": "Sunday",
@@ -97,6 +83,13 @@
       "date": "2026-05-06",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Front Sculling drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 6x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Front Sculling (FS) - Stretch your arms out in front of you, fingertips pointed forward, arms no more than shoulder-width apart and use both hands to propel yourself forward by \"sculling\" in a figure-eight pattern as you simulate the catch over & over. Use a minimal kick and do this with your head up or down.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "location": ""
+    },
+    {
+      "summary": "1:30 - Stickney",
+      "date": "2026-05-07",
+      "day": "Thursday",
+      "description": "TSS 41, IF 0.52, kJ(Cal) 517.  Description: Stickney consists of nearly 90 minutes of aerobic Endurance riding spent between 50-60% FTP. Goals: Aerobic Endurance workouts are aimed at improving your aerobic (oxygen-reliant) power producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing oxygen and sparing sugar stores for more intense efforts.Additionally, Endurance workouts like this can improve oxygen delivery, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
       "location": ""
     },
     {
@@ -125,13 +118,6 @@
       "date": "2026-05-10",
       "day": "Sunday",
       "description": "Description: 100min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "0:56 - Continuous Base Swim",
-      "date": "2026-05-10",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
       "location": ""
     },
     {
@@ -597,10 +583,10 @@
       "location": ""
     },
     {
-      "summary": "1:30 - Stickney",
-      "date": "2026-05-07",
-      "day": "Thursday",
-      "description": "TSS 41, IF 0.52, kJ(Cal) 517.  Description: Stickney consists of nearly 90 minutes of aerobic Endurance riding spent between 50-60% FTP. Goals: Aerobic Endurance workouts are aimed at improving your aerobic (oxygen-reliant) power producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing oxygen and sparing sugar stores for more intense efforts.Additionally, Endurance workouts like this can improve oxygen delivery, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
+      "summary": "0:56 - Continuous Base Swim",
+      "date": "2026-05-10",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
       "location": ""
     },
     {
@@ -615,13 +601,6 @@
       "date": "2026-05-05",
       "day": "Tuesday",
       "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "0:40 - Base Run",
-      "date": "2026-05-03",
-      "day": "Sunday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
       "location": ""
     },
     {
@@ -667,17 +646,24 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Cloudripper -4",
-      "date": "2026-04-23",
-      "day": "Thursday",
-      "description": "TSS 68, IF 0.82, kJ(Cal) 464.  Description: Cloudripper -4 is 3x9-minute over-under intervals alternating between 2 minutes at 95% FTP and 1 minute at 105% FTP with 9-minute recoveries between intervals. Goals: The primary objective of over-unders is to increase your ability to tolerate and utilize the byproducts that accompany riding above your FTP, all while maintaining a reasonably high power output. In doing so, you'll develop the ability to handle changes in pace while doing quite a lot of work. The over-segments or 'surges' flood the muscle with metabolic byproducts bringing with them the desire to ease up - don't.Hold that burn, then back off only slightly during the under-segments or 'valleys' in order to work through the burn and effectively train your muscles to process the lactic buildup while still going pretty hard.These intervals can increase how long you can work above FTP as well as how quickly you can reprocess the lactate buildup that can lead to muscle acidity. Equally as important, the short efforts above your current FTP can actually lead to increases in FTP.Try to keep your cadence above 85rpm, preferably above 95rpm.",
-      "location": ""
-    },
-    {
       "summary": "0:45 - Run Intervals",
       "date": "2026-04-22",
       "day": "Wednesday",
       "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "0:42 - Swim Base + VO2max Intervals",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Bilateral Breathing drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Bilateral Breathing (BB) - Swim your regular freestyle stroke while breathing during every third stroke forcing yourself to discover and improve your weaker side. If this is challenging & uncoordinated at first, hang in there - your clumsy side will improve with practice.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "location": ""
+    },
+    {
+      "summary": "Lazy Mountain -2",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
@@ -713,6 +699,13 @@
       "date": "2026-04-17",
       "day": "Friday",
       "description": "Description: Warm-Up 200m Easy, RPE4 8x25m Fingertips & Thumbs drills w/ 10s rest between drills 4x200m Easy-Moderate, RPE5 w/ 45s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 200m Easy, RPE4  Drill Instructions Fingertips & Thumbs (F&T) - During your normal freestyle stroke, keep your elbows high and lightly drag your fingertips across the water as your working arm recovers. Then, as your working hand exits the water on the release, lightly scrape your thumb against your thigh. These two actions can be done individually or combined.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
+      "location": ""
+    },
+    {
+      "summary": "0:40 - Base Run",
+      "date": "2026-04-17",
+      "day": "Friday",
+      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
       "location": ""
     },
     {
@@ -755,6 +748,13 @@
       "date": "2026-04-12",
       "day": "Sunday",
       "description": "Description: 80min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "0:47 - Swim Time Trial",
+      "date": "2026-04-12",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 350m Easy, RPE4 1650m Hard, RPE8 Cool-Down 350m Easy, RPE4",
       "location": ""
     },
     {
