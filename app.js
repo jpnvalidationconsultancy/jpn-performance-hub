@@ -55,8 +55,44 @@ const FOOD_DB={
 "pork scratchings (25g pack)":{cal:150,p:10,c:0,f:12,unit:"25g pack"},
 "pork scratchings":{cal:600,p:40,c:0,f:48,unit:"100g"},
 "myprotein impact whey protein":{cal:120,p:24,c:3,f:1.5,unit:"1 scoop (30g)"},
-"semi skimmed milk":{cal:50,p:3.4,c:5,f:1.5,unit:"100ml"}
-,
+"semi skimmed milk":{cal:50,p:3.4,c:5,f:1.5,unit:"100ml"},
+"collagen peptides":{cal:70,p:18,c:0,f:0,unit:"1 scoop (20g)"},
+"collagen powder":{cal:70,p:18,c:0,f:0,unit:"20g"},
+"kefir":{cal:60,p:3.5,c:4.5,f:3,unit:"100ml"},
+"kefir drink":{cal:150,p:9,c:12,f:7,unit:"250ml"},
+"chorizo":{cal:455,p:24,c:2,f:38,unit:"100g"},
+"chorizo slices":{cal:140,p:7,c:1,f:12,unit:"30g"},
+"salami":{cal:407,p:22,c:2,f:35,unit:"100g"},
+"salami slices":{cal:120,p:7,c:1,f:10,unit:"30g"},
+"pancetta cubes":{cal:530,p:37,c:1,f:42,unit:"100g"},
+"latte":{cal:180,p:9,c:18,f:8,unit:"medium"},
+"flat white":{cal:120,p:6,c:10,f:5,unit:"medium"},
+"cappuccino":{cal:120,p:6,c:10,f:5,unit:"medium"},
+"americano":{cal:15,p:1,c:2,f:0,unit:"medium"},
+"espresso":{cal:5,p:0,c:1,f:0,unit:"1 shot"},
+"tea with milk":{cal:25,p:1,c:3,f:1,unit:"1 mug"},
+"hot chocolate":{cal:220,p:8,c:32,f:7,unit:"medium"},
+"orange juice":{cal:45,p:0.7,c:10,f:0.2,unit:"100ml"},
+"apple juice":{cal:46,p:0,c:11,f:0,unit:"100ml"},
+"cranberry juice":{cal:46,p:0,c:12,f:0,unit:"100ml"},
+"smoothie":{cal:180,p:3,c:38,f:2,unit:"250ml"},
+"protein smoothie":{cal:320,p:28,c:35,f:8,unit:"1 bottle"},
+"semi skimmed milk pint":{cal:284,p:19,c:28,f:9,unit:"1 pint"},
+"whole milk":{cal:64,p:3.3,c:4.8,f:3.6,unit:"100ml"},
+"oat milk":{cal:46,p:1,c:6.7,f:1.5,unit:"100ml"},
+"almond milk":{cal:24,p:0.5,c:3,f:1.1,unit:"100ml"},
+"squash drink":{cal:20,p:0,c:5,f:0,unit:"500ml"},
+"water":{cal:0,p:0,c:0,f:0,unit:"500ml"},
+"sparkling water":{cal:0,p:0,c:0,f:0,unit:"500ml"},
+"tonic water":{cal:70,p:0,c:17,f:0,unit:"200ml"},
+"slimline tonic":{cal:2,p:0,c:0,f:0,unit:"200ml"},
+"lemonade":{cal:120,p:0,c:30,f:0,unit:"330ml can"},
+"fanta":{cal:63,p:0,c:15,f:0,unit:"330ml can"},
+"sprite":{cal:63,p:0,c:15,f:0,unit:"330ml can"},
+"red bull sugar free":{cal:8,p:1,c:0,f:0,unit:"250ml can"},
+"monster ultra":{cal:15,p:0,c:3,f:0,unit:"500ml can"},
+"iced coffee":{cal:150,p:6,c:22,f:4,unit:"250ml"},
+"frappuccino":{cal:300,p:7,c:48,f:9,unit:"medium"},
 "guinness pint":{cal:210,p:2,c:18,f:0,unit:"1 pint"},
 "guinness half pint":{cal:105,p:1,c:9,f:0,unit:"1/2 pint"},
 "cruzcampo pint":{cal:235,p:2,c:20,f:0,unit:"1 pint"},
@@ -118,7 +154,7 @@ const FOOD_DB={
 "pork chops grilled":{cal:242,p:27,c:0,f:14,unit:"100g"},
 "electrolyte drink":{cal:18,p:0,c:4,f:0,unit:"500ml"},
 "lucozade sport":{cal:140,p:0,c:32,f:0,unit:"500ml"},
-"gatorade":{cal:120,p:0,c:30,f:0,unit:"500ml"},
+"gatorade":{cal:120,p:0,c:30,f:0,unit:"500ml"}
 };
 
 
@@ -209,7 +245,22 @@ function parseCsv(text){const lines=text.trim().split(/\r?\n/);if(lines.length<2
 function importCsvFile(){const f=document.getElementById("csvFile").files[0];if(!f){alert("Choose a CSV file first.");return}const r=new FileReader();r.onload=()=>{const parsed=parseCsv(String(r.result));if(!parsed.length){alert("No metric rows found.");return}setStore("metrics",parsed.sort((a,b)=>b.date.localeCompare(a.date)));renderAll();alert(`Imported ${parsed.length} metric rows.`)};r.readAsText(f)}
 function renderMetrics(){document.getElementById("metricsList").innerHTML=metrics().length?metrics().slice(0,10).map(metricCard).join(""):"<p>No metric data saved yet.</p>"}
 function parseQuantityMultiplier(qty,unit){const q=(qty||"").toLowerCase().trim();if(!q)return 1;const n=(q.match(/\d+(?:\.\d+)?/)||[])[0];const amount=n?parseFloat(n):null;const hasG=q.includes("g");const hasMl=q.includes("ml");if((unit.includes("100g")&&hasG&&amount)||(unit.includes("100ml")&&hasMl&&amount))return amount/100;if(unit.includes("1 whole")&&amount)return amount/150;if(unit.includes("1 cup")&&amount&&hasG)return amount/180;if(unit.includes("1 medium")&&amount&&hasG)return amount/150;if(unit.includes("1 slice")&&amount&&hasG)return amount/40;return 1}
-function autoEstimateFood(){const name=foodName.value.toLowerCase().trim();const match=Object.keys(FOOD_DB).find(k=>name.includes(k));if(!match){document.getElementById("foodAutoHint")&&(document.getElementById("foodAutoHint").innerHTML="<small>No food match found. Enter macros manually or choose from the filtered database.</small>");return}const item=FOOD_DB[match];const mult=parseQuantityMultiplier(foodQty.value,item.unit);foodCalories.value=Math.round(item.cal*mult);foodProtein.value=Math.round((item.p*mult)*10)/10;foodCarbs.value=Math.round((item.c*mult)*10)/10;foodFat.value=Math.round((item.f*mult)*10)/10;foodQty.value=foodQty.value||item.unit;document.getElementById("foodAutoHint")&&(document.getElementById("foodAutoHint").innerHTML=`<small>Auto-filled from <strong>${match}</strong> using quantity multiplier ×${mult.toFixed(2)}.</small>`)}
+function autoEstimateFood(){
+  const name=foodName.value.toLowerCase().trim();
+  const match=Object.keys(FOOD_DB).find(k=>k.toLowerCase().includes(name)||name.includes(k.toLowerCase()));
+  if(!match){
+    document.getElementById("foodAutoHint")&&(document.getElementById("foodAutoHint").innerHTML="<small>No food match found. Enter macros manually or choose from the filtered database.</small>");
+    return;
+  }
+  const item=FOOD_DB[match];
+  const mult=parseQuantityMultiplier(foodQty.value,item.unit);
+  foodCalories.value=Math.round(item.cal*mult);
+  foodProtein.value=Math.round((item.p*mult)*10)/10;
+  foodCarbs.value=Math.round((item.c*mult)*10)/10;
+  foodFat.value=Math.round((item.f*mult)*10)/10;
+  foodQty.value=foodQty.value||item.unit;
+  document.getElementById("foodAutoHint")&&(document.getElementById("foodAutoHint").innerHTML=`<small>Auto-filled from <strong>${match}</strong> using quantity multiplier ×${mult.toFixed(2)}.</small>`);
+}
 function saveFood(){const entry={date:foodDate.value||todayIso(),meal:foodMeal.value,name:foodName.value||"Food",qty:foodQty.value,calories:+foodCalories.value||0,protein:+foodProtein.value||0,carbs:+foodCarbs.value||0,fat:+foodFat.value||0};const all=foods();all.unshift(entry);setStore("foods",all);foodName.value=foodQty.value=foodCalories.value=foodProtein.value=foodCarbs.value=foodFat.value="";renderAll()}
 function selectFoodFromDb(name){const item=FOOD_DB[name];if(!item)return;foodName.value=name;foodQty.value=item.unit||"";autoEstimateFood();document.getElementById("foodDbList").innerHTML=""}
 function renderFood(){const list=todayFoods();const dbBox=document.getElementById("foodDbList");if(dbBox){const query=(document.getElementById("foodName")?.value||"").toLowerCase().trim();dbBox.innerHTML=query?Object.entries(FOOD_DB).filter(([k])=>k.toLowerCase().includes(query)).slice(0,15).map(([k,v])=>`<div class="session food-choice" onclick="selectFoodFromDb('${k.replace(/'/g,"\\'")}')"><strong>${k}</strong><span>${v.unit}</span><small>${v.cal} kcal · P${v.p} C${v.c} F${v.f}</small></div>`).join(""):""}document.getElementById("foodList").innerHTML=list.length?list.map(f=>`<div class="session"><strong>${f.meal}: ${f.name}</strong><span>${f.qty||""}</span><small>${f.calories} kcal · P${f.protein} C${f.carbs} F${f.fat}</small></div>`).join(""):"<p>No food logged today.</p>"}
