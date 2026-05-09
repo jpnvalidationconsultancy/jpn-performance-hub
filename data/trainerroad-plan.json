@@ -1,25 +1,18 @@
 {
-  "updated_at": "2026-05-09T12:11:35.892681Z",
+  "updated_at": "2026-05-09T13:59:05.145543Z",
   "sessions": [
+    {
+      "summary": "Joe Devel -4",
+      "date": "2026-04-15",
+      "day": "Wednesday",
+      "description": "TSS 54, IF 0.85, kJ(Cal) 364.  Description: Joe Devel -4 scales things down a bit but still consists of 4 sets of Anaerobic power repeats in various shapes and sizes, all consisting of microbursts of different work durations but the same 15-second recovery valleys.Set 1 consists of 15-second On-segments at 150% FTP, set 2 consists of 30-second On-segments at 130% FTP, set 3 consists of 45-second On-segments at 120% FTP and set 4 consists of 18-second On-segments at 140% FTP.All recoveries between sets are 5 minutes long. Goals: As with any power repeat workout, the aim is to exploit your work capacity rather than build it. So while workouts with plenty of recovery between intervals help you BUILD your ability to do a lot of work, workouts like Joe Devel place the intervals close together and force you to actually DO a lot of work. All told, you'll have the opportunity to accumulate a lot of time working heavily anaerobically, relying on your sugar stores as much or more than your oxygen intake.But don't let that fool you into believing your aerobic system won't be operating full-tilt, because it will since these short recoveries don't allow your respiration to drop far & make each subsequent interval take less and less time to push you to your aerobic capacity, aka VO2max.All of this fancy-talk is just to say you're gonna push your limits in a number of productive ways. Keep your spin quick, upwards of 100rpm, but stay controlled & relaxed - no bouncing, no slop.",
+      "location": ""
+    },
     {
       "summary": "1:00 - Obelisk",
       "date": "2026-04-16",
       "day": "Thursday",
       "description": "TSS 28, IF 0.53, kJ(Cal) 350.  Description: Obelisk is 4x3-minute intervals of leg-speed drills at a very low 60% FTP with 3 minutes of rest between intervals. Keep the pressure on the pedals light and your intensity low to moderate regardless of your cadence.  Goals: Leg-speed drills are aimed at improving pedal economy during a light/recovery ride. Focus on actively kicking over the top of the pedal stroke & pulling back across the bottom of the pedal stroke while remaining relaxed all with the intent of refining your pedaling technique, expending less energy at higher cadences & accumulating some extra, low-intensity mileage. For the 3-minute intervals, the beginning cadence should be above 90rpm, then simply spin more quickly until you?ve reached a spin between 110-120rpm without rocking or bouncing in the saddle. Remain smooth & relaxed and hold this high rpm for the duration of the interval as long as you can maintain your form.",
-      "location": ""
-    },
-    {
-      "summary": "0:45 - Run Intervals",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
-      "summary": "0:40 - Race Pace Run",
-      "date": "2026-04-24",
-      "day": "Friday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  20min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -58,24 +51,10 @@
       "location": ""
     },
     {
-      "summary": "1:15 - Hayachin",
-      "date": "2026-04-30",
-      "day": "Thursday",
-      "description": "TSS 91, IF 0.85, kJ(Cal) 626.  Description: Hayachin is made up of 2 sets of 2x7.5-minute intervals with 1x7.5-minute interval on it's own, with each consisting of 90-second steps up from 93-107% FTP and then back down again. Recovery between intervals is a brief 60 seconds while the recoveries between sets of stepping intervals are each 5 minutes long. Goals: This threshold workout targets both muscular endurance as well as lactate tolerance which takes place at both the muscular level as well as the psychological level.While your muscles will gradually adapt to increasing levels of lactate and acidic accumulation and improve their ability to shuttle these metabolic byproducts more effectively, your mind will grow accustomed to tolerating these increasing levels of discomfort, all to the same end - riding harder for longer.The true challenge with these little bad boys comes as you step back down without letting your cadence plummet - spin steadily for the whole interval!Try to keep your spin in the 85-95rpm range, higher if you can do it without elevating your HR to an unsustainable level.",
-      "location": ""
-    },
-    {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
       "date": "2026-05-01",
       "day": "Friday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Back Sculling drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 45s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Back Sculling (BS) - Keep your arms at your sides and point your fingertips back toward your toes as you propel yourself with those familiar figure-eight movements without moving your hands any wider than shoulder width.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
-      "location": ""
-    },
-    {
-      "summary": "0:30 - Brick Run",
-      "date": "2026-05-02",
-      "day": "Saturday",
-      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
       "location": ""
     },
     {
@@ -167,6 +146,13 @@
       "date": "2026-05-20",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
+      "location": ""
+    },
+    {
+      "summary": "0:30 - King",
+      "date": "2026-05-21",
+      "day": "Thursday",
+      "description": "TSS 25, IF 0.71, kJ(Cal) 231.  Description: King is 30 minutes of aerobic Endurance riding spent somewhere between 65-78% FTP. Goals: Aerobic Endurance training is primarily about cultivating a strong, wide aerobic base that includes all of the physiological adaptations inherent in long, steady, low-intensity riding, such as improved fat metabolism, better oxygen delivery, improved glycogen conservation, lower HR at higher power outputs, and improved efficiency.As time-constrained as most riding schedules are though, shorter Endurance rides done consistently can make up for some of the time restrictions faced by most riders.Try to hold your spin within an 85-95rpm range and consider spending time adapting to and modifying your position on the bike when the workload is light and may put more pressure on other points of contact with the bike.",
       "location": ""
     },
     {
@@ -541,13 +527,6 @@
       "location": ""
     },
     {
-      "summary": "0:30 - King",
-      "date": "2026-05-21",
-      "day": "Thursday",
-      "description": "TSS 25, IF 0.71, kJ(Cal) 231.  Description: King is 30 minutes of aerobic Endurance riding spent somewhere between 65-78% FTP. Goals: Aerobic Endurance training is primarily about cultivating a strong, wide aerobic base that includes all of the physiological adaptations inherent in long, steady, low-intensity riding, such as improved fat metabolism, better oxygen delivery, improved glycogen conservation, lower HR at higher power outputs, and improved efficiency.As time-constrained as most riding schedules are though, shorter Endurance rides done consistently can make up for some of the time restrictions faced by most riders.Try to hold your spin within an 85-95rpm range and consider spending time adapting to and modifying your position on the bike when the workload is light and may put more pressure on other points of contact with the bike.",
-      "location": ""
-    },
-    {
       "summary": "0:35 - Base Run",
       "date": "2026-05-20",
       "day": "Wednesday",
@@ -625,10 +604,24 @@
       "location": ""
     },
     {
+      "summary": "0:30 - Brick Run",
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
+      "location": ""
+    },
+    {
       "summary": "0:45 - Race Pace Run",
       "date": "2026-05-01",
       "day": "Friday",
       "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  25min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - Hayachin",
+      "date": "2026-04-30",
+      "day": "Thursday",
+      "description": "TSS 91, IF 0.85, kJ(Cal) 626.  Description: Hayachin is made up of 2 sets of 2x7.5-minute intervals with 1x7.5-minute interval on it's own, with each consisting of 90-second steps up from 93-107% FTP and then back down again. Recovery between intervals is a brief 60 seconds while the recoveries between sets of stepping intervals are each 5 minutes long. Goals: This threshold workout targets both muscular endurance as well as lactate tolerance which takes place at both the muscular level as well as the psychological level.While your muscles will gradually adapt to increasing levels of lactate and acidic accumulation and improve their ability to shuttle these metabolic byproducts more effectively, your mind will grow accustomed to tolerating these increasing levels of discomfort, all to the same end - riding harder for longer.The true challenge with these little bad boys comes as you step back down without letting your cadence plummet - spin steadily for the whole interval!Try to keep your spin in the 85-95rpm range, higher if you can do it without elevating your HR to an unsustainable level.",
       "location": ""
     },
     {
@@ -646,10 +639,24 @@
       "location": ""
     },
     {
+      "summary": "0:40 - Race Pace Run",
+      "date": "2026-04-24",
+      "day": "Friday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  20min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Cloudripper -4",
       "date": "2026-04-23",
       "day": "Thursday",
       "description": "TSS 68, IF 0.82, kJ(Cal) 464.  Description: Cloudripper -4 is 3x9-minute over-under intervals alternating between 2 minutes at 95% FTP and 1 minute at 105% FTP with 9-minute recoveries between intervals. Goals: The primary objective of over-unders is to increase your ability to tolerate and utilize the byproducts that accompany riding above your FTP, all while maintaining a reasonably high power output. In doing so, you'll develop the ability to handle changes in pace while doing quite a lot of work. The over-segments or 'surges' flood the muscle with metabolic byproducts bringing with them the desire to ease up - don't.Hold that burn, then back off only slightly during the under-segments or 'valleys' in order to work through the burn and effectively train your muscles to process the lactic buildup while still going pretty hard.These intervals can increase how long you can work above FTP as well as how quickly you can reprocess the lactate buildup that can lead to muscle acidity. Equally as important, the short efforts above your current FTP can actually lead to increases in FTP.Try to keep your cadence above 85rpm, preferably above 95rpm.",
+      "location": ""
+    },
+    {
+      "summary": "0:45 - Run Intervals",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -720,13 +727,6 @@
       "date": "2026-04-15",
       "day": "Wednesday",
       "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "Joe Devel -4",
-      "date": "2026-04-15",
-      "day": "Wednesday",
-      "description": "TSS 54, IF 0.85, kJ(Cal) 364.  Description: Joe Devel -4 scales things down a bit but still consists of 4 sets of Anaerobic power repeats in various shapes and sizes, all consisting of microbursts of different work durations but the same 15-second recovery valleys.Set 1 consists of 15-second On-segments at 150% FTP, set 2 consists of 30-second On-segments at 130% FTP, set 3 consists of 45-second On-segments at 120% FTP and set 4 consists of 18-second On-segments at 140% FTP.All recoveries between sets are 5 minutes long. Goals: As with any power repeat workout, the aim is to exploit your work capacity rather than build it. So while workouts with plenty of recovery between intervals help you BUILD your ability to do a lot of work, workouts like Joe Devel place the intervals close together and force you to actually DO a lot of work. All told, you'll have the opportunity to accumulate a lot of time working heavily anaerobically, relying on your sugar stores as much or more than your oxygen intake.But don't let that fool you into believing your aerobic system won't be operating full-tilt, because it will since these short recoveries don't allow your respiration to drop far & make each subsequent interval take less and less time to push you to your aerobic capacity, aka VO2max.All of this fancy-talk is just to say you're gonna push your limits in a number of productive ways. Keep your spin quick, upwards of 100rpm, but stay controlled & relaxed - no bouncing, no slop.",
       "location": ""
     },
     {
