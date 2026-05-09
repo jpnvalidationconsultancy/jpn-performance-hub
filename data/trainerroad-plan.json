@@ -1,32 +1,11 @@
 {
-  "updated_at": "2026-05-09T17:31:19.260907Z",
+  "updated_at": "2026-05-09T19:07:39.031846Z",
   "sessions": [
-    {
-      "summary": "1:00 - Obelisk",
-      "date": "2026-04-16",
-      "day": "Thursday",
-      "description": "TSS 28, IF 0.53, kJ(Cal) 350.  Description: Obelisk is 4x3-minute intervals of leg-speed drills at a very low 60% FTP with 3 minutes of rest between intervals. Keep the pressure on the pedals light and your intensity low to moderate regardless of your cadence.  Goals: Leg-speed drills are aimed at improving pedal economy during a light/recovery ride. Focus on actively kicking over the top of the pedal stroke & pulling back across the bottom of the pedal stroke while remaining relaxed all with the intent of refining your pedaling technique, expending less energy at higher cadences & accumulating some extra, low-intensity mileage. For the 3-minute intervals, the beginning cadence should be above 90rpm, then simply spin more quickly until you?ve reached a spin between 110-120rpm without rocking or bouncing in the saddle. Remain smooth & relaxed and hold this high rpm for the duration of the interval as long as you can maintain your form.",
-      "location": ""
-    },
     {
       "summary": "Lazy Mountain -2",
       "date": "2026-04-22",
       "day": "Wednesday",
       "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:42 - Swim Base + VO2max Intervals",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Bilateral Breathing drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Bilateral Breathing (BB) - Swim your regular freestyle stroke while breathing during every third stroke forcing yourself to discover and improve your weaker side. If this is challenging & uncoordinated at first, hang in there - your clumsy side will improve with practice.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
-      "location": ""
-    },
-    {
-      "summary": "0:45 - Run Intervals",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -184,13 +163,6 @@
       "location": ""
     },
     {
-      "summary": "0:30 - King",
-      "date": "2026-05-21",
-      "day": "Thursday",
-      "description": "TSS 25, IF 0.71, kJ(Cal) 231.  Description: King is 30 minutes of aerobic Endurance riding spent somewhere between 65-78% FTP. Goals: Aerobic Endurance training is primarily about cultivating a strong, wide aerobic base that includes all of the physiological adaptations inherent in long, steady, low-intensity riding, such as improved fat metabolism, better oxygen delivery, improved glycogen conservation, lower HR at higher power outputs, and improved efficiency.As time-constrained as most riding schedules are though, shorter Endurance rides done consistently can make up for some of the time restrictions faced by most riders.Try to hold your spin within an 85-95rpm range and consider spending time adapting to and modifying your position on the bike when the workload is light and may put more pressure on other points of contact with the bike.",
-      "location": ""
-    },
-    {
       "summary": "0:35 - Base Run",
       "date": "2026-05-22",
       "day": "Friday",
@@ -265,13 +237,6 @@
       "date": "2026-05-29",
       "day": "Friday",
       "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Keep the walking breaks as part of your process if they?re helping you maintain high run quality, but avoid using them as a crutch or an excuse to take a break. Use them if necessary but keep your running as continuous as possible if you?re capable.",
-      "location": ""
-    },
-    {
-      "summary": "1:15 - Mine",
-      "date": "2026-05-30",
-      "day": "Saturday",
-      "description": "TSS 46, IF 0.61, kJ(Cal) 498.  Description: 1 hours and 15 minutes split into 5x13 minute intervals alternating between 55 and 66% FTP with a 5 minute warmup and 5 minute cooldown. Goals: Aerobic Endurance workouts are aimed at improving your aerobic-power-producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing fat for fuel and sparing sugar stores for more intense efforts. Additionally, Endurance workouts like this can improve oxygen delivery & utilization, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
       "location": ""
     },
     {
@@ -562,6 +527,20 @@
       "location": ""
     },
     {
+      "summary": "1:15 - Mine",
+      "date": "2026-05-30",
+      "day": "Saturday",
+      "description": "TSS 46, IF 0.61, kJ(Cal) 498.  Description: 1 hours and 15 minutes split into 5x13 minute intervals alternating between 55 and 66% FTP with a 5 minute warmup and 5 minute cooldown. Goals: Aerobic Endurance workouts are aimed at improving your aerobic-power-producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing fat for fuel and sparing sugar stores for more intense efforts. Additionally, Endurance workouts like this can improve oxygen delivery & utilization, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
+      "location": ""
+    },
+    {
+      "summary": "0:30 - King",
+      "date": "2026-05-21",
+      "day": "Thursday",
+      "description": "TSS 25, IF 0.71, kJ(Cal) 231.  Description: King is 30 minutes of aerobic Endurance riding spent somewhere between 65-78% FTP. Goals: Aerobic Endurance training is primarily about cultivating a strong, wide aerobic base that includes all of the physiological adaptations inherent in long, steady, low-intensity riding, such as improved fat metabolism, better oxygen delivery, improved glycogen conservation, lower HR at higher power outputs, and improved efficiency.As time-constrained as most riding schedules are though, shorter Endurance rides done consistently can make up for some of the time restrictions faced by most riders.Try to hold your spin within an 85-95rpm range and consider spending time adapting to and modifying your position on the bike when the workload is light and may put more pressure on other points of contact with the bike.",
+      "location": ""
+    },
+    {
       "summary": "0:35 - Base Run",
       "date": "2026-05-20",
       "day": "Wednesday",
@@ -667,6 +646,20 @@
       "location": ""
     },
     {
+      "summary": "0:45 - Run Intervals",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "0:42 - Swim Base + VO2max Intervals",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Bilateral Breathing drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Bilateral Breathing (BB) - Swim your regular freestyle stroke while breathing during every third stroke forcing yourself to discover and improve your weaker side. If this is challenging & uncoordinated at first, hang in there - your clumsy side will improve with practice.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Bowser",
       "date": "2026-04-21",
       "day": "Tuesday",
@@ -706,6 +699,13 @@
       "date": "2026-04-17",
       "day": "Friday",
       "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Obelisk",
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "description": "TSS 28, IF 0.53, kJ(Cal) 350.  Description: Obelisk is 4x3-minute intervals of leg-speed drills at a very low 60% FTP with 3 minutes of rest between intervals. Keep the pressure on the pedals light and your intensity low to moderate regardless of your cadence.  Goals: Leg-speed drills are aimed at improving pedal economy during a light/recovery ride. Focus on actively kicking over the top of the pedal stroke & pulling back across the bottom of the pedal stroke while remaining relaxed all with the intent of refining your pedaling technique, expending less energy at higher cadences & accumulating some extra, low-intensity mileage. For the 3-minute intervals, the beginning cadence should be above 90rpm, then simply spin more quickly until you?ve reached a spin between 110-120rpm without rocking or bouncing in the saddle. Remain smooth & relaxed and hold this high rpm for the duration of the interval as long as you can maintain your form.",
       "location": ""
     },
     {
