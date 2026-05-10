@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026-05-10T07:26:28.367293Z",
+  "updated_at": "2026-05-10T09:13:45.500563Z",
   "sessions": [
-    {
-      "summary": "Frost",
-      "date": "2026-04-13",
-      "day": "Monday",
-      "description": "TSS 56, IF 0.87, kJ(Cal) 368.  Description: Frost is 2x10-minute intervals that range from 99-105% of FTP with 3-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Pettit -1",
-      "date": "2026-04-14",
-      "day": "Tuesday",
-      "description": "TSS 27, IF 0.52, kJ(Cal) 342.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
-      "location": ""
-    },
     {
       "summary": "Joe Devel -4",
       "date": "2026-04-15",
@@ -23,10 +9,31 @@
       "location": ""
     },
     {
+      "summary": "0:26 - Swim Base Intervals",
+      "date": "2026-04-15",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Half Catch-Up drills w/ 10s rest between drills 5x100m Easy-Moderate, RPE5 w/ 5s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Half Catch-Up (HCU) - This abbreviated catch-up will bring the full catch-up drill closer to your actual freestyle stroke. Instead of waiting until your working arm reaches your lead arm, start pulling with your lead hand a little earlier when your working hand is even with your lead arm's elbow.",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Obelisk",
       "date": "2026-04-16",
       "day": "Thursday",
       "description": "TSS 28, IF 0.53, kJ(Cal) 350.  Description: Obelisk is 4x3-minute intervals of leg-speed drills at a very low 60% FTP with 3 minutes of rest between intervals. Keep the pressure on the pedals light and your intensity low to moderate regardless of your cadence.  Goals: Leg-speed drills are aimed at improving pedal economy during a light/recovery ride. Focus on actively kicking over the top of the pedal stroke & pulling back across the bottom of the pedal stroke while remaining relaxed all with the intent of refining your pedaling technique, expending less energy at higher cadences & accumulating some extra, low-intensity mileage. For the 3-minute intervals, the beginning cadence should be above 90rpm, then simply spin more quickly until you?ve reached a spin between 110-120rpm without rocking or bouncing in the saddle. Remain smooth & relaxed and hold this high rpm for the duration of the interval as long as you can maintain your form.",
+      "location": ""
+    },
+    {
+      "summary": "Lazy Mountain -2",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
+      "location": ""
+    },
+    {
+      "summary": "0:45 - Run Intervals",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -62,13 +69,6 @@
       "date": "2026-04-29",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Stroke Counting drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Stroke Counting (SC) - Target your stroke efficiency by trying to reduce the number of strokes you use to reach the opposite side of the pool. Count your strokes on your first trip across, then try to reduce the number of strokes during the next 2-3 trips across the pool by taking longer, more powerful pulls, rotating more & gliding a bit longer.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
-      "location": ""
-    },
-    {
-      "summary": "1:15 - Hayachin",
-      "date": "2026-04-30",
-      "day": "Thursday",
-      "description": "TSS 91, IF 0.85, kJ(Cal) 626.  Description: Hayachin is made up of 2 sets of 2x7.5-minute intervals with 1x7.5-minute interval on it's own, with each consisting of 90-second steps up from 93-107% FTP and then back down again. Recovery between intervals is a brief 60 seconds while the recoveries between sets of stepping intervals are each 5 minutes long. Goals: This threshold workout targets both muscular endurance as well as lactate tolerance which takes place at both the muscular level as well as the psychological level.While your muscles will gradually adapt to increasing levels of lactate and acidic accumulation and improve their ability to shuttle these metabolic byproducts more effectively, your mind will grow accustomed to tolerating these increasing levels of discomfort, all to the same end - riding harder for longer.The true challenge with these little bad boys comes as you step back down without letting your cadence plummet - spin steadily for the whole interval!Try to keep your spin in the 85-95rpm range, higher if you can do it without elevating your HR to an unsustainable level.",
       "location": ""
     },
     {
@@ -125,13 +125,6 @@
       "date": "2026-05-10",
       "day": "Sunday",
       "description": "Description: 100min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "0:26 - Swim Base Intervals",
-      "date": "2026-05-13",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Single-Arm drills w/ 10s rest between drills 5x100m Easy-Moderate, RPE5 w/ 5s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Single-Arm (SA) - Restrict yourself to one arm?s use for an entire pool length by keeping the opposite arm extended in front of you or at your side (advanced). If necessary, perform these drills using fins until you improve to the point that you can eliminate them. Try to use a moderate kick and normal body positioning, rolling into your working arm.",
       "location": ""
     },
     {
@@ -244,20 +237,6 @@
       "date": "2026-05-28",
       "day": "Thursday",
       "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:32 - Swim Speed Intervals",
-      "date": "2026-05-29",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Catch-Up drills w/ 10s rest between drills 5x100m of 25m Build from RPE4 to RPE8/25m Descend from RPE8 to RPE4, 10s rest between intervals 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
-      "location": ""
-    },
-    {
-      "summary": "0:40 - Base Run",
-      "date": "2026-05-29",
-      "day": "Friday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Keep the walking breaks as part of your process if they?re helping you maintain high run quality, but avoid using them as a crutch or an excuse to take a break. Use them if necessary but keep your running as continuous as possible if you?re capable.",
       "location": ""
     },
     {
@@ -534,10 +513,10 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Lazy Mountain -1",
+      "summary": "0:45 - Lazy Mountain -2",
       "date": "2026-06-04",
       "day": "Thursday",
-      "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
+      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
@@ -552,6 +531,20 @@
       "date": "2026-06-02",
       "day": "Tuesday",
       "description": "TSS 104, IF 0.83, kJ(Cal) 765.  Description: Antelope +3 is 6x10-minute Sweet Spot intervals between 88-94% FTP with 2.5-minute recoveries between intervals.  Goals: The key aims of Sweet Spot work are to both further your aerobic capabilities and increase your muscle endurance. Additionally, Antelope seeks to improve your ability to sustain power in an aerodynamic position en route to finding the optimal balance between power production & aerodynamic body positioning.Shoot for a cadence in the 85-95rpm range, but feel free to venture outside of this range if your target events rely on quicker or slower spins.",
+      "location": ""
+    },
+    {
+      "summary": "0:40 - Base Run",
+      "date": "2026-05-29",
+      "day": "Friday",
+      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Keep the walking breaks as part of your process if they?re helping you maintain high run quality, but avoid using them as a crutch or an excuse to take a break. Use them if necessary but keep your running as continuous as possible if you?re capable.",
+      "location": ""
+    },
+    {
+      "summary": "0:32 - Swim Speed Intervals",
+      "date": "2026-05-29",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Catch-Up drills w/ 10s rest between drills 5x100m of 25m Build from RPE4 to RPE8/25m Descend from RPE8 to RPE4, 10s rest between intervals 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
       "location": ""
     },
     {
@@ -580,6 +573,13 @@
       "date": "2026-05-14",
       "day": "Thursday",
       "description": "TSS 24, IF 0.49, kJ(Cal) 323.  Description: Lazy Mountain is 1 hour of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
+      "location": ""
+    },
+    {
+      "summary": "0:26 - Swim Base Intervals",
+      "date": "2026-05-13",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Single-Arm drills w/ 10s rest between drills 5x100m Easy-Moderate, RPE5 w/ 5s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Single-Arm (SA) - Restrict yourself to one arm?s use for an entire pool length by keeping the opposite arm extended in front of you or at your side (advanced). If necessary, perform these drills using fins until you improve to the point that you can eliminate them. Try to use a moderate kick and normal body positioning, rolling into your working arm.",
       "location": ""
     },
     {
@@ -639,6 +639,13 @@
       "location": ""
     },
     {
+      "summary": "1:15 - Hayachin",
+      "date": "2026-04-30",
+      "day": "Thursday",
+      "description": "TSS 91, IF 0.85, kJ(Cal) 626.  Description: Hayachin is made up of 2 sets of 2x7.5-minute intervals with 1x7.5-minute interval on it's own, with each consisting of 90-second steps up from 93-107% FTP and then back down again. Recovery between intervals is a brief 60 seconds while the recoveries between sets of stepping intervals are each 5 minutes long. Goals: This threshold workout targets both muscular endurance as well as lactate tolerance which takes place at both the muscular level as well as the psychological level.While your muscles will gradually adapt to increasing levels of lactate and acidic accumulation and improve their ability to shuttle these metabolic byproducts more effectively, your mind will grow accustomed to tolerating these increasing levels of discomfort, all to the same end - riding harder for longer.The true challenge with these little bad boys comes as you step back down without letting your cadence plummet - spin steadily for the whole interval!Try to keep your spin in the 85-95rpm range, higher if you can do it without elevating your HR to an unsustainable level.",
+      "location": ""
+    },
+    {
       "summary": "0:55 - Run Intervals",
       "date": "2026-04-29",
       "day": "Wednesday",
@@ -667,24 +674,10 @@
       "location": ""
     },
     {
-      "summary": "0:45 - Run Intervals",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
       "summary": "0:42 - Swim Base + VO2max Intervals",
       "date": "2026-04-22",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Bilateral Breathing drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Bilateral Breathing (BB) - Swim your regular freestyle stroke while breathing during every third stroke forcing yourself to discover and improve your weaker side. If this is challenging & uncoordinated at first, hang in there - your clumsy side will improve with practice.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
-      "location": ""
-    },
-    {
-      "summary": "Lazy Mountain -2",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
@@ -727,13 +720,6 @@
       "date": "2026-04-17",
       "day": "Friday",
       "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "0:26 - Swim Base Intervals",
-      "date": "2026-04-15",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Half Catch-Up drills w/ 10s rest between drills 5x100m Easy-Moderate, RPE5 w/ 5s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Half Catch-Up (HCU) - This abbreviated catch-up will bring the full catch-up drill closer to your actual freestyle stroke. Instead of waiting until your working arm reaches your lead arm, start pulling with your lead hand a little earlier when your working hand is even with your lead arm's elbow.",
       "location": ""
     },
     {
@@ -1325,6 +1311,13 @@
       "location": ""
     },
     {
+      "summary": "1:00 - Pettit -1",
+      "date": "2026-04-14",
+      "day": "Tuesday",
+      "description": "TSS 27, IF 0.52, kJ(Cal) 342.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Rendezvous",
       "date": "2026-08-27",
       "day": "Thursday",
@@ -1406,6 +1399,13 @@
       "date": "2026-09-05",
       "day": "Saturday",
       "description": "TSS 33, IF 0.81, kJ(Cal) 227.  Description: Marys is 2x6-minute intervals at 98% FTP with 5-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
+      "location": ""
+    },
+    {
+      "summary": "Frost",
+      "date": "2026-04-13",
+      "day": "Monday",
+      "description": "TSS 56, IF 0.87, kJ(Cal) 368.  Description: Frost is 2x10-minute intervals that range from 99-105% of FTP with 3-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
       "location": ""
     },
     {
