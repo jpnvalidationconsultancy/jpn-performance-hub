@@ -1,25 +1,11 @@
 {
-  "updated_at": "2026-05-10T18:32:03.786726Z",
+  "updated_at": "2026-05-10T19:59:43.915332Z",
   "sessions": [
     {
       "summary": "1:00 - Obelisk",
       "date": "2026-04-16",
       "day": "Thursday",
       "description": "TSS 28, IF 0.53, kJ(Cal) 350.  Description: Obelisk is 4x3-minute intervals of leg-speed drills at a very low 60% FTP with 3 minutes of rest between intervals. Keep the pressure on the pedals light and your intensity low to moderate regardless of your cadence.  Goals: Leg-speed drills are aimed at improving pedal economy during a light/recovery ride. Focus on actively kicking over the top of the pedal stroke & pulling back across the bottom of the pedal stroke while remaining relaxed all with the intent of refining your pedaling technique, expending less energy at higher cadences & accumulating some extra, low-intensity mileage. For the 3-minute intervals, the beginning cadence should be above 90rpm, then simply spin more quickly until you?ve reached a spin between 110-120rpm without rocking or bouncing in the saddle. Remain smooth & relaxed and hold this high rpm for the duration of the interval as long as you can maintain your form.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Lazy Mountain -1",
-      "date": "2026-04-19",
-      "day": "Sunday",
-      "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
-      "summary": "Lazy Mountain -2",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
@@ -160,13 +146,6 @@
       "date": "2026-05-16",
       "day": "Saturday",
       "description": "TSS 12, IF 0.50, kJ(Cal) 166.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as 'accumulation rides' are performed within 4-24 hours after your last key workout, race, or event - any other physically stressful ride works as well. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e., improved pedal economy), increased fat metabolism, and even heat acclimation to name a few.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Recess",
-      "date": "2026-05-17",
-      "day": "Sunday",
-      "description": "TSS 25, IF 0.50, kJ(Cal) 332.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as \"accumulation rides\" are performed within 4-24 hours after your last key workout, race/event, or any other similar, stressful ride. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e. improved pedal economy), increased fat metabolism, and heat acclimation to name a few.",
       "location": ""
     },
     {
@@ -576,6 +555,13 @@
       "location": ""
     },
     {
+      "summary": "1:00 - Recess",
+      "date": "2026-05-17",
+      "day": "Sunday",
+      "description": "TSS 25, IF 0.50, kJ(Cal) 332.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as \"accumulation rides\" are performed within 4-24 hours after your last key workout, race/event, or any other similar, stressful ride. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e. improved pedal economy), increased fat metabolism, and heat acclimation to name a few.",
+      "location": ""
+    },
+    {
       "summary": "0:32 - Swim Base Intervals",
       "date": "2026-05-15",
       "day": "Friday",
@@ -674,10 +660,24 @@
       "location": ""
     },
     {
+      "summary": "Lazy Mountain -2",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Bowser",
       "date": "2026-04-21",
       "day": "Tuesday",
       "description": "TSS 87, IF 0.93, kJ(Cal) 512.  Description: Bowser is 5x5-minute intervals between 112-115% FTP with 4-minute recoveries between intervals. Goals: No two ways about it, these are hard. Holding power above FTP is, by its nature, short-term due to the fact that it's a tough place to reside.But by working at mildly suprathreshold power outputs, ones that take place at high percentages of your VO2max, you can push your FTP higher while gaining some meaningful aerobic adaptation in the process.On top of that, intervals that induce and sustain high levels of lactate work well toward lifting your physical (and mental) lactate tolerance.Strive for a cadence above 85rpm, preferably one above 95rpm.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Lazy Mountain -1",
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
