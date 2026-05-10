@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-05-10T00:12:34.141423Z",
+  "updated_at": "2026-05-10T04:32:32.093010Z",
   "sessions": [
-    {
-      "summary": "1:00 - Obelisk",
-      "date": "2026-04-16",
-      "day": "Thursday",
-      "description": "TSS 28, IF 0.53, kJ(Cal) 350.  Description: Obelisk is 4x3-minute intervals of leg-speed drills at a very low 60% FTP with 3 minutes of rest between intervals. Keep the pressure on the pedals light and your intensity low to moderate regardless of your cadence.  Goals: Leg-speed drills are aimed at improving pedal economy during a light/recovery ride. Focus on actively kicking over the top of the pedal stroke & pulling back across the bottom of the pedal stroke while remaining relaxed all with the intent of refining your pedaling technique, expending less energy at higher cadences & accumulating some extra, low-intensity mileage. For the 3-minute intervals, the beginning cadence should be above 90rpm, then simply spin more quickly until you?ve reached a spin between 110-120rpm without rocking or bouncing in the saddle. Remain smooth & relaxed and hold this high rpm for the duration of the interval as long as you can maintain your form.",
-      "location": ""
-    },
     {
       "summary": "0:45 - Run Intervals",
       "date": "2026-04-22",
@@ -51,13 +44,6 @@
       "location": ""
     },
     {
-      "summary": "0:55 - Run Intervals",
-      "date": "2026-04-29",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  4x5min Hard RPE7 (10k) pace, 3min easy  13min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
       "summary": "1:15 - Hayachin",
       "date": "2026-04-30",
       "day": "Thursday",
@@ -69,20 +55,6 @@
       "date": "2026-05-01",
       "day": "Friday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Back Sculling drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 45s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Back Sculling (BS) - Keep your arms at your sides and point your fingertips back toward your toes as you propel yourself with those familiar figure-eight movements without moving your hands any wider than shoulder width.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
-      "location": ""
-    },
-    {
-      "summary": "0:30 - Brick Run",
-      "date": "2026-05-02",
-      "day": "Saturday",
-      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
-      "location": ""
-    },
-    {
-      "summary": "1:30 - Elbow",
-      "date": "2026-05-02",
-      "day": "Saturday",
-      "description": "TSS 96, IF 0.80, kJ(Cal) 654.  Description: Elbow consists of 4x8.5-minute segments ranging from 99-100% FTP, each separated by 8.5-minute recoveries. Goals: The goal here is to elevate your strength endurance by learning to ride for longer and longer durations at your current FTP. As your body grows accustomed to a certain level of stress, your ability to withstand that stress for longer periods of time improves. Before you know it, your muscles don't load up like they used to, your mind isn't completely consumed with the desire to ease up, and your so-called \"hour power\" gravitates toward truer hour-power.The recommended cadence range is wide, 85-105 rpm, and accommodates many styles of riding. Riders wishing to focus more on improvements in strength endurance will spin toward the lower end of this cadence range while riders looking to foster a quicker spin will ride toward the upper end of the range.Or mix and match from interval to interval, just do your best to keep the power output smooth and consistent over the course of these 4 intervals.",
       "location": ""
     },
     {
@@ -286,6 +258,13 @@
       "date": "2026-06-03",
       "day": "Wednesday",
       "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   As the overall run duration increases a little bit, keep adding 1-minute walking breaks as necessary as you grow your steady run durations another minute or two aiming to run for 8-10 minutes at a stretch",
+      "location": ""
+    },
+    {
+      "summary": "0:40 - Base Run",
+      "date": "2026-06-05",
+      "day": "Friday",
+      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Shoot for those slightly longer stretches this week but keep your form at the top of your list of priorities. Much like swimming, small improvements in your technique can go a long way toward making you faster (and less prone to injury).",
       "location": ""
     },
     {
@@ -527,13 +506,6 @@
       "location": ""
     },
     {
-      "summary": "0:40 - Base Run",
-      "date": "2026-06-05",
-      "day": "Friday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Shoot for those slightly longer stretches this week but keep your form at the top of your list of priorities. Much like swimming, small improvements in your technique can go a long way toward making you faster (and less prone to injury).",
-      "location": ""
-    },
-    {
       "summary": "1:00 - Lazy Mountain -1",
       "date": "2026-06-04",
       "day": "Thursday",
@@ -625,10 +597,31 @@
       "location": ""
     },
     {
+      "summary": "1:30 - Elbow",
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "description": "TSS 96, IF 0.80, kJ(Cal) 654.  Description: Elbow consists of 4x8.5-minute segments ranging from 99-100% FTP, each separated by 8.5-minute recoveries. Goals: The goal here is to elevate your strength endurance by learning to ride for longer and longer durations at your current FTP. As your body grows accustomed to a certain level of stress, your ability to withstand that stress for longer periods of time improves. Before you know it, your muscles don't load up like they used to, your mind isn't completely consumed with the desire to ease up, and your so-called \"hour power\" gravitates toward truer hour-power.The recommended cadence range is wide, 85-105 rpm, and accommodates many styles of riding. Riders wishing to focus more on improvements in strength endurance will spin toward the lower end of this cadence range while riders looking to foster a quicker spin will ride toward the upper end of the range.Or mix and match from interval to interval, just do your best to keep the power output smooth and consistent over the course of these 4 intervals.",
+      "location": ""
+    },
+    {
+      "summary": "0:30 - Brick Run",
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
+      "location": ""
+    },
+    {
       "summary": "0:45 - Race Pace Run",
       "date": "2026-05-01",
       "day": "Friday",
       "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  25min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "0:55 - Run Intervals",
+      "date": "2026-04-29",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  4x5min Hard RPE7 (10k) pace, 3min easy  13min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -706,6 +699,13 @@
       "date": "2026-04-17",
       "day": "Friday",
       "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Obelisk",
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "description": "TSS 28, IF 0.53, kJ(Cal) 350.  Description: Obelisk is 4x3-minute intervals of leg-speed drills at a very low 60% FTP with 3 minutes of rest between intervals. Keep the pressure on the pedals light and your intensity low to moderate regardless of your cadence.  Goals: Leg-speed drills are aimed at improving pedal economy during a light/recovery ride. Focus on actively kicking over the top of the pedal stroke & pulling back across the bottom of the pedal stroke while remaining relaxed all with the intent of refining your pedaling technique, expending less energy at higher cadences & accumulating some extra, low-intensity mileage. For the 3-minute intervals, the beginning cadence should be above 90rpm, then simply spin more quickly until you?ve reached a spin between 110-120rpm without rocking or bouncing in the saddle. Remain smooth & relaxed and hold this high rpm for the duration of the interval as long as you can maintain your form.",
       "location": ""
     },
     {
