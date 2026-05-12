@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-05-12T04:23:51.082833Z",
+  "updated_at": "2026-05-12T07:23:14.169037Z",
   "sessions": [
+    {
+      "summary": "Frost",
+      "date": "2026-04-13",
+      "day": "Monday",
+      "description": "TSS 56, IF 0.87, kJ(Cal) 368.  Description: Frost is 2x10-minute intervals that range from 99-105% of FTP with 3-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
+      "location": ""
+    },
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
       "date": "2026-04-24",
@@ -44,13 +51,6 @@
       "location": ""
     },
     {
-      "summary": "0:30 - Brick Run",
-      "date": "2026-05-02",
-      "day": "Saturday",
-      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
-      "location": ""
-    },
-    {
       "summary": "0:40 - Base Run",
       "date": "2026-05-03",
       "day": "Sunday",
@@ -62,6 +62,13 @@
       "date": "2026-05-03",
       "day": "Sunday",
       "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Run Intervals",
+      "date": "2026-05-06",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -569,13 +576,6 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Run Intervals",
-      "date": "2026-05-06",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
       "summary": "0:46 - Swim Base + VO2max Intervals",
       "date": "2026-05-06",
       "day": "Wednesday",
@@ -594,6 +594,13 @@
       "date": "2026-05-02",
       "day": "Saturday",
       "description": "TSS 96, IF 0.80, kJ(Cal) 654.  Description: Elbow consists of 4x8.5-minute segments ranging from 99-100% FTP, each separated by 8.5-minute recoveries. Goals: The goal here is to elevate your strength endurance by learning to ride for longer and longer durations at your current FTP. As your body grows accustomed to a certain level of stress, your ability to withstand that stress for longer periods of time improves. Before you know it, your muscles don't load up like they used to, your mind isn't completely consumed with the desire to ease up, and your so-called \"hour power\" gravitates toward truer hour-power.The recommended cadence range is wide, 85-105 rpm, and accommodates many styles of riding. Riders wishing to focus more on improvements in strength endurance will spin toward the lower end of this cadence range while riders looking to foster a quicker spin will ride toward the upper end of the range.Or mix and match from interval to interval, just do your best to keep the power output smooth and consistent over the course of these 4 intervals.",
+      "location": ""
+    },
+    {
+      "summary": "0:30 - Brick Run",
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
       "location": ""
     },
     {
@@ -734,13 +741,6 @@
       "date": "2026-04-14",
       "day": "Tuesday",
       "description": "TSS 27, IF 0.52, kJ(Cal) 342.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
-      "location": ""
-    },
-    {
-      "summary": "Frost",
-      "date": "2026-04-13",
-      "day": "Monday",
-      "description": "TSS 56, IF 0.87, kJ(Cal) 368.  Description: Frost is 2x10-minute intervals that range from 99-105% of FTP with 3-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
       "location": ""
     },
     {
