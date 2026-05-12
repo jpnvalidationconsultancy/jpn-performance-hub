@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-12T07:23:14.169037Z",
+  "updated_at": "2026-05-12T10:04:58.948374Z",
   "sessions": [
     {
-      "summary": "Frost",
-      "date": "2026-04-13",
-      "day": "Monday",
-      "description": "TSS 56, IF 0.87, kJ(Cal) 368.  Description: Frost is 2x10-minute intervals that range from 99-105% of FTP with 3-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
+      "summary": "0:45 - Run Intervals",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -62,13 +62,6 @@
       "date": "2026-05-03",
       "day": "Sunday",
       "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Run Intervals",
-      "date": "2026-05-06",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -576,6 +569,13 @@
       "location": ""
     },
     {
+      "summary": "1:00 - Run Intervals",
+      "date": "2026-05-06",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
       "summary": "0:46 - Swim Base + VO2max Intervals",
       "date": "2026-05-06",
       "day": "Wednesday",
@@ -643,13 +643,6 @@
       "date": "2026-04-23",
       "day": "Thursday",
       "description": "TSS 68, IF 0.82, kJ(Cal) 464.  Description: Cloudripper -4 is 3x9-minute over-under intervals alternating between 2 minutes at 95% FTP and 1 minute at 105% FTP with 9-minute recoveries between intervals. Goals: The primary objective of over-unders is to increase your ability to tolerate and utilize the byproducts that accompany riding above your FTP, all while maintaining a reasonably high power output. In doing so, you'll develop the ability to handle changes in pace while doing quite a lot of work. The over-segments or 'surges' flood the muscle with metabolic byproducts bringing with them the desire to ease up - don't.Hold that burn, then back off only slightly during the under-segments or 'valleys' in order to work through the burn and effectively train your muscles to process the lactic buildup while still going pretty hard.These intervals can increase how long you can work above FTP as well as how quickly you can reprocess the lactate buildup that can lead to muscle acidity. Equally as important, the short efforts above your current FTP can actually lead to increases in FTP.Try to keep your cadence above 85rpm, preferably above 95rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:45 - Run Intervals",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -741,6 +734,13 @@
       "date": "2026-04-14",
       "day": "Tuesday",
       "description": "TSS 27, IF 0.52, kJ(Cal) 342.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
+      "location": ""
+    },
+    {
+      "summary": "Frost",
+      "date": "2026-04-13",
+      "day": "Monday",
+      "description": "TSS 56, IF 0.87, kJ(Cal) 368.  Description: Frost is 2x10-minute intervals that range from 99-105% of FTP with 3-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
       "location": ""
     },
     {
