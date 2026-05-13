@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T16:02:25.798057Z",
+  "updated_at": "2026-05-13T18:23:52.447950Z",
   "sessions": [
     {
       "summary": "Joe Devel -4",
@@ -51,6 +51,20 @@
       "location": ""
     },
     {
+      "summary": "0:30 - Brick Run",
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
+      "location": ""
+    },
+    {
+      "summary": "1:30 - Elbow",
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "description": "TSS 96, IF 0.80, kJ(Cal) 654.  Description: Elbow consists of 4x8.5-minute segments ranging from 99-100% FTP, each separated by 8.5-minute recoveries. Goals: The goal here is to elevate your strength endurance by learning to ride for longer and longer durations at your current FTP. As your body grows accustomed to a certain level of stress, your ability to withstand that stress for longer periods of time improves. Before you know it, your muscles don't load up like they used to, your mind isn't completely consumed with the desire to ease up, and your so-called \"hour power\" gravitates toward truer hour-power.The recommended cadence range is wide, 85-105 rpm, and accommodates many styles of riding. Riders wishing to focus more on improvements in strength endurance will spin toward the lower end of this cadence range while riders looking to foster a quicker spin will ride toward the upper end of the range.Or mix and match from interval to interval, just do your best to keep the power output smooth and consistent over the course of these 4 intervals.",
+      "location": ""
+    },
+    {
       "summary": "0:40 - Base Run",
       "date": "2026-05-03",
       "day": "Sunday",
@@ -93,24 +107,10 @@
       "location": ""
     },
     {
-      "summary": "0:56 - Continuous Base Swim",
-      "date": "2026-05-10",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
-      "location": ""
-    },
-    {
       "summary": "0:30 - Base Run",
       "date": "2026-05-13",
       "day": "Wednesday",
       "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Lazy Mountain",
-      "date": "2026-05-14",
-      "day": "Thursday",
-      "description": "TSS 24, IF 0.49, kJ(Cal) 323.  Description: Lazy Mountain is 1 hour of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
@@ -251,13 +251,6 @@
       "date": "2026-05-31",
       "day": "Sunday",
       "description": "Description: 45min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary but try to grow your continuous running stretches a minute or two each week. So if you ran for 8 minutes last week before walking for a minute, try to run for 9 or 10 minutes before walking during next week?s base runs.",
-      "location": ""
-    },
-    {
-      "summary": "1:30 - Galena",
-      "date": "2026-06-02",
-      "day": "Tuesday",
-      "description": "TSS 107, IF 0.85, kJ(Cal) 775.  Description: Galena is 3x20-minute Sweet Spot efforts between 90-94% FTP with 5 minutes of recovery between intervals.  Goals: The primary aim of Sweet Spot work is to improve your ability to resist fatigue at reasonably high power outputs over substantial lengths of time.In other words, workouts like this are all about increasing your muscular endurance.In doing so, you can improve your ability to climb faster and longer, face stiff winds without fading and time trial more consistently over the entire course of an event. Additionally, you have the option of targeting specific aspects of climbing form, time trialing, speed endurance, and aerodynamic positioning.Cadence should fall in the 70-85rpm range if you wish to simulate climbing demands, 85-95rpm otherwise.",
       "location": ""
     },
     {
@@ -527,6 +520,13 @@
       "location": ""
     },
     {
+      "summary": "1:30 - Galena",
+      "date": "2026-06-02",
+      "day": "Tuesday",
+      "description": "TSS 107, IF 0.85, kJ(Cal) 775.  Description: Galena is 3x20-minute Sweet Spot efforts between 90-94% FTP with 5 minutes of recovery between intervals.  Goals: The primary aim of Sweet Spot work is to improve your ability to resist fatigue at reasonably high power outputs over substantial lengths of time.In other words, workouts like this are all about increasing your muscular endurance.In doing so, you can improve your ability to climb faster and longer, face stiff winds without fading and time trial more consistently over the entire course of an event. Additionally, you have the option of targeting specific aspects of climbing form, time trialing, speed endurance, and aerodynamic positioning.Cadence should fall in the 70-85rpm range if you wish to simulate climbing demands, 85-95rpm otherwise.",
+      "location": ""
+    },
+    {
       "summary": "0:35 - Base Run",
       "date": "2026-05-20",
       "day": "Wednesday",
@@ -548,6 +548,13 @@
       "location": ""
     },
     {
+      "summary": "1:00 - Lazy Mountain",
+      "date": "2026-05-14",
+      "day": "Thursday",
+      "description": "TSS 24, IF 0.49, kJ(Cal) 323.  Description: Lazy Mountain is 1 hour of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
+      "location": ""
+    },
+    {
       "summary": "0:26 - Swim Base Intervals",
       "date": "2026-05-13",
       "day": "Wednesday",
@@ -559,6 +566,13 @@
       "date": "2026-05-12",
       "day": "Tuesday",
       "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
+      "location": ""
+    },
+    {
+      "summary": "0:56 - Continuous Base Swim",
+      "date": "2026-05-10",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
       "location": ""
     },
     {
@@ -587,20 +601,6 @@
       "date": "2026-05-05",
       "day": "Tuesday",
       "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "1:30 - Elbow",
-      "date": "2026-05-02",
-      "day": "Saturday",
-      "description": "TSS 96, IF 0.80, kJ(Cal) 654.  Description: Elbow consists of 4x8.5-minute segments ranging from 99-100% FTP, each separated by 8.5-minute recoveries. Goals: The goal here is to elevate your strength endurance by learning to ride for longer and longer durations at your current FTP. As your body grows accustomed to a certain level of stress, your ability to withstand that stress for longer periods of time improves. Before you know it, your muscles don't load up like they used to, your mind isn't completely consumed with the desire to ease up, and your so-called \"hour power\" gravitates toward truer hour-power.The recommended cadence range is wide, 85-105 rpm, and accommodates many styles of riding. Riders wishing to focus more on improvements in strength endurance will spin toward the lower end of this cadence range while riders looking to foster a quicker spin will ride toward the upper end of the range.Or mix and match from interval to interval, just do your best to keep the power output smooth and consistent over the course of these 4 intervals.",
-      "location": ""
-    },
-    {
-      "summary": "0:30 - Brick Run",
-      "date": "2026-05-02",
-      "day": "Saturday",
-      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
       "location": ""
     },
     {
