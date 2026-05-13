@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-05-13T04:29:54.445322Z",
+  "updated_at": "2026-05-13T07:38:57.602318Z",
   "sessions": [
+    {
+      "summary": "Frost",
+      "date": "2026-04-13",
+      "day": "Monday",
+      "description": "TSS 56, IF 0.87, kJ(Cal) 368.  Description: Frost is 2x10-minute intervals that range from 99-105% of FTP with 3-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
+      "location": ""
+    },
+    {
+      "summary": "Joe Devel -4",
+      "date": "2026-04-15",
+      "day": "Wednesday",
+      "description": "TSS 54, IF 0.85, kJ(Cal) 364.  Description: Joe Devel -4 scales things down a bit but still consists of 4 sets of Anaerobic power repeats in various shapes and sizes, all consisting of microbursts of different work durations but the same 15-second recovery valleys.Set 1 consists of 15-second On-segments at 150% FTP, set 2 consists of 30-second On-segments at 130% FTP, set 3 consists of 45-second On-segments at 120% FTP and set 4 consists of 18-second On-segments at 140% FTP.All recoveries between sets are 5 minutes long. Goals: As with any power repeat workout, the aim is to exploit your work capacity rather than build it. So while workouts with plenty of recovery between intervals help you BUILD your ability to do a lot of work, workouts like Joe Devel place the intervals close together and force you to actually DO a lot of work. All told, you'll have the opportunity to accumulate a lot of time working heavily anaerobically, relying on your sugar stores as much or more than your oxygen intake.But don't let that fool you into believing your aerobic system won't be operating full-tilt, because it will since these short recoveries don't allow your respiration to drop far & make each subsequent interval take less and less time to push you to your aerobic capacity, aka VO2max.All of this fancy-talk is just to say you're gonna push your limits in a number of productive ways. Keep your spin quick, upwards of 100rpm, but stay controlled & relaxed - no bouncing, no slop.",
+      "location": ""
+    },
     {
       "summary": "Lazy Mountain -2",
       "date": "2026-04-22",
@@ -93,10 +107,24 @@
       "location": ""
     },
     {
+      "summary": "0:56 - Continuous Base Swim",
+      "date": "2026-05-10",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
+      "location": ""
+    },
+    {
       "summary": "0:30 - Base Run",
       "date": "2026-05-13",
       "day": "Wednesday",
       "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Lazy Mountain",
+      "date": "2026-05-14",
+      "day": "Thursday",
+      "description": "TSS 24, IF 0.49, kJ(Cal) 323.  Description: Lazy Mountain is 1 hour of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
@@ -534,13 +562,6 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Lazy Mountain",
-      "date": "2026-05-14",
-      "day": "Thursday",
-      "description": "TSS 24, IF 0.49, kJ(Cal) 323.  Description: Lazy Mountain is 1 hour of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
       "summary": "0:26 - Swim Base Intervals",
       "date": "2026-05-13",
       "day": "Wednesday",
@@ -552,13 +573,6 @@
       "date": "2026-05-12",
       "day": "Tuesday",
       "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:56 - Continuous Base Swim",
-      "date": "2026-05-10",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
       "location": ""
     },
     {
@@ -723,24 +737,10 @@
       "location": ""
     },
     {
-      "summary": "Joe Devel -4",
-      "date": "2026-04-15",
-      "day": "Wednesday",
-      "description": "TSS 54, IF 0.85, kJ(Cal) 364.  Description: Joe Devel -4 scales things down a bit but still consists of 4 sets of Anaerobic power repeats in various shapes and sizes, all consisting of microbursts of different work durations but the same 15-second recovery valleys.Set 1 consists of 15-second On-segments at 150% FTP, set 2 consists of 30-second On-segments at 130% FTP, set 3 consists of 45-second On-segments at 120% FTP and set 4 consists of 18-second On-segments at 140% FTP.All recoveries between sets are 5 minutes long. Goals: As with any power repeat workout, the aim is to exploit your work capacity rather than build it. So while workouts with plenty of recovery between intervals help you BUILD your ability to do a lot of work, workouts like Joe Devel place the intervals close together and force you to actually DO a lot of work. All told, you'll have the opportunity to accumulate a lot of time working heavily anaerobically, relying on your sugar stores as much or more than your oxygen intake.But don't let that fool you into believing your aerobic system won't be operating full-tilt, because it will since these short recoveries don't allow your respiration to drop far & make each subsequent interval take less and less time to push you to your aerobic capacity, aka VO2max.All of this fancy-talk is just to say you're gonna push your limits in a number of productive ways. Keep your spin quick, upwards of 100rpm, but stay controlled & relaxed - no bouncing, no slop.",
-      "location": ""
-    },
-    {
       "summary": "1:00 - Pettit -1",
       "date": "2026-04-14",
       "day": "Tuesday",
       "description": "TSS 27, IF 0.52, kJ(Cal) 342.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
-      "location": ""
-    },
-    {
-      "summary": "Frost",
-      "date": "2026-04-13",
-      "day": "Monday",
-      "description": "TSS 56, IF 0.87, kJ(Cal) 368.  Description: Frost is 2x10-minute intervals that range from 99-105% of FTP with 3-minutes of recovery in between. Goals: The primary objective here is improvement in muscular endurance accomplished by growing your ability to repeat efforts at high percentages of your FTP.By working close to but below your FTP, you not only accumulate a lot of time at a meaningful level of stress, but recovery from slightly sub-threshold effort comes much more readily than recovery following work done at or just above your FTP.Try to hold your spin above 85rpm and even as high as 105rpm depending on your sustainable power and cadence goals.",
       "location": ""
     },
     {
