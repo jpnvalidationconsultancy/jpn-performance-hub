@@ -1,25 +1,11 @@
 {
-  "updated_at": "2026-05-16T03:49:30.697782Z",
+  "updated_at": "2026-05-16T06:24:58.112678Z",
   "sessions": [
-    {
-      "summary": "Lazy Mountain -2",
-      "date": "2026-04-22",
-      "day": "Wednesday",
-      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
     {
       "summary": "0:45 - Run Intervals",
       "date": "2026-04-22",
       "day": "Wednesday",
       "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  3x5min Hard RPE7 (10k) pace, 3min easy  11min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
-      "summary": "0:48 - Swim Threshold + Speed Intervals",
-      "date": "2026-04-24",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 60s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
       "location": ""
     },
     {
@@ -37,13 +23,6 @@
       "location": ""
     },
     {
-      "summary": "1:15 - Hayachin",
-      "date": "2026-04-30",
-      "day": "Thursday",
-      "description": "TSS 91, IF 0.85, kJ(Cal) 626.  Description: Hayachin is made up of 2 sets of 2x7.5-minute intervals with 1x7.5-minute interval on it's own, with each consisting of 90-second steps up from 93-107% FTP and then back down again. Recovery between intervals is a brief 60 seconds while the recoveries between sets of stepping intervals are each 5 minutes long. Goals: This threshold workout targets both muscular endurance as well as lactate tolerance which takes place at both the muscular level as well as the psychological level.While your muscles will gradually adapt to increasing levels of lactate and acidic accumulation and improve their ability to shuttle these metabolic byproducts more effectively, your mind will grow accustomed to tolerating these increasing levels of discomfort, all to the same end - riding harder for longer.The true challenge with these little bad boys comes as you step back down without letting your cadence plummet - spin steadily for the whole interval!Try to keep your spin in the 85-95rpm range, higher if you can do it without elevating your HR to an unsustainable level.",
-      "location": ""
-    },
-    {
       "summary": "0:40 - Base Run",
       "date": "2026-05-03",
       "day": "Sunday",
@@ -55,13 +34,6 @@
       "date": "2026-05-03",
       "day": "Sunday",
       "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-05-05",
-      "day": "Tuesday",
-      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -90,20 +62,6 @@
       "date": "2026-05-10",
       "day": "Sunday",
       "description": "Description: 100min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Lazy Mountain -1",
-      "date": "2026-05-12",
-      "day": "Tuesday",
-      "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:26 - Swim Base Intervals",
-      "date": "2026-05-13",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Single-Arm drills w/ 10s rest between drills 5x100m Easy-Moderate, RPE5 w/ 5s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Single-Arm (SA) - Restrict yourself to one arm?s use for an entire pool length by keeping the opposite arm extended in front of you or at your side (advanced). If necessary, perform these drills using fins until you improve to the point that you can eliminate them. Try to use a moderate kick and normal body positioning, rolling into your working arm.",
       "location": ""
     },
     {
@@ -251,13 +209,6 @@
       "date": "2026-06-03",
       "day": "Wednesday",
       "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   As the overall run duration increases a little bit, keep adding 1-minute walking breaks as necessary as you grow your steady run durations another minute or two aiming to run for 8-10 minutes at a stretch",
-      "location": ""
-    },
-    {
-      "summary": "0:40 - Base Run",
-      "date": "2026-06-05",
-      "day": "Friday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Shoot for those slightly longer stretches this week but keep your form at the top of your list of priorities. Much like swimming, small improvements in your technique can go a long way toward making you faster (and less prone to injury).",
       "location": ""
     },
     {
@@ -499,6 +450,13 @@
       "location": ""
     },
     {
+      "summary": "0:40 - Base Run",
+      "date": "2026-06-05",
+      "day": "Friday",
+      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Shoot for those slightly longer stretches this week but keep your form at the top of your list of priorities. Much like swimming, small improvements in your technique can go a long way toward making you faster (and less prone to injury).",
+      "location": ""
+    },
+    {
       "summary": "Rest Day",
       "date": "2026-06-04",
       "day": "Thursday",
@@ -513,10 +471,24 @@
       "location": ""
     },
     {
+      "summary": "1:30 - Antelope +3",
+      "date": "2026-06-02",
+      "day": "Tuesday",
+      "description": "TSS 104, IF 0.83, kJ(Cal) 765.  Description: Antelope +3 is 6x10-minute Sweet Spot intervals between 88-94% FTP with 2.5-minute recoveries between intervals.  Goals: The key aims of Sweet Spot work are to both further your aerobic capabilities and increase your muscle endurance. Additionally, Antelope seeks to improve your ability to sustain power in an aerodynamic position en route to finding the optimal balance between power production & aerodynamic body positioning.Shoot for a cadence in the 85-95rpm range, but feel free to venture outside of this range if your target events rely on quicker or slower spins.",
+      "location": ""
+    },
+    {
       "summary": "0:35 - Base Run",
       "date": "2026-05-20",
       "day": "Wednesday",
       "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to insert 1 minute of walking whenever necessary as you try to run more continuously from week to week and emphasize quality over quantity at this early point in your running. Try to run for 5 minutes between walking breaks if possible.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Pettit -1",
+      "date": "2026-05-17",
+      "day": "Sunday",
+      "description": "TSS 27, IF 0.52, kJ(Cal) 342.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
       "location": ""
     },
     {
@@ -534,10 +506,31 @@
       "location": ""
     },
     {
-      "summary": "0:56 - Continuous Base Swim",
-      "date": "2026-05-10",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
+      "summary": "0:26 - Swim Base Intervals",
+      "date": "2026-05-13",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Single-Arm drills w/ 10s rest between drills 5x100m Easy-Moderate, RPE5 w/ 5s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Single-Arm (SA) - Restrict yourself to one arm?s use for an entire pool length by keeping the opposite arm extended in front of you or at your side (advanced). If necessary, perform these drills using fins until you improve to the point that you can eliminate them. Try to use a moderate kick and normal body positioning, rolling into your working arm.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Run Intervals",
+      "date": "2026-05-06",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "0:46 - Swim Base + VO2max Intervals",
+      "date": "2026-05-06",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Front Sculling drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 6x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Front Sculling (FS) - Stretch your arms out in front of you, fingertips pointed forward, arms no more than shoulder-width apart and use both hands to propel yourself forward by \"sculling\" in a figure-eight pattern as you simulate the catch over & over. Use a minimal kick and do this with your head up or down.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-05-05",
+      "day": "Tuesday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -590,6 +583,13 @@
       "location": ""
     },
     {
+      "summary": "0:48 - Swim Threshold + Speed Intervals",
+      "date": "2026-04-24",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 60s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
+      "location": ""
+    },
+    {
       "summary": "0:40 - Race Pace Run",
       "date": "2026-04-24",
       "day": "Friday",
@@ -597,17 +597,10 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Run Intervals",
-      "date": "2026-05-06",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
-      "summary": "0:46 - Swim Base + VO2max Intervals",
-      "date": "2026-05-06",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Front Sculling drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 6x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Front Sculling (FS) - Stretch your arms out in front of you, fingertips pointed forward, arms no more than shoulder-width apart and use both hands to propel yourself forward by \"sculling\" in a figure-eight pattern as you simulate the catch over & over. Use a minimal kick and do this with your head up or down.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "summary": "0:56 - Continuous Base Swim",
+      "date": "2026-05-10",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
       "location": ""
     },
     {
@@ -1185,13 +1178,6 @@
       "location": ""
     },
     {
-      "summary": "1:30 - Antelope +3",
-      "date": "2026-06-02",
-      "day": "Tuesday",
-      "description": "TSS 104, IF 0.83, kJ(Cal) 765.  Description: Antelope +3 is 6x10-minute Sweet Spot intervals between 88-94% FTP with 2.5-minute recoveries between intervals.  Goals: The key aims of Sweet Spot work are to both further your aerobic capabilities and increase your muscle endurance. Additionally, Antelope seeks to improve your ability to sustain power in an aerodynamic position en route to finding the optimal balance between power production & aerodynamic body positioning.Shoot for a cadence in the 85-95rpm range, but feel free to venture outside of this range if your target events rely on quicker or slower spins.",
-      "location": ""
-    },
-    {
       "summary": "1:15 - Carpathian Peak +1",
       "date": "2026-07-04",
       "day": "Saturday",
@@ -1199,10 +1185,10 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Pettit -1",
-      "date": "2026-05-17",
-      "day": "Sunday",
-      "description": "TSS 27, IF 0.52, kJ(Cal) 342.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
+      "summary": "Lazy Mountain -2",
+      "date": "2026-04-22",
+      "day": "Wednesday",
+      "description": "TSS 18, IF 0.49, kJ(Cal) 240.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
@@ -1244,6 +1230,13 @@
       "summary": "1:00 - Lazy Mountain -1",
       "date": "2026-04-19",
       "day": "Sunday",
+      "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Lazy Mountain -1",
+      "date": "2026-05-12",
+      "day": "Tuesday",
       "description": "TSS 20, IF 0.45, kJ(Cal) 297.  Description: Lazy Mountain -1 is 1 hour of easy, steady effort at a steady 45% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
@@ -1297,6 +1290,13 @@
       "location": ""
     },
     {
+      "summary": "1:15 - Hayachin",
+      "date": "2026-04-30",
+      "day": "Thursday",
+      "description": "TSS 91, IF 0.85, kJ(Cal) 626.  Description: Hayachin is made up of 2 sets of 2x7.5-minute intervals with 1x7.5-minute interval on it's own, with each consisting of 90-second steps up from 93-107% FTP and then back down again. Recovery between intervals is a brief 60 seconds while the recoveries between sets of stepping intervals are each 5 minutes long. Goals: This threshold workout targets both muscular endurance as well as lactate tolerance which takes place at both the muscular level as well as the psychological level.While your muscles will gradually adapt to increasing levels of lactate and acidic accumulation and improve their ability to shuttle these metabolic byproducts more effectively, your mind will grow accustomed to tolerating these increasing levels of discomfort, all to the same end - riding harder for longer.The true challenge with these little bad boys comes as you step back down without letting your cadence plummet - spin steadily for the whole interval!Try to keep your spin in the 85-95rpm range, higher if you can do it without elevating your HR to an unsustainable level.",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Daemon",
       "date": "2026-06-09",
       "day": "Tuesday",
@@ -1305,15 +1305,15 @@
     },
     {
       "summary": "1:30 - Stickney",
-      "date": "2026-04-18",
-      "day": "Saturday",
+      "date": "2026-05-07",
+      "day": "Thursday",
       "description": "TSS 41, IF 0.52, kJ(Cal) 517.  Description: Stickney consists of nearly 90 minutes of aerobic Endurance riding spent between 50-60% FTP. Goals: Aerobic Endurance workouts are aimed at improving your aerobic (oxygen-reliant) power producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing oxygen and sparing sugar stores for more intense efforts.Additionally, Endurance workouts like this can improve oxygen delivery, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
       "location": ""
     },
     {
       "summary": "1:30 - Stickney",
-      "date": "2026-05-07",
-      "day": "Thursday",
+      "date": "2026-04-18",
+      "day": "Saturday",
       "description": "TSS 41, IF 0.52, kJ(Cal) 517.  Description: Stickney consists of nearly 90 minutes of aerobic Endurance riding spent between 50-60% FTP. Goals: Aerobic Endurance workouts are aimed at improving your aerobic (oxygen-reliant) power producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing oxygen and sparing sugar stores for more intense efforts.Additionally, Endurance workouts like this can improve oxygen delivery, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
       "location": ""
     },
