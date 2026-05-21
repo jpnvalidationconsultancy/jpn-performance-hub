@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-05-21T21:58:00.174699Z",
+  "updated_at": "2026-05-21T23:11:26.044973Z",
   "sessions": [
-    {
-      "summary": "1:00 - Bowser",
-      "date": "2026-04-21",
-      "day": "Tuesday",
-      "description": "TSS 87, IF 0.93, kJ(Cal) 539.  Description: Bowser is 5x5-minute intervals between 112-115% FTP with 4-minute recoveries between intervals. Goals: No two ways about it, these are hard. Holding power above FTP is, by its nature, short-term due to the fact that it's a tough place to reside.But by working at mildly suprathreshold power outputs, ones that take place at high percentages of your VO2max, you can push your FTP higher while gaining some meaningful aerobic adaptation in the process.On top of that, intervals that induce and sustain high levels of lactate work well toward lifting your physical (and mental) lactate tolerance.Strive for a cadence above 85rpm, preferably one above 95rpm.",
-      "location": ""
-    },
     {
       "summary": "Lazy Mountain -2",
       "date": "2026-04-22",
@@ -275,6 +268,13 @@
       "location": ""
     },
     {
+      "summary": "0:28 - Swim Base Intervals",
+      "date": "2026-05-20",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
+      "location": ""
+    },
+    {
       "summary": "0:40 - Base Run",
       "date": "2026-06-05",
       "day": "Friday",
@@ -293,13 +293,6 @@
       "date": "2026-07-18",
       "day": "Saturday",
       "description": "TSS 68, IF 0.74, kJ(Cal) 636.  Description: Leavitt is 70 continuous minutes of Tempo work broken into 7x10-minute segments ranging from 70-80% FTP. Goals: Tempo rides are the height of aerobic endurance and while rather uncomfortable, they aren't too stressful to keep you from spending pretty long durations at a productive work level that isn't too demanding in terms of recovery.This is where most long-course triathletes will live for hours at a time. This is also where most time is spent during any long road ride.Use portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.Try to do so with a cadence above 85rpm, preferably above 90rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:28 - Swim Base Intervals",
-      "date": "2026-05-20",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
       "location": ""
     },
     {
@@ -482,6 +475,13 @@
       "date": "2026-07-17",
       "day": "Friday",
       "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  35min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "1:40 - Long Run",
+      "date": "2026-07-19",
+      "day": "Sunday",
+      "description": "Description: 1hr 40min at an Easy RPE4 (Endurance) pace.",
       "location": ""
     },
     {
@@ -958,13 +958,6 @@
       "date": "2026-08-05",
       "day": "Wednesday",
       "description": "Description: 35min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "1:40 - Long Run",
-      "date": "2026-07-19",
-      "day": "Sunday",
-      "description": "Description: 1hr 40min at an Easy RPE4 (Endurance) pace.",
       "location": ""
     },
     {
