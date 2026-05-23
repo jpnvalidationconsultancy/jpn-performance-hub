@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T10:54:10.843140Z",
+  "updated_at": "2026-05-23T12:01:36.142098Z",
   "sessions": [
     {
       "summary": "1:00 - Cloudripper -4",
@@ -1269,8 +1269,15 @@
       "location": ""
     },
     {
-      "summary": "Base 1",
-      "date": "2026-05-19",
+      "summary": "70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "Specialty",
+      "date": "2026-07-14",
       "day": "Tuesday",
       "description": "Description: block text",
       "location": ""
@@ -1283,17 +1290,10 @@
       "location": ""
     },
     {
-      "summary": "Specialty",
-      "date": "2026-07-14",
+      "summary": "Base 1",
+      "date": "2026-05-19",
       "day": "Tuesday",
       "description": "Description: block text",
-      "location": ""
-    },
-    {
-      "summary": "70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
       "location": ""
     }
   ]
