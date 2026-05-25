@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T09:12:19.767986Z",
+  "updated_at": "2026-05-25T12:49:22.323220Z",
   "sessions": [
     {
       "summary": "1:30 - Titiroa",
@@ -20,13 +20,6 @@
       "date": "2026-04-26",
       "day": "Sunday",
       "description": "Description: 90min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-04-28",
-      "day": "Tuesday",
-      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -107,6 +100,13 @@
       "location": ""
     },
     {
+      "summary": "0:28 - Swim Speed Intervals",
+      "date": "2026-05-22",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x100m of 25m Easy, RPE4/25m Hard, RPE8, 10s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
+      "location": ""
+    },
+    {
       "summary": "1:15 - Chopaka +2",
       "date": "2026-05-23",
       "day": "Saturday",
@@ -125,13 +125,6 @@
       "date": "2026-05-26",
       "day": "Tuesday",
       "description": "TSS 73, IF 0.86, kJ(Cal) 567.  Description: Tallac -1 is 3x15-minute efforts spent in the Sweet Spot (88-94% FTP) with a  brief, 1-minute intermediate recovery toward the middle of each long interval.Short, 2-minute recoveries fall between intervals. Goals: Tallac's primary aim is to increase muscular endurance via Sweet Spot efforts by expanding your base for more intense workouts later while at the same time increasing power output & endurance at moderate intensities.Various pedaling drills are incorporated into several intervals in order to target pedal economy and to alleviate some muscle stress with a quick, lower-force spin. Try to keep your spin above 85rpm and follow the on-screen pedaling drills to the best of your ability.",
-      "location": ""
-    },
-    {
-      "summary": "0:35 - Base Run",
-      "date": "2026-05-27",
-      "day": "Wednesday",
-      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Keep inserting 1-minute walking breaks as necessary but try to increase the steady run durations for a minute or 2 more this week, maybe 6 or 7 minutes each time.",
       "location": ""
     },
     {
@@ -167,13 +160,6 @@
       "date": "2026-05-31",
       "day": "Sunday",
       "description": "Description: Warm-Up 300m Easy, RPE4 1200m Easy-Moderate, RPE5 Cool-Down 300m Easy, RPE4",
-      "location": ""
-    },
-    {
-      "summary": "0:45 - Base Run",
-      "date": "2026-05-31",
-      "day": "Sunday",
-      "description": "Description: 45min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary but try to grow your continuous running stretches a minute or two each week. So if you ran for 8 minutes last week before walking for a minute, try to run for 9 or 10 minutes before walking during next week?s base runs.",
       "location": ""
     },
     {
@@ -562,6 +548,13 @@
       "location": ""
     },
     {
+      "summary": "0:45 - Base Run",
+      "date": "2026-05-31",
+      "day": "Sunday",
+      "description": "Description: 45min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary but try to grow your continuous running stretches a minute or two each week. So if you ran for 8 minutes last week before walking for a minute, try to run for 9 or 10 minutes before walking during next week?s base runs.",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Lazy Mountain",
       "date": "2026-05-28",
       "day": "Thursday",
@@ -569,17 +562,17 @@
       "location": ""
     },
     {
+      "summary": "0:35 - Base Run",
+      "date": "2026-05-27",
+      "day": "Wednesday",
+      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Keep inserting 1-minute walking breaks as necessary but try to increase the steady run durations for a minute or 2 more this week, maybe 6 or 7 minutes each time.",
+      "location": ""
+    },
+    {
       "summary": "0:40 - Base Run",
       "date": "2026-05-24",
       "day": "Sunday",
       "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary and try to recognize that quick walking breaks of a single minute can often keep the form high while costing very little in terms of aerobic fitness improvements.",
-      "location": ""
-    },
-    {
-      "summary": "0:28 - Swim Speed Intervals",
-      "date": "2026-05-22",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x100m of 25m Easy, RPE4/25m Hard, RPE8, 10s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
       "location": ""
     },
     {
@@ -727,6 +720,13 @@
       "date": "2026-04-29",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Stroke Counting drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Stroke Counting (SC) - Target your stroke efficiency by trying to reduce the number of strokes you use to reach the opposite side of the pool. Count your strokes on your first trip across, then try to reduce the number of strokes during the next 2-3 trips across the pool by taking longer, more powerful pulls, rotating more & gliding a bit longer.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-04-28",
+      "day": "Tuesday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
