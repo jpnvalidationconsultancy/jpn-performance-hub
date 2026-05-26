@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T16:25:39.147219Z",
+  "updated_at": "2026-05-26T19:01:11.195654Z",
   "sessions": [
     {
       "summary": "0:50 - Continuous Base Swim",
@@ -1220,10 +1220,10 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -1234,15 +1234,22 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
-      "summary": "Base 1",
-      "date": "2026-05-19",
+      "summary": "70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "Specialty",
+      "date": "2026-07-14",
       "day": "Tuesday",
       "description": "Description: block text",
       "location": ""
@@ -1255,17 +1262,10 @@
       "location": ""
     },
     {
-      "summary": "Specialty",
-      "date": "2026-07-14",
+      "summary": "Base 1",
+      "date": "2026-05-19",
       "day": "Tuesday",
       "description": "Description: block text",
-      "location": ""
-    },
-    {
-      "summary": "70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
       "location": ""
     }
   ]
