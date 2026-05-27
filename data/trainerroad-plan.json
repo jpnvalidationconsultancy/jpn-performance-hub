@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T16:23:50.689162Z",
+  "updated_at": "2026-05-27T18:38:53.105645Z",
   "sessions": [
     {
       "summary": "Rest Day",
@@ -30,20 +30,6 @@
       "location": ""
     },
     {
-      "summary": "0:45 - Race Pace Run",
-      "date": "2026-05-01",
-      "day": "Friday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  25min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
-      "summary": "0:48 - Swim Threshold + Speed Intervals",
-      "date": "2026-05-01",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Back Sculling drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 45s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Back Sculling (BS) - Keep your arms at your sides and point your fingertips back toward your toes as you propel yourself with those familiar figure-eight movements without moving your hands any wider than shoulder width.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
-      "location": ""
-    },
-    {
       "summary": "0:30 - Brick Run",
       "date": "2026-05-02",
       "day": "Saturday",
@@ -58,45 +44,10 @@
       "location": ""
     },
     {
-      "summary": "0:40 - Base Run",
-      "date": "2026-05-03",
-      "day": "Sunday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "0:50 - Continuous Base Swim",
-      "date": "2026-05-03",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-05-05",
-      "day": "Tuesday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Run Intervals",
-      "date": "2026-05-06",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
       "summary": "0:50 - Race Pace Run",
       "date": "2026-05-08",
       "day": "Friday",
       "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  30min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
-      "summary": "0:30 - Base Run",
-      "date": "2026-05-13",
-      "day": "Wednesday",
-      "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
       "location": ""
     },
     {
@@ -139,20 +90,6 @@
       "date": "2026-05-24",
       "day": "Sunday",
       "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary and try to recognize that quick walking breaks of a single minute can often keep the form high while costing very little in terms of aerobic fitness improvements.",
-      "location": ""
-    },
-    {
-      "summary": "0:34 - Continuous Base Swim",
-      "date": "2026-05-24",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 250m Easy, RPE4 1200m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Tallac -1",
-      "date": "2026-05-26",
-      "day": "Tuesday",
-      "description": "TSS 73, IF 0.86, kJ(Cal) 567.  Description: Tallac -1 is 3x15-minute efforts spent in the Sweet Spot (88-94% FTP) with a  brief, 1-minute intermediate recovery toward the middle of each long interval.Short, 2-minute recoveries fall between intervals. Goals: Tallac's primary aim is to increase muscular endurance via Sweet Spot efforts by expanding your base for more intense workouts later while at the same time increasing power output & endurance at moderate intensities.Various pedaling drills are incorporated into several intervals in order to target pedal economy and to alleviate some muscle stress with a quick, lower-force spin. Try to keep your spin above 85rpm and follow the on-screen pedaling drills to the best of your ability.",
       "location": ""
     },
     {
@@ -293,13 +230,6 @@
       "date": "2026-06-23",
       "day": "Tuesday",
       "description": "TSS 82, IF 0.90, kJ(Cal) 515.  Description: Denali +1 is 4x6-minute intervals at 110-112% FTP with 6-minute recoveries following each interval.  Goals: The goals of workouts like this one are to extend supra-threshold power over greater durations by increasing both anaerobic and aerobic work capacity via a shorter, more intense approach.This power level incorporates a high anaerobic component but also a high aerobic contribution that only gets higher over the course of each reasonably long interval. This impacts both energy delivery systems in a meaningful and useful way, given adequate recovery, of course.Strive to keep your cadence above 90rpm, even closer to 100rpm if possible.",
-      "location": ""
-    },
-    {
-      "summary": "0:44 - Swim Base + VO2max Intervals",
-      "date": "2026-06-24",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Stroke Counting drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Stroke Counting (SC) - Target your stroke efficiency by trying to reduce the number of strokes you use to reach the opposite side of the pool. Count your strokes on your first trip across, then try to reduce the number of strokes during the next 2-3 trips across the pool by taking longer, more powerful pulls, rotating more & gliding a bit longer.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
       "location": ""
     },
     {
@@ -688,6 +618,13 @@
       "location": ""
     },
     {
+      "summary": "0:44 - Swim Base + VO2max Intervals",
+      "date": "2026-06-24",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Stroke Counting drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Stroke Counting (SC) - Target your stroke efficiency by trying to reduce the number of strokes you use to reach the opposite side of the pool. Count your strokes on your first trip across, then try to reduce the number of strokes during the next 2-3 trips across the pool by taking longer, more powerful pulls, rotating more & gliding a bit longer.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
+      "location": ""
+    },
+    {
       "summary": "0:50 - Continuous Base Swim",
       "date": "2026-06-21",
       "day": "Sunday",
@@ -793,6 +730,20 @@
       "location": ""
     },
     {
+      "summary": "1:00 - Tallac -1",
+      "date": "2026-05-26",
+      "day": "Tuesday",
+      "description": "TSS 73, IF 0.86, kJ(Cal) 567.  Description: Tallac -1 is 3x15-minute efforts spent in the Sweet Spot (88-94% FTP) with a  brief, 1-minute intermediate recovery toward the middle of each long interval.Short, 2-minute recoveries fall between intervals. Goals: Tallac's primary aim is to increase muscular endurance via Sweet Spot efforts by expanding your base for more intense workouts later while at the same time increasing power output & endurance at moderate intensities.Various pedaling drills are incorporated into several intervals in order to target pedal economy and to alleviate some muscle stress with a quick, lower-force spin. Try to keep your spin above 85rpm and follow the on-screen pedaling drills to the best of your ability.",
+      "location": ""
+    },
+    {
+      "summary": "0:34 - Continuous Base Swim",
+      "date": "2026-05-24",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 250m Easy, RPE4 1200m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
+      "location": ""
+    },
+    {
       "summary": "0:28 - Swim Speed Intervals",
       "date": "2026-05-22",
       "day": "Friday",
@@ -849,6 +800,13 @@
       "location": ""
     },
     {
+      "summary": "0:30 - Base Run",
+      "date": "2026-05-13",
+      "day": "Wednesday",
+      "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
       "summary": "0:26 - Swim Base Intervals",
       "date": "2026-05-13",
       "day": "Wednesday",
@@ -898,10 +856,52 @@
       "location": ""
     },
     {
+      "summary": "1:00 - Run Intervals",
+      "date": "2026-05-06",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
       "summary": "0:46 - Swim Base + VO2max Intervals",
       "date": "2026-05-06",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Front Sculling drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 6x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Front Sculling (FS) - Stretch your arms out in front of you, fingertips pointed forward, arms no more than shoulder-width apart and use both hands to propel yourself forward by \"sculling\" in a figure-eight pattern as you simulate the catch over & over. Use a minimal kick and do this with your head up or down.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-05-05",
+      "day": "Tuesday",
+      "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
+      "summary": "0:50 - Continuous Base Swim",
+      "date": "2026-05-03",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
+      "location": ""
+    },
+    {
+      "summary": "0:40 - Base Run",
+      "date": "2026-05-03",
+      "day": "Sunday",
+      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "0:48 - Swim Threshold + Speed Intervals",
+      "date": "2026-05-01",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Back Sculling drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 45s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Back Sculling (BS) - Keep your arms at your sides and point your fingertips back toward your toes as you propel yourself with those familiar figure-eight movements without moving your hands any wider than shoulder width.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "location": ""
+    },
+    {
+      "summary": "0:45 - Race Pace Run",
+      "date": "2026-05-01",
+      "day": "Friday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  25min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
