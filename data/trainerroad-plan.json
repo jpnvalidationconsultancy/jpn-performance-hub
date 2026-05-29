@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T14:11:22.093119Z",
+  "updated_at": "2026-05-29T17:50:32.474531Z",
   "sessions": [
     {
       "summary": "0:44 - Swim Base + VO2max Intervals",
@@ -51,20 +51,6 @@
       "location": ""
     },
     {
-      "summary": "0:40 - Base Run",
-      "date": "2026-05-03",
-      "day": "Sunday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "0:50 - Continuous Base Swim",
-      "date": "2026-05-03",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
-      "location": ""
-    },
-    {
       "summary": "0:50 - Race Pace Run",
       "date": "2026-05-08",
       "day": "Friday",
@@ -83,13 +69,6 @@
       "date": "2026-05-16",
       "day": "Saturday",
       "description": "TSS 19, IF 0.62, kJ(Cal) 213.  Description: Taku is a short, aerobic Endurance workout consisting of 30 minutes spent between 60-70% FTP.Taku can serve as a light workout on its own, it can be paired with a short, intense interval session, beforehand or afterward, or it can be used to get you on the bike between hard workouts in order to spin out some heaviness. Goals: Endurance workouts are aimed at improving your aerobic power production capabilities in a steady, low-stress manner. By training your endurance muscle fibers to better utilize oxygen to metabolize fat as fuel, your muscles can spare sugar stores for more intense efforts.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Recess",
-      "date": "2026-05-17",
-      "day": "Sunday",
-      "description": "TSS 25, IF 0.50, kJ(Cal) 350.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as \"accumulation rides\" are performed within 4-24 hours after your last key workout, race/event, or any other similar, stressful ride. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e. improved pedal economy), increased fat metabolism, and heat acclimation to name a few.",
       "location": ""
     },
     {
@@ -251,13 +230,6 @@
       "date": "2026-06-11",
       "day": "Thursday",
       "description": "TSS 34, IF 0.67, kJ(Cal) 349.  Description: Carter is 45 minutes of aerobic Endurance riding where you'll spend 30 continuous minutes between 65-75% FTP. Goals: Aerobic Endurance training is primarily about cultivating a deeper aerobic base and includes all of the physiological adaptations inherent in long, steady, low-intensity riding like improved fat metabolism, better oxygen delivery and glycogen conservation, lower HR at higher power outputs, improved work efficiency, etc.As time-constrained as most riding schedules are though, shorter Endurance rides done consistently have to make up for some of the time restrictions faced by most riders.Try to keep your spin above 85rpm range and spend ample time adapting to and modifying your position on the bike while the workload is relatively gentle.",
-      "location": ""
-    },
-    {
-      "summary": "0:35 - Base Run",
-      "date": "2026-06-12",
-      "day": "Friday",
-      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to extend the occasional walking break up to 2 minutes in the interest of recharging your mind and body this week.",
       "location": ""
     },
     {
@@ -548,6 +520,13 @@
       "location": ""
     },
     {
+      "summary": "0:35 - Base Run",
+      "date": "2026-06-12",
+      "day": "Friday",
+      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to extend the occasional walking break up to 2 minutes in the interest of recharging your mind and body this week.",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Homers Nose -1",
       "date": "2026-06-09",
       "day": "Tuesday",
@@ -608,6 +587,13 @@
       "date": "2026-05-18",
       "day": "Monday",
       "description": "TSS 66, IF 0.81, kJ(Cal) 537.  Description: Grampians is basically 3x14-minute sets of Sweet Spot work performed between 85-90% FTP with 3 very short, 10-second recovery valleys thrown in to break things up. Recoveries between blocks of work are a scant 1 minute long. Goals: The primary aim of Sweet Spot work is to improve your ability to resist fatigue at reasonably high power outputs over substantial lengths of time.In other words, workouts like this are all about increasing your muscular endurance.In doing so, you can improve your ability to climb faster and longer, face stiff winds without fading and time trial more consistently over the entire course of an event. Try to keep your spin above 90rpm, even above 100rpm if a quicker spin suits you.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Recess",
+      "date": "2026-05-17",
+      "day": "Sunday",
+      "description": "TSS 25, IF 0.50, kJ(Cal) 350.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as \"accumulation rides\" are performed within 4-24 hours after your last key workout, race/event, or any other similar, stressful ride. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e. improved pedal economy), increased fat metabolism, and heat acclimation to name a few.",
       "location": ""
     },
     {
@@ -699,6 +685,20 @@
       "date": "2026-05-05",
       "day": "Tuesday",
       "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
+      "summary": "0:50 - Continuous Base Swim",
+      "date": "2026-05-03",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
+      "location": ""
+    },
+    {
+      "summary": "0:40 - Base Run",
+      "date": "2026-05-03",
+      "day": "Sunday",
+      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
       "location": ""
     },
     {
@@ -1220,15 +1220,8 @@
       "location": ""
     },
     {
-      "summary": "70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "Specialty",
-      "date": "2026-07-14",
+      "summary": "Base 1",
+      "date": "2026-05-19",
       "day": "Tuesday",
       "description": "Description: block text",
       "location": ""
@@ -1241,10 +1234,17 @@
       "location": ""
     },
     {
-      "summary": "Base 1",
-      "date": "2026-05-19",
+      "summary": "Specialty",
+      "date": "2026-07-14",
       "day": "Tuesday",
       "description": "Description: block text",
+      "location": ""
+    },
+    {
+      "summary": "70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     }
   ]
