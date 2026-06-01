@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-06-01T07:02:12.215811Z",
+  "updated_at": "2026-06-01T13:11:43.982460Z",
   "sessions": [
+    {
+      "summary": "0:30 - Brick Run",
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
+      "location": ""
+    },
+    {
+      "summary": "1:30 - Elbow",
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "description": "TSS 96, IF 0.80, kJ(Cal) 689.  Description: Elbow consists of 4x8.5-minute segments ranging from 99-100% FTP, each separated by 8.5-minute recoveries. Goals: The goal here is to elevate your strength endurance by learning to ride for longer and longer durations at your current FTP. As your body grows accustomed to a certain level of stress, your ability to withstand that stress for longer periods of time improves. Before you know it, your muscles don't load up like they used to, your mind isn't completely consumed with the desire to ease up, and your so-called \"hour power\" gravitates toward truer hour-power.The recommended cadence range is wide, 85-105 rpm, and accommodates many styles of riding. Riders wishing to focus more on improvements in strength endurance will spin toward the lower end of this cadence range while riders looking to foster a quicker spin will ride toward the upper end of the range.Or mix and match from interval to interval, just do your best to keep the power output smooth and consistent over the course of these 4 intervals.",
+      "location": ""
+    },
+    {
+      "summary": "0:40 - Base Run",
+      "date": "2026-05-03",
+      "day": "Sunday",
+      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "0:50 - Continuous Base Swim",
+      "date": "2026-05-03",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
+      "location": ""
+    },
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
       "date": "2026-05-08",
@@ -30,24 +58,10 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Recess",
-      "date": "2026-05-17",
-      "day": "Sunday",
-      "description": "TSS 25, IF 0.50, kJ(Cal) 350.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as \"accumulation rides\" are performed within 4-24 hours after your last key workout, race/event, or any other similar, stressful ride. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e. improved pedal economy), increased fat metabolism, and heat acclimation to name a few.",
-      "location": ""
-    },
-    {
       "summary": "0:36 - Continuous Base Swim OR Olympic Distance Triathlon",
       "date": "2026-05-17",
       "day": "Sunday",
       "description": "Description: Either Warm-Up 300m Easy, RPE4 1200m Easy-Moderate, RPE5 Cool-Down 300m Easy, RPE4   OR compete in a B-priority practice race",
-      "location": ""
-    },
-    {
-      "summary": "0:28 - Swim Base Intervals",
-      "date": "2026-05-20",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
       "location": ""
     },
     {
@@ -62,13 +76,6 @@
       "date": "2026-05-22",
       "day": "Friday",
       "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary if it means the difference between running well and sacrificing form while running efficiency suffers. Quick walking breaks of a single minute can often keep the form high while costing very little in terms of aerobic fitness improvements.",
-      "location": ""
-    },
-    {
-      "summary": "0:28 - Swim Speed Intervals",
-      "date": "2026-05-22",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x100m of 25m Easy, RPE4/25m Hard, RPE8, 10s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
       "location": ""
     },
     {
@@ -184,13 +191,6 @@
       "location": ""
     },
     {
-      "summary": "0:35 - Base Run",
-      "date": "2026-06-12",
-      "day": "Friday",
-      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to extend the occasional walking break up to 2 minutes in the interest of recharging your mind and body this week.",
-      "location": ""
-    },
-    {
       "summary": "0:28 - Swim Base Intervals",
       "date": "2026-06-12",
       "day": "Friday",
@@ -240,13 +240,6 @@
       "location": ""
     },
     {
-      "summary": "0:40 - Race Pace Run",
-      "date": "2026-06-19",
-      "day": "Friday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  20min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
-    {
       "summary": "1:15 - Vladeasa",
       "date": "2026-06-20",
       "day": "Saturday",
@@ -275,13 +268,6 @@
       "location": ""
     },
     {
-      "summary": "0:44 - Swim Base + VO2max Intervals",
-      "date": "2026-06-24",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Stroke Counting drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Stroke Counting (SC) - Target your stroke efficiency by trying to reduce the number of strokes you use to reach the opposite side of the pool. Count your strokes on your first trip across, then try to reduce the number of strokes during the next 2-3 trips across the pool by taking longer, more powerful pulls, rotating more & gliding a bit longer.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
-      "location": ""
-    },
-    {
       "summary": "0:55 - Run Intervals",
       "date": "2026-06-24",
       "day": "Wednesday",
@@ -293,13 +279,6 @@
       "date": "2026-06-25",
       "day": "Thursday",
       "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "0:48 - Swim Threshold + Speed Intervals",
-      "date": "2026-06-26",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Back Sculling drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 45s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Back Sculling (BS) - Keep your arms at your sides and point your fingertips back toward your toes as you propel yourself with those familiar figure-eight movements without moving your hands any wider than shoulder width.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
       "location": ""
     },
     {
@@ -667,10 +646,38 @@
       "location": ""
     },
     {
+      "summary": "0:48 - Swim Threshold + Speed Intervals",
+      "date": "2026-06-26",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Back Sculling drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 45s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Back Sculling (BS) - Keep your arms at your sides and point your fingertips back toward your toes as you propel yourself with those familiar figure-eight movements without moving your hands any wider than shoulder width.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "location": ""
+    },
+    {
+      "summary": "0:44 - Swim Base + VO2max Intervals",
+      "date": "2026-06-24",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Stroke Counting drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Stroke Counting (SC) - Target your stroke efficiency by trying to reduce the number of strokes you use to reach the opposite side of the pool. Count your strokes on your first trip across, then try to reduce the number of strokes during the next 2-3 trips across the pool by taking longer, more powerful pulls, rotating more & gliding a bit longer.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
+      "location": ""
+    },
+    {
+      "summary": "0:40 - Race Pace Run",
+      "date": "2026-06-19",
+      "day": "Friday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  20min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Mount Foraker -1",
       "date": "2026-06-16",
       "day": "Tuesday",
       "description": "TSS 73, IF 0.85, kJ(Cal) 490.  Description: Mount Foraker -1 is 4x5-minute intervals between 105-109% FTP with 5-minute recoveries between intervals. Goals: No two ways about it, these are hard. Holding power above FTP is, by its nature, short-term due to the fact that it's a tough place to reside.But by working at mildly suprathreshold power outputs, ones that at take place at high percentages of your VO2max, you can push your FTP higher while gaining some meaningful aerobic adaptation in the process.On top of that, intervals that induce and sustain high levels of lactate work well toward lifting your physical (and mental) lactate tolerance.Strive for a cadence above 85rpm, preferably one above 95rpm.",
+      "location": ""
+    },
+    {
+      "summary": "0:35 - Base Run",
+      "date": "2026-06-12",
+      "day": "Friday",
+      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to extend the occasional walking break up to 2 minutes in the interest of recharging your mind and body this week.",
       "location": ""
     },
     {
@@ -737,6 +744,13 @@
       "location": ""
     },
     {
+      "summary": "0:28 - Swim Speed Intervals",
+      "date": "2026-05-22",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x100m of 25m Easy, RPE4/25m Hard, RPE8, 10s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
+      "location": ""
+    },
+    {
       "summary": "0:35 - Base Run",
       "date": "2026-05-20",
       "day": "Wednesday",
@@ -744,10 +758,24 @@
       "location": ""
     },
     {
+      "summary": "0:28 - Swim Base Intervals",
+      "date": "2026-05-20",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
+      "location": ""
+    },
+    {
       "summary": "1:00 - Grampians",
       "date": "2026-05-18",
       "day": "Monday",
       "description": "TSS 66, IF 0.81, kJ(Cal) 537.  Description: Grampians is basically 3x14-minute sets of Sweet Spot work performed between 85-90% FTP with 3 very short, 10-second recovery valleys thrown in to break things up. Recoveries between blocks of work are a scant 1 minute long. Goals: The primary aim of Sweet Spot work is to improve your ability to resist fatigue at reasonably high power outputs over substantial lengths of time.In other words, workouts like this are all about increasing your muscular endurance.In doing so, you can improve your ability to climb faster and longer, face stiff winds without fading and time trial more consistently over the entire course of an event. Try to keep your spin above 90rpm, even above 100rpm if a quicker spin suits you.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Recess",
+      "date": "2026-05-17",
+      "day": "Sunday",
+      "description": "TSS 25, IF 0.50, kJ(Cal) 350.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as \"accumulation rides\" are performed within 4-24 hours after your last key workout, race/event, or any other similar, stressful ride. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e. improved pedal economy), increased fat metabolism, and heat acclimation to name a few.",
       "location": ""
     },
     {
@@ -832,34 +860,6 @@
       "date": "2026-05-05",
       "day": "Tuesday",
       "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "0:50 - Continuous Base Swim",
-      "date": "2026-05-03",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 250m Easy, RPE4 2000m Easy-Moderate, RPE5 Cool-Down 250m Easy, RPE4",
-      "location": ""
-    },
-    {
-      "summary": "0:40 - Base Run",
-      "date": "2026-05-03",
-      "day": "Sunday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "1:30 - Elbow",
-      "date": "2026-05-02",
-      "day": "Saturday",
-      "description": "TSS 96, IF 0.80, kJ(Cal) 689.  Description: Elbow consists of 4x8.5-minute segments ranging from 99-100% FTP, each separated by 8.5-minute recoveries. Goals: The goal here is to elevate your strength endurance by learning to ride for longer and longer durations at your current FTP. As your body grows accustomed to a certain level of stress, your ability to withstand that stress for longer periods of time improves. Before you know it, your muscles don't load up like they used to, your mind isn't completely consumed with the desire to ease up, and your so-called \"hour power\" gravitates toward truer hour-power.The recommended cadence range is wide, 85-105 rpm, and accommodates many styles of riding. Riders wishing to focus more on improvements in strength endurance will spin toward the lower end of this cadence range while riders looking to foster a quicker spin will ride toward the upper end of the range.Or mix and match from interval to interval, just do your best to keep the power output smooth and consistent over the course of these 4 intervals.",
-      "location": ""
-    },
-    {
-      "summary": "0:30 - Brick Run",
-      "date": "2026-05-02",
-      "day": "Saturday",
-      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
       "location": ""
     },
     {
