@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T04:18:01.619566Z",
+  "updated_at": "2026-06-02T08:52:54.275795Z",
   "sessions": [
     {
       "summary": "0:40 - Base Run",
@@ -1171,8 +1171,15 @@
       "location": ""
     },
     {
-      "summary": "Base 1",
-      "date": "2026-05-19",
+      "summary": "70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "Specialty",
+      "date": "2026-07-14",
       "day": "Tuesday",
       "description": "Description: block text",
       "location": ""
@@ -1185,17 +1192,10 @@
       "location": ""
     },
     {
-      "summary": "Specialty",
-      "date": "2026-07-14",
+      "summary": "Base 1",
+      "date": "2026-05-19",
       "day": "Tuesday",
       "description": "Description: block text",
-      "location": ""
-    },
-    {
-      "summary": "70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
       "location": ""
     }
   ]
