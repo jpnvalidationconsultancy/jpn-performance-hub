@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-05T06:26:58.045448Z",
+  "updated_at": "2026-06-05T10:33:52.359033Z",
   "sessions": [
-    {
-      "summary": "0:46 - Swim Base + VO2max Intervals",
-      "date": "2026-05-06",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Front Sculling drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 6x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Front Sculling (FS) - Stretch your arms out in front of you, fingertips pointed forward, arms no more than shoulder-width apart and use both hands to propel yourself forward by \"sculling\" in a figure-eight pattern as you simulate the catch over & over. Use a minimal kick and do this with your head up or down.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Run Intervals",
-      "date": "2026-05-06",
-      "day": "Wednesday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
-      "location": ""
-    },
     {
       "summary": "0:30 - Taku",
       "date": "2026-05-16",
       "day": "Saturday",
       "description": "TSS 19, IF 0.62, kJ(Cal) 213.  Description: Taku is a short, aerobic Endurance workout consisting of 30 minutes spent between 60-70% FTP.Taku can serve as a light workout on its own, it can be paired with a short, intense interval session, beforehand or afterward, or it can be used to get you on the bike between hard workouts in order to spin out some heaviness. Goals: Endurance workouts are aimed at improving your aerobic power production capabilities in a steady, low-stress manner. By training your endurance muscle fibers to better utilize oxygen to metabolize fat as fuel, your muscles can spare sugar stores for more intense efforts.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Recess",
+      "date": "2026-05-17",
+      "day": "Sunday",
+      "description": "TSS 25, IF 0.50, kJ(Cal) 350.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as \"accumulation rides\" are performed within 4-24 hours after your last key workout, race/event, or any other similar, stressful ride. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e. improved pedal economy), increased fat metabolism, and heat acclimation to name a few.",
+      "location": ""
+    },
+    {
+      "summary": "0:28 - Swim Base Intervals",
+      "date": "2026-05-20",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
       "location": ""
     },
     {
@@ -142,13 +142,6 @@
       "location": ""
     },
     {
-      "summary": "0:35 - Base Run",
-      "date": "2026-06-12",
-      "day": "Friday",
-      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to extend the occasional walking break up to 2 minutes in the interest of recharging your mind and body this week.",
-      "location": ""
-    },
-    {
       "summary": "0:28 - Swim Base Intervals",
       "date": "2026-06-12",
       "day": "Friday",
@@ -188,13 +181,6 @@
       "date": "2026-06-18",
       "day": "Thursday",
       "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "0:40 - Race Pace Run",
-      "date": "2026-06-19",
-      "day": "Friday",
-      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  20min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
       "location": ""
     },
     {
@@ -709,6 +695,13 @@
       "location": ""
     },
     {
+      "summary": "0:40 - Race Pace Run",
+      "date": "2026-06-19",
+      "day": "Friday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  20min Comfortably Hard RPE6 (Half Marathon) pace 10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
       "date": "2026-06-19",
       "day": "Friday",
@@ -720,6 +713,13 @@
       "date": "2026-06-16",
       "day": "Tuesday",
       "description": "TSS 76, IF 0.87, kJ(Cal) 507.  Description: Mount Alyeska is 6x4-minute intervals at 105-109% FTP with 4-minute recoveries between intervals. Goals: No two ways about it, these are hard. Holding power above FTP is, by its nature, short-term due to the fact that it's a tough place to reside.But by working at mildly suprathreshold power outputs, ones that at take place at high percentages of your VO2max power, you can push your FTP higher while gaining some meaningful aerobic adaptation in the process.On top of that, intervals that induce & sustain high levels of lactate work well toward lifting your physical (and mental) lactate tolerance.Strive for a cadence above 85rpm, preferably one above 95rpm.",
+      "location": ""
+    },
+    {
+      "summary": "0:35 - Base Run",
+      "date": "2026-06-12",
+      "day": "Friday",
+      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to extend the occasional walking break up to 2 minutes in the interest of recharging your mind and body this week.",
       "location": ""
     },
     {
@@ -807,13 +807,6 @@
       "location": ""
     },
     {
-      "summary": "0:28 - Swim Base Intervals",
-      "date": "2026-05-20",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
-      "location": ""
-    },
-    {
       "summary": "1:00 - Grampians",
       "date": "2026-05-18",
       "day": "Monday",
@@ -825,13 +818,6 @@
       "date": "2026-05-17",
       "day": "Sunday",
       "description": "Description: Either Warm-Up 300m Easy, RPE4 1200m Easy-Moderate, RPE5 Cool-Down 300m Easy, RPE4   OR compete in a B-priority practice race",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Recess",
-      "date": "2026-05-17",
-      "day": "Sunday",
-      "description": "TSS 25, IF 0.50, kJ(Cal) 350.  Description: The Recess rides range anywhere from 20-60 minutes in duration at roughly 50% FTP.Exhausted rides, also referred to as \"accumulation rides\" are performed within 4-24 hours after your last key workout, race/event, or any other similar, stressful ride. These rides should leave you no more fatigued than you were before you hopped on your bike and there are no strict rules governing effort level as long as these feel recuperative and do not negatively impact your next key workout. Goals: The goals behind the Recess rides are rather wide-ranging and include adaptations such as increased resistance to muscle damage, enhanced neuromuscular coordination (i.e. improved pedal economy), increased fat metabolism, and heat acclimation to name a few.",
       "location": ""
     },
     {
@@ -916,6 +902,20 @@
       "date": "2026-05-07",
       "day": "Thursday",
       "description": "TSS 41, IF 0.52, kJ(Cal) 545.  Description: Stickney consists of nearly 90 minutes of aerobic Endurance riding spent between 50-60% FTP. Goals: Aerobic Endurance workouts are aimed at improving your aerobic (oxygen-reliant) power producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing oxygen and sparing sugar stores for more intense efforts.Additionally, Endurance workouts like this can improve oxygen delivery, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Run Intervals",
+      "date": "2026-05-06",
+      "day": "Wednesday",
+      "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "0:46 - Swim Base + VO2max Intervals",
+      "date": "2026-05-06",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Front Sculling drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 6x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Front Sculling (FS) - Stretch your arms out in front of you, fingertips pointed forward, arms no more than shoulder-width apart and use both hands to propel yourself forward by \"sculling\" in a figure-eight pattern as you simulate the catch over & over. Use a minimal kick and do this with your head up or down.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
       "location": ""
     },
     {
