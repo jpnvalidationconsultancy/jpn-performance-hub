@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T23:46:10.168300Z",
+  "updated_at": "2026-06-06T03:50:08.164523Z",
   "sessions": [
     {
       "summary": "1:30 - Stickney",
@@ -1136,8 +1136,15 @@
       "location": ""
     },
     {
-      "summary": "Base 1",
-      "date": "2026-05-19",
+      "summary": "70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "Specialty",
+      "date": "2026-07-14",
       "day": "Tuesday",
       "description": "Description: block text",
       "location": ""
@@ -1150,17 +1157,10 @@
       "location": ""
     },
     {
-      "summary": "Specialty",
-      "date": "2026-07-14",
+      "summary": "Base 1",
+      "date": "2026-05-19",
       "day": "Tuesday",
       "description": "Description: block text",
-      "location": ""
-    },
-    {
-      "summary": "70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
       "location": ""
     }
   ]
