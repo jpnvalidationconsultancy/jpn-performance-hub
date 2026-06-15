@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T17:32:07.517940Z",
+  "updated_at": "2026-06-15T21:08:04.277879Z",
   "sessions": [
     {
       "summary": "1:15 - Chopaka +2",
@@ -79,20 +79,6 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Homers Nose",
-      "date": "2026-07-04",
-      "day": "Saturday",
-      "description": "TSS 41, IF 0.64, kJ(Cal) 476.  Description: Homers Nose is an hour of mostly Endurance work between 55-75% FTP with recommendations to ride short segments around 120rpm, slightly longer segments around 70rpm, and the longest segments around 90rpm, should you choose to include the drills. Goals: Endurance training is primarily about furthering your aerobic capacity in the hopes of improving fat metabolism, energy delivery to the muscles, glycogen conservation in general, lower HR/higher aerobic power, improved neuromuscular efficiency, etc.Shorter Endurance rides like this one done consistently can help time-constrained riders make up for some of that lack of pro rider time availability.Follow along with the onscreen workout instructions or simply try to hold your spin within an 85-95rpm range.Also consider spending some time adapting to and modifying your aero or climbing position & form while the workload is relatively low.",
-      "location": ""
-    },
-    {
-      "summary": "1:40 - Long Run",
-      "date": "2026-07-05",
-      "day": "Sunday",
-      "description": "Description: 100min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
       "summary": "0:56 - Continuous Base Swim",
       "date": "2026-07-05",
       "day": "Sunday",
@@ -107,45 +93,10 @@
       "location": ""
     },
     {
-      "summary": "0:30 - Base Run",
-      "date": "2026-07-08",
-      "day": "Wednesday",
-      "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Echo -5",
-      "date": "2026-07-09",
-      "day": "Thursday",
-      "description": "TSS 47, IF 0.69, kJ(Cal) 509.  Description: Echo -5 is 50 total minutes of Endurance work broken into 8x6-minute segments ranging from 65-75% FTP. Goals: Endurance workouts are aimed at improving your aerobic power production capabilities in a steady, low-stress manner. By training your endurance muscle fibers to better utilize oxygen to metabolize fat as fuel, your muscles can spare sugar stores for more intense efforts.This long/slow approach to fostering aerobic capabilities is the lighter, kinder alternative to high-intensity repeats, but both approaches target many of the same  adaptations.Try to keep your spin above 85rpm, preferably above 95rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:45 - Base Run",
-      "date": "2026-07-10",
-      "day": "Friday",
-      "description": "Description: 45min at an Easy RPE4 (Endurance) pace.",
-      "location": ""
-    },
-    {
-      "summary": "0:32 - Swim Base Intervals",
-      "date": "2026-07-10",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Bilateral Breathing drills w/ 10s rest between drills 4x200m Easy-Moderate, RPE4 w/ 45s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Bilateral Breathing (BB) - Swim your regular freestyle stroke while breathing during every third stroke forcing yourself to discover and improve your weaker side. If this is challenging & uncoordinated at first, hang in there - your clumsy side will improve with practice.",
-      "location": ""
-    },
-    {
       "summary": "0:30 - Manly",
       "date": "2026-07-11",
       "day": "Saturday",
       "description": "TSS 25, IF 0.70, kJ(Cal) 258.  Description: Manly is 30 minutes of aerobic Endurance riding ranging from 50-77% FTP.  Goals: Improvements in aerobic endurance & efficiency are the aim when working at a moderate intensities well below lactate threshold. By sustaining this effort level during minimally interrupted periods of time, your body will improve its aerobic capabilities thereby improving your level of power output at low-to-moderate levels of exertion. Greater aerobic efficiency (your ability to better utilize oxygen to turn over ATP) means you can work harder before dipping into your far less sustainable sugar stores and preserve those stores for the higher-intensity efforts. This also means you'll require less food to fuel your effort during your events.Try to keep your spin above 85rpm.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Pioneer -3",
-      "date": "2026-07-12",
-      "day": "Sunday",
-      "description": "TSS 48, IF 0.69, kJ(Cal) 509.  Description: Pioneer -3 is a 45-minute segment between 70-75% FTP nestled inside of an hour-long workout. Goals: Training at the high end of the Endurance range is still quite productive, especially as the ride durations climb. Recovery from rides at this effort level is usually pretty quick, but longer rides in this wattage range can take a surprising toll on even very fit athletes. This is where fairly conservative ultra-distance triathletes will live for hours at a time. This is also where a lot of time is spent during any long road ride or milder-terrain trail ride.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.      If it applies, use portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power. Try to do so with a cadence above 85rpm, preferably above 90rpm.",
       "location": ""
     },
     {
@@ -202,13 +153,6 @@
       "date": "2026-07-19",
       "day": "Sunday",
       "description": "Description: Warm-Up 200m Easy, RPE4 2400m Easy-Moderate, RPE5 Cool-Down 200m Easy, RPE4",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Ainslie +3",
-      "date": "2026-07-21",
-      "day": "Tuesday",
-      "description": "TSS 78, IF 0.89, kJ(Cal) 577.  Description: Ainslie +3 is 7x4-minute intervals at 105% FTP with 2-minute recoveries after each.  Goals: The goal of supra-threshold workouts is to extend high power over greater durations, and each similar version of this particular type of suffering will include more or longer work intervals while the recovery valleys will often shrink from training phase to training phase.These intervals are also an ideal time to begin bridging the gap between power in an upright riding position and power in an aerodynamic position.Strive to keep your cadence above 90rpm, even closer to 100rpm if possible.",
       "location": ""
     },
     {
@@ -590,10 +534,24 @@
       "location": ""
     },
     {
+      "summary": "1:00 - Ainslie +3",
+      "date": "2026-07-21",
+      "day": "Tuesday",
+      "description": "TSS 78, IF 0.89, kJ(Cal) 577.  Description: Ainslie +3 is 7x4-minute intervals at 105% FTP with 2-minute recoveries after each.  Goals: The goal of supra-threshold workouts is to extend high power over greater durations, and each similar version of this particular type of suffering will include more or longer work intervals while the recovery valleys will often shrink from training phase to training phase.These intervals are also an ideal time to begin bridging the gap between power in an upright riding position and power in an aerodynamic position.Strive to keep your cadence above 90rpm, even closer to 100rpm if possible.",
+      "location": ""
+    },
+    {
       "summary": "0:47 - Swim Base + VO2max Intervals",
       "date": "2026-07-15",
       "day": "Wednesday",
       "description": "Description:  Warm-Up 300m Easy, RPE4 8x25m Bilateral Breathing drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 5x150m Hard, RPE8 w/ 75s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Bilateral Breathing (BB) - Swim your regular freestyle stroke while breathing during every third stroke forcing yourself to discover and improve your weaker side. If this is challenging & uncoordinated at first, hang in there - your clumsy side will improve with practice.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Pioneer -3",
+      "date": "2026-07-12",
+      "day": "Sunday",
+      "description": "TSS 48, IF 0.69, kJ(Cal) 509.  Description: Pioneer -3 is a 45-minute segment between 70-75% FTP nestled inside of an hour-long workout. Goals: Training at the high end of the Endurance range is still quite productive, especially as the ride durations climb. Recovery from rides at this effort level is usually pretty quick, but longer rides in this wattage range can take a surprising toll on even very fit athletes. This is where fairly conservative ultra-distance triathletes will live for hours at a time. This is also where a lot of time is spent during any long road ride or milder-terrain trail ride.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.      If it applies, use portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power. Try to do so with a cadence above 85rpm, preferably above 90rpm.",
       "location": ""
     },
     {
@@ -604,10 +562,52 @@
       "location": ""
     },
     {
+      "summary": "0:32 - Swim Base Intervals",
+      "date": "2026-07-10",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Bilateral Breathing drills w/ 10s rest between drills 4x200m Easy-Moderate, RPE4 w/ 45s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Bilateral Breathing (BB) - Swim your regular freestyle stroke while breathing during every third stroke forcing yourself to discover and improve your weaker side. If this is challenging & uncoordinated at first, hang in there - your clumsy side will improve with practice.",
+      "location": ""
+    },
+    {
+      "summary": "0:45 - Base Run",
+      "date": "2026-07-10",
+      "day": "Friday",
+      "description": "Description: 45min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Echo -5",
+      "date": "2026-07-09",
+      "day": "Thursday",
+      "description": "TSS 47, IF 0.69, kJ(Cal) 509.  Description: Echo -5 is 50 total minutes of Endurance work broken into 8x6-minute segments ranging from 65-75% FTP. Goals: Endurance workouts are aimed at improving your aerobic power production capabilities in a steady, low-stress manner. By training your endurance muscle fibers to better utilize oxygen to metabolize fat as fuel, your muscles can spare sugar stores for more intense efforts.This long/slow approach to fostering aerobic capabilities is the lighter, kinder alternative to high-intensity repeats, but both approaches target many of the same  adaptations.Try to keep your spin above 85rpm, preferably above 95rpm.",
+      "location": ""
+    },
+    {
+      "summary": "0:30 - Base Run",
+      "date": "2026-07-08",
+      "day": "Wednesday",
+      "description": "Description: 30min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
       "summary": "0:26 - Swim Base Intervals",
       "date": "2026-07-08",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Single-Arm drills w/ 10s rest between drills 5x100m Easy-Moderate, RPE5 w/ 5s rest between intervals Cool-Down 300m Easy, RPE4  Drill Instructions Single-Arm (SA) - Restrict yourself to one arm?s use for an entire pool length by keeping the opposite arm extended in front of you or at your side (advanced). If necessary, perform these drills using fins until you improve to the point that you can eliminate them. Try to use a moderate kick and normal body positioning, rolling into your working arm.",
+      "location": ""
+    },
+    {
+      "summary": "1:40 - Long Run",
+      "date": "2026-07-05",
+      "day": "Sunday",
+      "description": "Description: 100min at an Easy RPE4 (Endurance) pace.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Homers Nose",
+      "date": "2026-07-04",
+      "day": "Saturday",
+      "description": "TSS 41, IF 0.64, kJ(Cal) 476.  Description: Homers Nose is an hour of mostly Endurance work between 55-75% FTP with recommendations to ride short segments around 120rpm, slightly longer segments around 70rpm, and the longest segments around 90rpm, should you choose to include the drills. Goals: Endurance training is primarily about furthering your aerobic capacity in the hopes of improving fat metabolism, energy delivery to the muscles, glycogen conservation in general, lower HR/higher aerobic power, improved neuromuscular efficiency, etc.Shorter Endurance rides like this one done consistently can help time-constrained riders make up for some of that lack of pro rider time availability.Follow along with the onscreen workout instructions or simply try to hold your spin within an 85-95rpm range.Also consider spending some time adapting to and modifying your aero or climbing position & form while the workload is relatively low.",
       "location": ""
     },
     {
