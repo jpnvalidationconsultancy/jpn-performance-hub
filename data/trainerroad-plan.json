@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-06-18T19:31:56.196601Z",
+  "updated_at": "2026-06-18T22:13:41.779727Z",
   "sessions": [
+    {
+      "summary": "0:28 - Swim Base Intervals",
+      "date": "2026-05-20",
+      "day": "Wednesday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
+      "location": ""
+    },
+    {
+      "summary": "0:35 - Base Run",
+      "date": "2026-05-20",
+      "day": "Wednesday",
+      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to insert 1 minute of walking whenever necessary as you try to run more continuously from week to week and emphasize quality over quantity at this early point in your running. Try to run for 5 minutes between walking breaks if possible.",
+      "location": ""
+    },
     {
       "summary": "1:00 - Tunnabora",
       "date": "2026-06-02",
@@ -163,6 +177,13 @@
       "location": ""
     },
     {
+      "summary": "0:30 - Brick Run",
+      "date": "2026-06-27",
+      "day": "Saturday",
+      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
+      "location": ""
+    },
+    {
       "summary": "0:40 - Base Run",
       "date": "2026-06-28",
       "day": "Sunday",
@@ -188,6 +209,13 @@
       "date": "2026-07-01",
       "day": "Wednesday",
       "description": "Description: 10min Easy RPE4 (Endurance) pace to warm up  5x5min Hard RPE7 (10k) pace, 3min easy  10min Easy RPE4 (Endurance) pace to cool down",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-07-02",
+      "day": "Thursday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -527,24 +555,10 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-07-02",
-      "day": "Thursday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
       "summary": "0:46 - Swim Base + VO2max Intervals",
       "date": "2026-07-01",
       "day": "Wednesday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Front Sculling drills w/ 10s rest between drills 7x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 6x100m Hard, RPE8 w/ 60s rest between intervals 8x25m Kick & Rotate drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Front Sculling (FS) - Stretch your arms out in front of you, fingertips pointed forward, arms no more than shoulder-width apart and use both hands to propel yourself forward by \"sculling\" in a figure-eight pattern as you simulate the catch over & over. Use a minimal kick and do this with your head up or down.  Kick & Rotate (K&R) - Begin kicking on your side for 3-5 seconds, then rotate onto your belly and \"catch up\" to your leading arm with the other arm bringing both arms out in front of you. Pull with the arm that was leading as you roll onto your opposite side. Kick for 3-5 seconds on this side, catch up with the other arm, and immediately pull the previously leading arm and rotate to the opposite side. Over time, try to spend only 2 seconds at a time kicking on each side.",
-      "location": ""
-    },
-    {
-      "summary": "0:30 - Brick Run",
-      "date": "2026-06-27",
-      "day": "Saturday",
-      "description": "Description: 30min at a Comfortable RP5 (Marathon) pace.   After your ride, transition quickly into your running gear and make 30 minutes of running look downright effortless...even if it doesn?t feel that way.",
       "location": ""
     },
     {
@@ -720,20 +734,6 @@
       "date": "2026-05-21",
       "day": "Thursday",
       "description": "TSS 59, IF 0.77, kJ(Cal) 564.  Description: Leavitt -3 is 50 continuous minutes of Tempo work broken into 7x7-minute segments ranging from 75-85% FTP. Goals: Riding at the lower end of the Sweet Spot range pushes you to the height of aerobic endurance.While rather uncomfortable, working here isn't too stressful to keep you from spending pretty long durations at a productive work level that's not too demanding in terms of recovery.This is close to where half-distance triathletes will spend multiple hours during their bike leg. This is also where ample time is spent during long road races, especially ones with steady climbs.Consider using portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.Try to keep your cadence above 85rpm, preferably above 90rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:35 - Base Run",
-      "date": "2026-05-20",
-      "day": "Wednesday",
-      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to insert 1 minute of walking whenever necessary as you try to run more continuously from week to week and emphasize quality over quantity at this early point in your running. Try to run for 5 minutes between walking breaks if possible.",
-      "location": ""
-    },
-    {
-      "summary": "0:28 - Swim Base Intervals",
-      "date": "2026-05-20",
-      "day": "Wednesday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 4x25m Catch-Up drills w/ 10s rest between drills 6x100m Easy-Moderate, RPE5 w/ 5s rest between intervals 4x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
       "location": ""
     },
     {
