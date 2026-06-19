@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T14:14:19.838274Z",
+  "updated_at": "2026-06-19T16:58:38.821614Z",
   "sessions": [
     {
       "summary": "0:28 - Swim Base Intervals",
@@ -13,6 +13,27 @@
       "date": "2026-05-20",
       "day": "Wednesday",
       "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Feel free to insert 1 minute of walking whenever necessary as you try to run more continuously from week to week and emphasize quality over quantity at this early point in your running. Try to run for 5 minutes between walking breaks if possible.",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Leavitt -3",
+      "date": "2026-05-21",
+      "day": "Thursday",
+      "description": "TSS 59, IF 0.77, kJ(Cal) 564.  Description: Leavitt -3 is 50 continuous minutes of Tempo work broken into 7x7-minute segments ranging from 75-85% FTP. Goals: Riding at the lower end of the Sweet Spot range pushes you to the height of aerobic endurance.While rather uncomfortable, working here isn't too stressful to keep you from spending pretty long durations at a productive work level that's not too demanding in terms of recovery.This is close to where half-distance triathletes will spend multiple hours during their bike leg. This is also where ample time is spent during long road races, especially ones with steady climbs.Consider using portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.Try to keep your cadence above 85rpm, preferably above 90rpm.",
+      "location": ""
+    },
+    {
+      "summary": "0:35 - Base Run",
+      "date": "2026-05-22",
+      "day": "Friday",
+      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary if it means the difference between running well and sacrificing form while running efficiency suffers. Quick walking breaks of a single minute can often keep the form high while costing very little in terms of aerobic fitness improvements.",
+      "location": ""
+    },
+    {
+      "summary": "0:28 - Swim Speed Intervals",
+      "date": "2026-05-22",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x100m of 25m Easy, RPE4/25m Hard, RPE8, 10s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
       "location": ""
     },
     {
@@ -716,27 +737,6 @@
       "location": ""
     },
     {
-      "summary": "0:28 - Swim Speed Intervals",
-      "date": "2026-05-22",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x100m of 25m Easy, RPE4/25m Hard, RPE8, 10s rest between intervals 8x25m Side Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Side Kicking (SK) - Swim on your side with your lower arm extended ahead of you and the upper arm resting against your side. Rest your head against your shoulder and look down, keeping your head completely submerged while using only your kick to propel yourself. Rotate your head slightly when inhaling and try to keep your hips & legs high throughout as you swim a full pool length before switching sides.",
-      "location": ""
-    },
-    {
-      "summary": "0:35 - Base Run",
-      "date": "2026-05-22",
-      "day": "Friday",
-      "description": "Description: 35min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary if it means the difference between running well and sacrificing form while running efficiency suffers. Quick walking breaks of a single minute can often keep the form high while costing very little in terms of aerobic fitness improvements.",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - Leavitt -3",
-      "date": "2026-05-21",
-      "day": "Thursday",
-      "description": "TSS 59, IF 0.77, kJ(Cal) 564.  Description: Leavitt -3 is 50 continuous minutes of Tempo work broken into 7x7-minute segments ranging from 75-85% FTP. Goals: Riding at the lower end of the Sweet Spot range pushes you to the height of aerobic endurance.While rather uncomfortable, working here isn't too stressful to keep you from spending pretty long durations at a productive work level that's not too demanding in terms of recovery.This is close to where half-distance triathletes will spend multiple hours during their bike leg. This is also where ample time is spent during long road races, especially ones with steady climbs.Consider using portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.Try to keep your cadence above 85rpm, preferably above 90rpm.",
-      "location": ""
-    },
-    {
       "summary": "1:45 - Virginia +2",
       "date": "2026-08-22",
       "day": "Saturday",
@@ -1024,10 +1024,10 @@
       "location": ""
     },
     {
-      "summary": "70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "Build",
+      "date": "2026-06-16",
+      "day": "Tuesday",
+      "description": "Description: block text",
       "location": ""
     },
     {
@@ -1038,10 +1038,10 @@
       "location": ""
     },
     {
-      "summary": "Build",
-      "date": "2026-06-16",
-      "day": "Tuesday",
-      "description": "Description: block text",
+      "summary": "70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     }
   ]
