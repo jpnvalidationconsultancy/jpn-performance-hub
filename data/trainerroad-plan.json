@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T18:55:13.443763Z",
+  "updated_at": "2026-06-20T20:17:56.887905Z",
   "sessions": [
     {
       "summary": "1:00 - Leavitt -3",
@@ -72,13 +72,6 @@
       "location": ""
     },
     {
-      "summary": "0:32 - Swim Speed Intervals",
-      "date": "2026-05-29",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Catch-Up drills w/ 10s rest between drills 5x100m of 25m Build from RPE4 to RPE8/25m Descend from RPE8 to RPE4, 10s rest between intervals 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
-      "location": ""
-    },
-    {
       "summary": "0:40 - Base Run",
       "date": "2026-05-29",
       "day": "Friday",
@@ -90,13 +83,6 @@
       "date": "2026-05-30",
       "day": "Saturday",
       "description": "TSS 80, IF 0.80, kJ(Cal) 716.  Description: In total, Sukaisan is 54 minutes of  Tempo/Sweet Spot work broken into 6 segments ranging 8-10 minutes and from 84-89% FTP with only short, 1-minute recoveries between each, and a 2.5-minute recovery halfway through. Goals: Tempo rides are the height of aerobic endurance and while rather uncomfortable, they aren't too stressful to keep you from spending pretty long durations at a productive work level that isn't too demanding in terms of recovery.This is where some long-course and Olympic-distance triathletes will spend ample time. This is also where time is spent during any long but aggressive road ride.Use portions or entireties of these intervals to work on riding in your aerodynamic position without sacrificing power.There is no scheduled rest during this workout, but brief, occasional backspins are encouraged if they're the difference between loss of form and a high-quality workout.        Try to do so with a cadence above 85rpm, preferably above 90rpm.",
-      "location": ""
-    },
-    {
-      "summary": "0:36 - Continuous Base Swim",
-      "date": "2026-05-31",
-      "day": "Sunday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 1200m Easy-Moderate, RPE5 Cool-Down 300m Easy, RPE4",
       "location": ""
     },
     {
@@ -314,6 +300,13 @@
       "date": "2026-07-12",
       "day": "Sunday",
       "description": "Description: Either Warm-Up 300m Easy, RPE4 1200m Easy-Moderate, RPE5 Cool-Down 300m Easy, RPE4   OR compete in a B-priority practice race",
+      "location": ""
+    },
+    {
+      "summary": "1:00 - Pettit -1",
+      "date": "2026-07-12",
+      "day": "Sunday",
+      "description": "TSS 27, IF 0.52, kJ(Cal) 388.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
       "location": ""
     },
     {
@@ -611,13 +604,6 @@
       "location": ""
     },
     {
-      "summary": "1:00 - Pettit -1",
-      "date": "2026-07-12",
-      "day": "Sunday",
-      "description": "TSS 27, IF 0.52, kJ(Cal) 388.  Description: Pettit -1 is an hour of light Endurance work spent mostly between 50-60% FTP. Goals: The primary aim here is to allow riders to accumulate a little extra workout stress without hampering recovery.Additionally, optional form drills target improvements in pedaling mechanics and sustainable leg speed.",
-      "location": ""
-    },
-    {
       "summary": "0:50 - Race Pace Run",
       "date": "2026-07-03",
       "day": "Friday",
@@ -776,6 +762,20 @@
       "date": "2026-05-31",
       "day": "Sunday",
       "description": "Description: 45min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary but try to grow your continuous running stretches a minute or two each week. So if you ran for 8 minutes last week before walking for a minute, try to run for 9 or 10 minutes before walking during next week?s base runs.",
+      "location": ""
+    },
+    {
+      "summary": "0:36 - Continuous Base Swim",
+      "date": "2026-05-31",
+      "day": "Sunday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 1200m Easy-Moderate, RPE5 Cool-Down 300m Easy, RPE4",
+      "location": ""
+    },
+    {
+      "summary": "0:32 - Swim Speed Intervals",
+      "date": "2026-05-29",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Catch-Up drills w/ 10s rest between drills 5x100m of 25m Build from RPE4 to RPE8/25m Descend from RPE8 to RPE4, 10s rest between intervals 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
       "location": ""
     },
     {
@@ -1010,10 +1010,10 @@
       "location": ""
     },
     {
-      "summary": "70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "Build",
+      "date": "2026-06-16",
+      "day": "Tuesday",
+      "description": "Description: block text",
       "location": ""
     },
     {
@@ -1024,10 +1024,10 @@
       "location": ""
     },
     {
-      "summary": "Build",
-      "date": "2026-06-16",
-      "day": "Tuesday",
-      "description": "Description: block text",
+      "summary": "70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     }
   ]
