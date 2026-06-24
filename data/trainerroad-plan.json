@@ -1,25 +1,11 @@
 {
-  "updated_at": "2026-06-23T22:46:53.982569Z",
+  "updated_at": "2026-06-24T00:01:15.160330Z",
   "sessions": [
-    {
-      "summary": "0:40 - Base Run",
-      "date": "2026-05-24",
-      "day": "Sunday",
-      "description": "Description: 40min at an Easy RPE4 (Endurance) pace.   Again, walk briefly when necessary and try to recognize that quick walking breaks of a single minute can often keep the form high while costing very little in terms of aerobic fitness improvements.",
-      "location": ""
-    },
     {
       "summary": "0:32 - Swim Speed Intervals",
       "date": "2026-05-29",
       "day": "Friday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Catch-Up drills w/ 10s rest between drills 5x100m of 25m Build from RPE4 to RPE8/25m Descend from RPE8 to RPE4, 10s rest between intervals 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Catch-Up (CU) - Your lead arm will remain fully extended in front of you until your working arm completes a full stroke. The working arm now becomes the lead arm and remains fully extended in front of you until your working arm completes its full stroke and \"catches up\".  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
-      "location": ""
-    },
-    {
-      "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
-      "date": "2026-06-24",
-      "day": "Wednesday",
-      "description": "TSS 60, IF 0.71, kJ(Cal) 603.  Description: 8min easy spin 3min LT1 60 sec easy 5 x30 sec V02- 30 easy extra 2min easy  Main set - Aerobic Progression 5x8min building from Aerobic to just above LT1 (tempo) all with 1 min recovery  8min easy cd",
       "location": ""
     },
     {
@@ -30,10 +16,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
+      "date": "2026-06-24",
+      "day": "Wednesday",
+      "description": "TSS 60, IF 0.71, kJ(Cal) 603.  Description: 8min easy spin 3min LT1 60 sec easy 5 x30 sec V02- 30 easy extra 2min easy  Main set - Aerobic Progression 5x8min building from Aerobic to just above LT1 (tempo) all with 1 min recovery  8min easy cd",
+      "location": ""
+    },
+    {
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -44,10 +37,10 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
