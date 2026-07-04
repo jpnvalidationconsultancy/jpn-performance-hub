@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-07-04T07:22:51.191001Z",
+  "updated_at": "2026-07-04T09:36:54.126232Z",
   "sessions": [
     {
       "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
       "date": "2026-06-24",
       "day": "Wednesday",
       "description": "TSS 60, IF 0.71, kJ(Cal) 560.  Description: 8min easy spin 3min LT1 60 sec easy 5 x30 sec V02- 30 easy extra 2min easy  Main set - Aerobic Progression 5x8min building from Aerobic to just above LT1 (tempo) all with 1 min recovery  8min easy cd",
+      "location": ""
+    },
+    {
+      "summary": "2:00 - Endurance with VO2 Surges",
+      "date": "2026-07-05",
+      "day": "Sunday",
+      "description": "TSS 114, IF 0.75, kJ(Cal) 1012.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
       "location": ""
     },
     {
@@ -34,13 +41,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "TSS 156.  Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "2:00 - Endurance with VO2 Surges",
-      "date": "2026-07-05",
-      "day": "Sunday",
-      "description": "TSS 114, IF 0.75, kJ(Cal) 1012.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
       "location": ""
     },
     {
