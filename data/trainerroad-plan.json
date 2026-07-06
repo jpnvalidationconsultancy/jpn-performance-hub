@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T20:55:34.600608Z",
+  "updated_at": "2026-07-06T22:17:06.910877Z",
   "sessions": [
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
@@ -16,13 +16,6 @@
       "location": ""
     },
     {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-07-08",
-      "day": "Wednesday",
-      "description": "TSS 66, IF 0.74, kJ(Cal) 586.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
-      "location": ""
-    },
-    {
       "summary": "2:00 - Endurance with VO2 Surges",
       "date": "2026-07-05",
       "day": "Sunday",
@@ -30,17 +23,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:08 - Adapted to Varied Cadence",
+      "date": "2026-07-06",
+      "day": "Monday",
+      "description": "TSS 51, IF 0.67, kJ(Cal) 513.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
       "location": ""
     },
     {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-07-08",
+      "day": "Wednesday",
+      "description": "TSS 66, IF 0.74, kJ(Cal) 586.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
@@ -51,10 +44,17 @@
       "location": ""
     },
     {
-      "summary": "1:08 - Adapted to Varied Cadence",
-      "date": "2026-07-06",
-      "day": "Monday",
-      "description": "TSS 51, IF 0.67, kJ(Cal) 513.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
