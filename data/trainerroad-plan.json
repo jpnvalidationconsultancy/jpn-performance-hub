@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T04:52:02.127029Z",
+  "updated_at": "2026-07-06T09:01:34.689211Z",
   "sessions": [
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
@@ -20,6 +20,13 @@
       "date": "2026-07-05",
       "day": "Sunday",
       "description": "TSS 114, IF 0.75, kJ(Cal) 1012.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
+      "location": ""
+    },
+    {
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-07-08",
+      "day": "Wednesday",
+      "description": "TSS 66, IF 0.74, kJ(Cal) 586.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
