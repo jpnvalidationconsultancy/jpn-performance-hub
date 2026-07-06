@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T09:01:34.689211Z",
+  "updated_at": "2026-07-06T13:04:21.784111Z",
   "sessions": [
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
@@ -20,6 +20,13 @@
       "date": "2026-07-05",
       "day": "Sunday",
       "description": "TSS 114, IF 0.75, kJ(Cal) 1012.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
+      "location": ""
+    },
+    {
+      "summary": "1:08 - Adapted to Varied Cadence",
+      "date": "2026-07-06",
+      "day": "Monday",
+      "description": "TSS 51, IF 0.67, kJ(Cal) 513.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
       "location": ""
     },
     {
