@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T18:17:17.983933Z",
+  "updated_at": "2026-07-13T19:58:56.594296Z",
   "sessions": [
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
@@ -23,13 +23,6 @@
       "location": ""
     },
     {
-      "summary": "1:08 - Adapted to Varied Cadence",
-      "date": "2026-07-06",
-      "day": "Monday",
-      "description": "TSS 51, IF 0.67, kJ(Cal) 632.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
-      "location": ""
-    },
-    {
       "summary": "1:12 - ADAPTED Endurance LT1-LT2",
       "date": "2026-07-08",
       "day": "Wednesday",
@@ -37,17 +30,17 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-07-13",
+      "summary": "1:08 - Adapted to Varied Cadence",
+      "date": "2026-07-06",
       "day": "Monday",
-      "description": "Description: Rest Day",
+      "description": "TSS 51, IF 0.67, kJ(Cal) 632.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -58,10 +51,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-07-13",
+      "day": "Monday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
