@@ -1,32 +1,11 @@
 {
-  "updated_at": "2026-07-13T16:04:51.907081Z",
+  "updated_at": "2026-07-13T18:17:17.983933Z",
   "sessions": [
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
       "date": "2026-06-19",
       "day": "Friday",
       "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 60s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
-      "location": ""
-    },
-    {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-07-08",
-      "day": "Wednesday",
-      "description": "TSS 66, IF 0.74, kJ(Cal) 722.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:08 - Adapted to Varied Cadence",
-      "date": "2026-07-06",
-      "day": "Monday",
-      "description": "TSS 51, IF 0.67, kJ(Cal) 632.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
-      "location": ""
-    },
-    {
-      "summary": "2:00 - Endurance with VO2 Surges",
-      "date": "2026-07-05",
-      "day": "Sunday",
-      "description": "TSS 114, IF 0.75, kJ(Cal) 1246.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
       "location": ""
     },
     {
@@ -37,17 +16,31 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
+      "summary": "2:00 - Endurance with VO2 Surges",
+      "date": "2026-07-05",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 114, IF 0.75, kJ(Cal) 1246.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
       "location": ""
     },
     {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:08 - Adapted to Varied Cadence",
+      "date": "2026-07-06",
+      "day": "Monday",
+      "description": "TSS 51, IF 0.67, kJ(Cal) 632.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
+      "location": ""
+    },
+    {
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-07-08",
+      "day": "Wednesday",
+      "description": "TSS 66, IF 0.74, kJ(Cal) 722.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-07-13",
+      "day": "Monday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -58,10 +51,17 @@
       "location": ""
     },
     {
-      "summary": "0:45 - Lazy Mountain -2",
-      "date": "2026-07-13",
-      "day": "Monday",
-      "description": "TSS 18, IF 0.49, kJ(Cal) 311.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
