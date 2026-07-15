@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T09:10:25.812708Z",
+  "updated_at": "2026-07-15T11:09:11.512508Z",
   "sessions": [
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
@@ -44,6 +44,13 @@
       "location": ""
     },
     {
+      "summary": "1:00 - CP20 / FTP Test",
+      "date": "2026-07-16",
+      "day": "Thursday",
+      "description": "TSS 73, IF 0.85, kJ(Cal) 639.  Description: You can use any form, of FTP test protocol so long as it includes a 20min max effort - no ramp tests or different variations.  CP20 protocol - ERG mode OFF  10 mins easy 4x1min building 2 mins easy 5 mins at 90% 10 min very easy  20 min test - no erg mode, do not be limited by numbers in the workout builder 10 min easy spin",
+      "location": ""
+    },
+    {
       "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
@@ -62,13 +69,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - CP20 / FTP Test",
-      "date": "2026-07-16",
-      "day": "Thursday",
-      "description": "TSS 73, IF 0.85, kJ(Cal) 639.  Description: You can use any form, of FTP test protocol so long as it includes a 20min max effort - no ramp tests or different variations.  CP20 protocol - ERG mode OFF  10 mins easy 4x1min building 2 mins easy 5 mins at 90% 10 min very easy  20 min test - no erg mode, do not be limited by numbers in the workout builder 10 min easy spin",
       "location": ""
     },
     {
