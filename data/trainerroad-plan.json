@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-07-16T14:00:10.920454Z",
+  "updated_at": "2026-07-16T15:43:35.242646Z",
   "sessions": [
+    {
+      "summary": "0:48 - Swim Threshold + Speed Intervals",
+      "date": "2026-06-19",
+      "day": "Friday",
+      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 60s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
+      "location": ""
+    },
     {
       "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
       "date": "2026-06-24",
@@ -37,24 +44,10 @@
       "location": ""
     },
     {
-      "summary": "0:48 - Swim Threshold + Speed Intervals",
-      "date": "2026-06-19",
-      "day": "Friday",
-      "description": "Description: Warm-Up 300m Easy, RPE4 8x25m Fists drills w/ 10s rest between drills 4x300m Moderate-Hard, RPE7 w/ 60s rest between intervals 4x50m Fastest Average, RPE9 w/ 20s rest between sprints 8x25m Kicking drills w/ 15s rest between drills Cool-Down 300m Easy, RPE4  Drill Instructions Fists (F) - Swim with clenched fists and focus on rotating your shoulders and bending your working elbow during the catch, creating a pull that's nearly as powerful as one done with an open hand.  Fastest Average (FA) - Swim each repetition at a pace that is as fast as you can sustain for the entire set, while still being able to complete all the repetitions at the given RPE. Aim to maintain a consistent time for each repetition throughout the set. For example: If doing 4 x 100m freestyle, it would be better to swim 1:20, 1:21, 1:19, 1:20 (with an average pace of 1:20 per 100m) than to swim 1:18, 1:18, 1:20, 1:28 (averaging 1:21 per 100m).  Kicking (K) - Swim facedown using only your feet to propel you as you breathe just as you would during a freestyle stroke by rolling to the side and turning your head to catch some air. Focus on \"pushing\" your chest down while keeping your legs & hips up toward the surface as you practice balance & kicking technique.",
-      "location": ""
-    },
-    {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:00 - CP20 / FTP Test",
+      "date": "2026-07-16",
+      "day": "Thursday",
+      "description": "TSS 73, IF 0.85, kJ(Cal) 639.  Description: You can use any form, of FTP test protocol so long as it includes a 20min max effort - no ramp tests or different variations.  CP20 protocol - ERG mode OFF  10 mins easy 4x1min building 2 mins easy 5 mins at 90% 10 min very easy  20 min test - no erg mode, do not be limited by numbers in the workout builder 10 min easy spin",
       "location": ""
     },
     {
@@ -65,10 +58,17 @@
       "location": ""
     },
     {
-      "summary": "1:00 - CP20 / FTP Test",
-      "date": "2026-07-16",
-      "day": "Thursday",
-      "description": "TSS 73, IF 0.85, kJ(Cal) 639.  Description: You can use any form, of FTP test protocol so long as it includes a 20min max effort - no ramp tests or different variations.  CP20 protocol - ERG mode OFF  10 mins easy 4x1min building 2 mins easy 5 mins at 90% 10 min very easy  20 min test - no erg mode, do not be limited by numbers in the workout builder 10 min easy spin",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
