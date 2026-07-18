@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T04:05:39.229151Z",
+  "updated_at": "2026-07-18T06:27:51.876540Z",
   "sessions": [
     {
       "summary": "0:48 - Swim Threshold + Speed Intervals",
@@ -48,6 +48,13 @@
       "date": "2026-07-16",
       "day": "Thursday",
       "description": "TSS 73, IF 0.85, kJ(Cal) 639.  Description: You can use any form, of FTP test protocol so long as it includes a 20min max effort - no ramp tests or different variations.  CP20 protocol - ERG mode OFF  10 mins easy 4x1min building 2 mins easy 5 mins at 90% 10 min very easy  20 min test - no erg mode, do not be limited by numbers in the workout builder 10 min easy spin",
+      "location": ""
+    },
+    {
+      "summary": "1:17 - Philison's Never 'Resting' Story...",
+      "date": "2026-07-20",
+      "day": "Monday",
+      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
       "location": ""
     },
     {
