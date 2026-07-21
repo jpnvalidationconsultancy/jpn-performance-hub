@@ -1,32 +1,11 @@
 {
-  "updated_at": "2026-07-21T21:39:51.126431Z",
+  "updated_at": "2026-07-21T22:59:49.952867Z",
   "sessions": [
     {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-07-08",
+      "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
+      "date": "2026-06-24",
       "day": "Wednesday",
-      "description": "TSS 66, IF 0.74, kJ(Cal) 722.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:00 - CP20 / FTP Test",
-      "date": "2026-07-16",
-      "day": "Thursday",
-      "description": "TSS 73, IF 0.85, kJ(Cal) 639.  Description: You can use any form, of FTP test protocol so long as it includes a 20min max effort - no ramp tests or different variations.  CP20 protocol - ERG mode OFF  10 mins easy 4x1min building 2 mins easy 5 mins at 90% 10 min very easy  20 min test - no erg mode, do not be limited by numbers in the workout builder 10 min easy spin",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-07-13",
-      "day": "Monday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "1:08 - Adapted to Varied Cadence",
-      "date": "2026-07-06",
-      "day": "Monday",
-      "description": "TSS 51, IF 0.67, kJ(Cal) 632.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
+      "description": "TSS 60, IF 0.71, kJ(Cal) 689.  Description: 8min easy spin 3min LT1 60 sec easy 5 x30 sec V02- 30 easy extra 2min easy  Main set - Aerobic Progression 5x8min building from Aerobic to just above LT1 (tempo) all with 1 min recovery  8min easy cd",
       "location": ""
     },
     {
@@ -37,24 +16,38 @@
       "location": ""
     },
     {
-      "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
-      "date": "2026-06-24",
+      "summary": "1:08 - Adapted to Varied Cadence",
+      "date": "2026-07-06",
+      "day": "Monday",
+      "description": "TSS 51, IF 0.67, kJ(Cal) 632.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
+      "location": ""
+    },
+    {
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-07-08",
       "day": "Wednesday",
-      "description": "TSS 60, IF 0.71, kJ(Cal) 689.  Description: 8min easy spin 3min LT1 60 sec easy 5 x30 sec V02- 30 easy extra 2min easy  Main set - Aerobic Progression 5x8min building from Aerobic to just above LT1 (tempo) all with 1 min recovery  8min easy cd",
+      "description": "TSS 66, IF 0.74, kJ(Cal) 722.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "Rest Day",
+      "date": "2026-07-13",
+      "day": "Monday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:00 - CP20 / FTP Test",
+      "date": "2026-07-16",
+      "day": "Thursday",
+      "description": "TSS 73, IF 0.85, kJ(Cal) 639.  Description: You can use any form, of FTP test protocol so long as it includes a 20min max effort - no ramp tests or different variations.  CP20 protocol - ERG mode OFF  10 mins easy 4x1min building 2 mins easy 5 mins at 90% 10 min very easy  20 min test - no erg mode, do not be limited by numbers in the workout builder 10 min easy spin",
+      "location": ""
+    },
+    {
+      "summary": "1:17 - Philison's Never 'Resting' Story...",
+      "date": "2026-07-20",
+      "day": "Monday",
+      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
       "location": ""
     },
     {
@@ -65,10 +58,17 @@
       "location": ""
     },
     {
-      "summary": "1:17 - Philison's Never 'Resting' Story...",
-      "date": "2026-07-20",
-      "day": "Monday",
-      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
