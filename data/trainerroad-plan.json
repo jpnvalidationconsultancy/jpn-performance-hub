@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T16:55:51.393403Z",
+  "updated_at": "2026-07-22T18:11:29.635454Z",
   "sessions": [
     {
       "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
@@ -44,6 +44,13 @@
       "location": ""
     },
     {
+      "summary": "1:17 - Philison's Never 'Resting' Story...",
+      "date": "2026-07-20",
+      "day": "Monday",
+      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
+      "location": ""
+    },
+    {
       "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
@@ -62,13 +69,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "1:17 - Philison's Never 'Resting' Story...",
-      "date": "2026-07-20",
-      "day": "Monday",
-      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
       "location": ""
     },
     {
