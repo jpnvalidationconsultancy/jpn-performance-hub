@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-07-22T21:11:57.335751Z",
+  "updated_at": "2026-07-22T22:33:38.577500Z",
   "sessions": [
     {
       "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
       "date": "2026-06-24",
       "day": "Wednesday",
       "description": "TSS 60, IF 0.71, kJ(Cal) 689.  Description: 8min easy spin 3min LT1 60 sec easy 5 x30 sec V02- 30 easy extra 2min easy  Main set - Aerobic Progression 5x8min building from Aerobic to just above LT1 (tempo) all with 1 min recovery  8min easy cd",
+      "location": ""
+    },
+    {
+      "summary": "2:00 - Endurance with VO2 Surges",
+      "date": "2026-07-05",
+      "day": "Sunday",
+      "description": "TSS 114, IF 0.75, kJ(Cal) 1246.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
       "location": ""
     },
     {
@@ -23,24 +30,10 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-07-13",
-      "day": "Monday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
       "summary": "1:00 - CP20 / FTP Test",
       "date": "2026-07-16",
       "day": "Thursday",
       "description": "TSS 73, IF 0.85, kJ(Cal) 639.  Description: You can use any form, of FTP test protocol so long as it includes a 20min max effort - no ramp tests or different variations.  CP20 protocol - ERG mode OFF  10 mins easy 4x1min building 2 mins easy 5 mins at 90% 10 min very easy  20 min test - no erg mode, do not be limited by numbers in the workout builder 10 min easy spin",
-      "location": ""
-    },
-    {
-      "summary": "2:00 - Endurance with VO2 Surges",
-      "date": "2026-07-05",
-      "day": "Sunday",
-      "description": "TSS 114, IF 0.75, kJ(Cal) 1246.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
       "location": ""
     },
     {
@@ -69,6 +62,13 @@
       "date": "2026-07-20",
       "day": "Monday",
       "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-07-13",
+      "day": "Monday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
