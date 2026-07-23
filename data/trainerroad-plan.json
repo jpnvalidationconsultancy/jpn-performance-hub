@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-07-23T13:03:07.102586Z",
+  "updated_at": "2026-07-23T15:31:40.506758Z",
   "sessions": [
     {
       "summary": "1:12 - ADAPTEDendurance LT1 BUILDING blocks",
       "date": "2026-06-24",
       "day": "Wednesday",
       "description": "TSS 60, IF 0.71, kJ(Cal) 689.  Description: 8min easy spin 3min LT1 60 sec easy 5 x30 sec V02- 30 easy extra 2min easy  Main set - Aerobic Progression 5x8min building from Aerobic to just above LT1 (tempo) all with 1 min recovery  8min easy cd",
+      "location": ""
+    },
+    {
+      "summary": "2:00 - Endurance with VO2 Surges",
+      "date": "2026-07-05",
+      "day": "Sunday",
+      "description": "TSS 114, IF 0.75, kJ(Cal) 1246.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
       "location": ""
     },
     {
@@ -23,13 +30,6 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-07-13",
-      "day": "Monday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
       "summary": "1:00 - CP20 / FTP Test",
       "date": "2026-07-16",
       "day": "Thursday",
@@ -37,10 +37,17 @@
       "location": ""
     },
     {
-      "summary": "2:00 - Endurance with VO2 Surges",
-      "date": "2026-07-05",
-      "day": "Sunday",
-      "description": "TSS 114, IF 0.75, kJ(Cal) 1246.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
+      "summary": "1:17 - Philison's Never 'Resting' Story...",
+      "date": "2026-07-20",
+      "day": "Monday",
+      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-07-13",
+      "day": "Monday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -62,13 +69,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "TSS 156.  Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "1:17 - Philison's Never 'Resting' Story...",
-      "date": "2026-07-20",
-      "day": "Monday",
-      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
       "location": ""
     },
     {
