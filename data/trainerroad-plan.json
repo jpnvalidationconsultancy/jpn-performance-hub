@@ -1,25 +1,11 @@
 {
-  "updated_at": "2026-08-02T03:16:49.812050Z",
+  "updated_at": "2026-08-02T06:17:46.561128Z",
   "sessions": [
     {
       "summary": "2:00 - Endurance with VO2 Surges",
       "date": "2026-07-05",
       "day": "Sunday",
       "description": "TSS 114, IF 0.75, kJ(Cal) 1246.  Description: 60 mins Z2 / 4-5/10 effort  3x10mins (30:30s) with 5 mins between 30secs VO2/ 30 secs Z1  15 mins Z2",
-      "location": ""
-    },
-    {
-      "summary": "1:08 - Adapted to Varied Cadence",
-      "date": "2026-07-06",
-      "day": "Monday",
-      "description": "TSS 51, IF 0.67, kJ(Cal) 632.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
-      "location": ""
-    },
-    {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-07-08",
-      "day": "Wednesday",
-      "description": "TSS 66, IF 0.74, kJ(Cal) 722.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
@@ -62,6 +48,20 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-07-08",
+      "day": "Wednesday",
+      "description": "TSS 66, IF 0.74, kJ(Cal) 722.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
+      "location": ""
+    },
+    {
+      "summary": "1:08 - Adapted to Varied Cadence",
+      "date": "2026-07-06",
+      "day": "Monday",
+      "description": "TSS 51, IF 0.67, kJ(Cal) 632.  Description: 8 mins warm up  MAIN SET 3 rounds of 3mins decreasing cadence 85/75/65 to set up to start a 15 second seated sprint aiming to reach 120rpm or more  3min extra recovery  20 min build to LT1 in 5 min sections  6 min easy",
       "location": ""
     },
     {
