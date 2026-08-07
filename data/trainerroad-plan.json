@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-08-07T22:38:42.894511Z",
+  "updated_at": "2026-08-07T23:35:48.098901Z",
   "sessions": [
-    {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-07-08",
-      "day": "Wednesday",
-      "description": "TSS 66, IF 0.74, kJ(Cal) 722.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
-      "location": ""
-    },
     {
       "summary": "Rest Day",
       "date": "2026-07-13",
@@ -30,10 +23,10 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -44,10 +37,10 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
