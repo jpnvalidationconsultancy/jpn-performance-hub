@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-08-10T05:55:30.956270Z",
+  "updated_at": "2026-08-10T07:48:17.022205Z",
   "sessions": [
-    {
-      "summary": "Rest Day",
-      "date": "2026-07-13",
-      "day": "Monday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
     {
       "summary": "1:00 - CP20 / FTP Test",
       "date": "2026-07-16",
@@ -23,10 +16,17 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "Rest Day",
+      "date": "2026-07-13",
+      "day": "Monday",
+      "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -37,10 +37,10 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
