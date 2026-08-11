@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-08-11T21:51:32.286131Z",
+  "updated_at": "2026-08-11T22:45:56.212613Z",
   "sessions": [
-    {
-      "summary": "Rest Day",
-      "date": "2026-07-13",
-      "day": "Monday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
     {
       "summary": "1:00 - CP20 / FTP Test",
       "date": "2026-07-16",
@@ -16,17 +9,17 @@
       "location": ""
     },
     {
-      "summary": "1:17 - Philison's Never 'Resting' Story...",
-      "date": "2026-07-20",
+      "summary": "Rest Day",
+      "date": "2026-07-13",
       "day": "Monday",
-      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -37,10 +30,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:17 - Philison's Never 'Resting' Story...",
+      "date": "2026-07-20",
+      "day": "Monday",
+      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
       "location": ""
     },
     {
