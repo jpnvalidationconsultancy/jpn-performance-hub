@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-12T10:34:49.534027Z",
+  "updated_at": "2026-08-12T11:49:13.834157Z",
   "sessions": [
+    {
+      "summary": "Rest Day",
+      "date": "2026-07-13",
+      "day": "Monday",
+      "description": "Description: Rest Day",
+      "location": ""
+    },
     {
       "summary": "1:00 - CP20 / FTP Test",
       "date": "2026-07-16",
@@ -16,24 +23,10 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-07-13",
-      "day": "Monday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:15 - LT1 Aerobic Support",
+      "date": "2026-08-14",
+      "day": "Friday",
+      "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
       "location": ""
     },
     {
@@ -44,10 +37,17 @@
       "location": ""
     },
     {
-      "summary": "1:15 - LT1 Aerobic Support",
-      "date": "2026-08-14",
-      "day": "Friday",
-      "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
