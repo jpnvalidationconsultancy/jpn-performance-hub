@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T09:14:51.985837Z",
+  "updated_at": "2026-08-13T10:36:53.313865Z",
   "sessions": [
     {
       "summary": "1:00 - CP20 / FTP Test",
@@ -16,17 +16,10 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:15 - LT1 Aerobic Support",
+      "date": "2026-08-14",
+      "day": "Friday",
+      "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
       "location": ""
     },
     {
@@ -37,10 +30,17 @@
       "location": ""
     },
     {
-      "summary": "1:15 - LT1 Aerobic Support",
-      "date": "2026-08-14",
-      "day": "Friday",
-      "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "2:20 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
