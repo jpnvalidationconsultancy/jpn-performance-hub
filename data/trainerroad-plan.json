@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T16:52:51.639720Z",
+  "updated_at": "2026-08-15T17:22:22.496978Z",
   "sessions": [
     {
       "summary": "1:00 - CP20 / FTP Test",
@@ -20,6 +20,13 @@
       "date": "2026-08-14",
       "day": "Friday",
       "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-08-17",
+      "day": "Monday",
+      "description": "TSS 68, IF 0.74, kJ(Cal) 743.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
