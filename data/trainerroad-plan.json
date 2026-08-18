@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-18T09:35:46.631853Z",
+  "updated_at": "2026-08-18T10:31:17.487209Z",
   "sessions": [
+    {
+      "summary": "1:17 - Philison's Never 'Resting' Story...",
+      "date": "2026-07-20",
+      "day": "Monday",
+      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
+      "location": ""
+    },
     {
       "summary": "1:15 - LT1 Aerobic Support",
       "date": "2026-08-14",
@@ -16,17 +23,10 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:07 - 8 x 4 mins BG Progressive",
+      "date": "2026-08-19",
+      "day": "Wednesday",
+      "description": "TSS 53, IF 0.69, kJ(Cal) 598.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
       "location": ""
     },
     {
@@ -37,17 +37,17 @@
       "location": ""
     },
     {
-      "summary": "1:07 - 8 x 4 mins BG Progressive",
-      "date": "2026-08-19",
-      "day": "Wednesday",
-      "description": "TSS 53, IF 0.69, kJ(Cal) 598.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
-      "summary": "1:17 - Philison's Never 'Resting' Story...",
-      "date": "2026-07-20",
-      "day": "Monday",
-      "description": "TSS 76, IF 0.77, kJ(Cal) 822.  Description: Building resilience and fatigue resistance. The ability to dig deep as you get tired.  3 blocks of tempo riding with recoveries of 6.5mins in mid Z2.",
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
