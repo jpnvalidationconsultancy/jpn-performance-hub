@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T05:32:40.880961Z",
+  "updated_at": "2026-08-19T06:49:02.048175Z",
   "sessions": [
     {
       "summary": "1:17 - Philison's Never 'Resting' Story...",
@@ -13,13 +13,6 @@
       "date": "2026-08-14",
       "day": "Friday",
       "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-08-17",
-      "day": "Monday",
-      "description": "TSS 68, IF 0.74, kJ(Cal) 743.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
@@ -48,6 +41,13 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-08-17",
+      "day": "Monday",
+      "description": "TSS 68, IF 0.74, kJ(Cal) 743.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
