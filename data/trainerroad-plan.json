@@ -1,18 +1,11 @@
 {
-  "updated_at": "2026-08-22T06:50:00.431807Z",
+  "updated_at": "2026-08-22T07:33:38.631735Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
       "date": "2026-08-14",
       "day": "Friday",
       "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:07 - 8 x 4 mins BG Progressive",
-      "date": "2026-08-19",
-      "day": "Wednesday",
-      "description": "TSS 53, IF 0.69, kJ(Cal) 598.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
       "location": ""
     },
     {
@@ -23,10 +16,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "1:07 - 8 x 4 mins BG Progressive",
+      "date": "2026-08-19",
+      "day": "Wednesday",
+      "description": "TSS 53, IF 0.69, kJ(Cal) 598.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
+      "location": ""
+    },
+    {
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -37,10 +37,10 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
