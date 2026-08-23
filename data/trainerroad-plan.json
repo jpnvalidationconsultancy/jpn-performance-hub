@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-23T10:26:18.447480Z",
+  "updated_at": "2026-08-23T10:51:49.437975Z",
   "sessions": [
+    {
+      "summary": "1:15 - LT1 Aerobic Support",
+      "date": "2026-08-14",
+      "day": "Friday",
+      "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
+      "location": ""
+    },
     {
       "summary": "1:15 - ADAPTED Endurance LT1-LT2",
       "date": "2026-08-17",
@@ -41,13 +48,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "1:15 - LT1 Aerobic Support",
-      "date": "2026-08-14",
-      "day": "Friday",
-      "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
       "location": ""
     },
     {
