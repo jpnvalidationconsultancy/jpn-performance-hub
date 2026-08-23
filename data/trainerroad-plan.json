@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T22:24:39.942001Z",
+  "updated_at": "2026-08-23T22:49:24.430860Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -23,17 +23,10 @@
       "location": ""
     },
     {
-      "summary": "0:45 - Lazy Mountain -2",
-      "date": "2026-08-25",
-      "day": "Tuesday",
-      "description": "TSS 18, IF 0.49, kJ(Cal) 311.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
-      "location": ""
-    },
-    {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -44,10 +37,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "0:45 - Lazy Mountain -2",
+      "date": "2026-08-25",
+      "day": "Tuesday",
+      "description": "TSS 18, IF 0.49, kJ(Cal) 311.  Description: Lazy Mountain -2 is 45 minutes of easy, steady effort between 45-55% FTP. Goals: Recovery rides can be used to further your aerobic base by riding very easily when your muscles are already pretty cooked. When recovery is the goal, keep the ride as short as necessary and pull the plug well inside of an hour if effort this low is wearing you down and postponing your recovery.Spin lightly and reasonably quickly, preferably above 85rpm.",
       "location": ""
     },
     {
