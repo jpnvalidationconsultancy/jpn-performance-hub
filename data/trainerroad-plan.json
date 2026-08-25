@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-08-25T01:23:35.076594Z",
+  "updated_at": "2026-08-25T02:40:16.521916Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
       "date": "2026-08-14",
       "day": "Friday",
       "description": "TSS 56, IF 0.67, kJ(Cal) 689.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-08-17",
+      "day": "Monday",
+      "description": "TSS 68, IF 0.74, kJ(Cal) 743.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
@@ -16,10 +23,10 @@
       "location": ""
     },
     {
-      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-08-17",
-      "day": "Monday",
-      "description": "TSS 68, IF 0.74, kJ(Cal) 743.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
+      "summary": "Rest Day",
+      "date": "2026-08-25",
+      "day": "Tuesday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -41,13 +48,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "TSS 156.  Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-08-25",
-      "day": "Tuesday",
-      "description": "Description: Rest Day",
       "location": ""
     },
     {
