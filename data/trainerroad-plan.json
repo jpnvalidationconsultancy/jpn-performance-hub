@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T04:41:59.238477Z",
+  "updated_at": "2026-08-26T05:36:19.384087Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -27,6 +27,13 @@
       "date": "2026-08-25",
       "day": "Tuesday",
       "description": "TSS 72, IF 0.78, kJ(Cal) 734.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
+      "day": "Friday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 764.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
       "location": ""
     },
     {
