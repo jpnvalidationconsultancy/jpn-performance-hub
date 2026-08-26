@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T01:27:02.843720Z",
+  "updated_at": "2026-08-26T02:49:41.580063Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -9,31 +9,10 @@
       "location": ""
     },
     {
-      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-08-17",
-      "day": "Monday",
-      "description": "TSS 68, IF 0.74, kJ(Cal) 743.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:07 - 8 x 4 mins BG Progressive",
-      "date": "2026-08-19",
-      "day": "Wednesday",
-      "description": "TSS 53, IF 0.69, kJ(Cal) 598.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
-      "location": ""
-    },
-    {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
-      "date": "2026-08-25",
-      "day": "Tuesday",
-      "description": "TSS 72, IF 0.78, kJ(Cal) 734.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
-      "location": ""
-    },
-    {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -44,10 +23,31 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
+      "date": "2026-08-25",
+      "day": "Tuesday",
+      "description": "TSS 72, IF 0.78, kJ(Cal) 734.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
+      "location": ""
+    },
+    {
+      "summary": "1:07 - 8 x 4 mins BG Progressive",
+      "date": "2026-08-19",
+      "day": "Wednesday",
+      "description": "TSS 53, IF 0.69, kJ(Cal) 598.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-08-17",
+      "day": "Monday",
+      "description": "TSS 68, IF 0.74, kJ(Cal) 743.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
