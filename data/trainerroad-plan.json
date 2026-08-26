@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T16:19:55.824097Z",
+  "updated_at": "2026-08-26T18:15:18.755078Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -16,13 +16,6 @@
       "location": ""
     },
     {
-      "summary": "1:07 - 8 x 4 mins BG Progressive",
-      "date": "2026-08-19",
-      "day": "Wednesday",
-      "description": "TSS 53, IF 0.69, kJ(Cal) 620.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
-      "location": ""
-    },
-    {
       "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
       "date": "2026-08-25",
       "day": "Tuesday",
@@ -30,17 +23,17 @@
       "location": ""
     },
     {
-      "summary": "1:15 - PLEWS Muscular Endurance",
-      "date": "2026-08-28",
-      "day": "Friday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
+      "summary": "1:07 - 8 x 4 mins BG Progressive",
+      "date": "2026-08-19",
+      "day": "Wednesday",
+      "description": "TSS 53, IF 0.69, kJ(Cal) 620.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -51,10 +44,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
+      "day": "Friday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
       "location": ""
     },
     {
