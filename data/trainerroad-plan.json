@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T05:36:19.384087Z",
+  "updated_at": "2026-08-26T06:53:48.946234Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -20,13 +20,6 @@
       "date": "2026-08-19",
       "day": "Wednesday",
       "description": "TSS 53, IF 0.69, kJ(Cal) 598.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
-      "location": ""
-    },
-    {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
-      "date": "2026-08-25",
-      "day": "Tuesday",
-      "description": "TSS 72, IF 0.78, kJ(Cal) 734.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
       "location": ""
     },
     {
@@ -55,6 +48,13 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
+      "date": "2026-08-25",
+      "day": "Tuesday",
+      "description": "TSS 72, IF 0.78, kJ(Cal) 734.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
       "location": ""
     },
     {
