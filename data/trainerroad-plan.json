@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-31T08:20:01.545055Z",
+  "updated_at": "2026-08-31T16:18:08.020457Z",
   "sessions": [
+    {
+      "summary": "1:15 - LT1 Aerobic Support",
+      "date": "2026-08-14",
+      "day": "Friday",
+      "description": "TSS 56, IF 0.67, kJ(Cal) 715.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
+      "location": ""
+    },
     {
       "summary": "1:15 - ADAPTED Endurance LT1-LT2",
       "date": "2026-08-17",
@@ -23,31 +30,10 @@
       "location": ""
     },
     {
-      "summary": "1:15 - LT1 Aerobic Support",
-      "date": "2026-08-14",
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
       "day": "Friday",
-      "description": "TSS 56, IF 0.67, kJ(Cal) 715.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "2:20 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
       "location": ""
     },
     {
@@ -58,10 +44,24 @@
       "location": ""
     },
     {
-      "summary": "1:15 - PLEWS Muscular Endurance",
-      "date": "2026-08-28",
-      "day": "Friday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
+      "summary": "2:20 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
