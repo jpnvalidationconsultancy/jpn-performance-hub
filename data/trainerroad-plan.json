@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T06:17:32.504214Z",
+  "updated_at": "2026-09-03T11:33:52.132010Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -37,17 +37,10 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
+      "summary": "Rest Day",
+      "date": "2026-08-30",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -58,10 +51,17 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: Rest Day",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
