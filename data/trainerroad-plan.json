@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T23:50:52.697289Z",
+  "updated_at": "2026-09-04T03:37:31.128664Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -23,13 +23,6 @@
       "location": ""
     },
     {
-      "summary": "1:15 - PLEWS Muscular Endurance",
-      "date": "2026-08-28",
-      "day": "Friday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
-      "location": ""
-    },
-    {
       "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
       "date": "2026-08-25",
       "day": "Tuesday",
@@ -37,17 +30,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
+      "day": "Friday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
       "location": ""
     },
     {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
+      "summary": "Rest Day",
+      "date": "2026-08-30",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -58,10 +51,17 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: Rest Day",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
