@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T03:47:18.772033Z",
+  "updated_at": "2026-09-10T08:46:56.987394Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -55,6 +55,13 @@
       "date": "2026-09-09",
       "day": "Wednesday",
       "description": "TSS 61, IF 0.77, kJ(Cal) 648.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
+      "location": ""
+    },
+    {
+      "summary": "2:25 - Race specific Tempo Blocks",
+      "date": "2026-09-12",
+      "day": "Saturday",
+      "description": "TSS 152, IF 0.79, kJ(Cal) 1595.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
       "location": ""
     },
     {
