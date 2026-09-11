@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T14:09:21.228606Z",
+  "updated_at": "2026-09-11T17:49:43.133343Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -51,24 +51,10 @@
       "location": ""
     },
     {
-      "summary": "Adapted Endurance Short LT2 into SS",
-      "date": "2026-09-09",
-      "day": "Wednesday",
-      "description": "TSS 61, IF 0.77, kJ(Cal) 648.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
-      "location": ""
-    },
-    {
-      "summary": "2:25 - Race specific Tempo Blocks",
-      "date": "2026-09-12",
-      "day": "Saturday",
-      "description": "TSS 152, IF 0.79, kJ(Cal) 1595.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
-      "location": ""
-    },
-    {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -79,10 +65,24 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "2:25 - Race specific Tempo Blocks",
+      "date": "2026-09-12",
+      "day": "Saturday",
+      "description": "TSS 152, IF 0.79, kJ(Cal) 1595.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
+      "location": ""
+    },
+    {
+      "summary": "Adapted Endurance Short LT2 into SS",
+      "date": "2026-09-09",
+      "day": "Wednesday",
+      "description": "TSS 61, IF 0.77, kJ(Cal) 648.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
       "location": ""
     },
     {
