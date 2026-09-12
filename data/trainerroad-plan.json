@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T01:23:44.036977Z",
+  "updated_at": "2026-09-12T06:16:10.152779Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -23,6 +23,27 @@
       "location": ""
     },
     {
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
+      "date": "2026-08-25",
+      "day": "Tuesday",
+      "description": "TSS 72, IF 0.78, kJ(Cal) 761.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
+      "day": "Friday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-08-30",
+      "day": "Sunday",
+      "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
       "summary": "1:05 - Cadence Work - end of range",
       "date": "2026-09-08",
       "day": "Tuesday",
@@ -37,31 +58,10 @@
       "location": ""
     },
     {
-      "summary": "1:15 - PLEWS Muscular Endurance",
-      "date": "2026-08-28",
-      "day": "Friday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
-      "location": ""
-    },
-    {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
-      "date": "2026-08-25",
-      "day": "Tuesday",
-      "description": "TSS 72, IF 0.78, kJ(Cal) 761.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:45 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "0:39 - 70.3 Malaga",
-      "date": "2026-10-18",
-      "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "summary": "2:25 - Race specific Tempo Blocks",
+      "date": "2026-09-12",
+      "day": "Saturday",
+      "description": "TSS 152, IF 0.79, kJ(Cal) 1595.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
       "location": ""
     },
     {
@@ -72,17 +72,17 @@
       "location": ""
     },
     {
-      "summary": "2:25 - Race specific Tempo Blocks",
-      "date": "2026-09-12",
-      "day": "Saturday",
-      "description": "TSS 152, IF 0.79, kJ(Cal) 1595.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
+      "summary": "0:39 - 70.3 Malaga",
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
+      "summary": "1:45 - 70.3 Malaga",
+      "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: Rest Day",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
