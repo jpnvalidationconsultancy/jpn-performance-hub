@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T10:30:29.476814Z",
+  "updated_at": "2026-09-13T14:50:37.509114Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
@@ -9,45 +9,10 @@
       "location": ""
     },
     {
-      "summary": "1:07 - 8 x 4 mins BG Progressive",
-      "date": "2026-08-19",
-      "day": "Wednesday",
-      "description": "TSS 53, IF 0.69, kJ(Cal) 620.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
-      "location": ""
-    },
-    {
-      "summary": "1:15 - PLEWS Muscular Endurance",
-      "date": "2026-08-28",
-      "day": "Friday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
-      "location": ""
-    },
-    {
-      "summary": "1:05 - Cadence Work - end of range",
-      "date": "2026-09-08",
-      "day": "Tuesday",
-      "description": "TSS 43, IF 0.63, kJ(Cal) 594.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
-      "location": ""
-    },
-    {
-      "summary": "2:25 - Race specific Tempo Blocks",
-      "date": "2026-09-12",
-      "day": "Saturday",
-      "description": "TSS 152, IF 0.79, kJ(Cal) 1595.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
-      "location": ""
-    },
-    {
-      "summary": "1:14 - Descending Progressive",
-      "date": "2026-09-15",
-      "day": "Tuesday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 736.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
-      "day": "Sunday",
-      "description": "Description: Rest Day",
+      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-08-17",
+      "day": "Monday",
+      "description": "TSS 68, IF 0.74, kJ(Cal) 771.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
@@ -58,10 +23,52 @@
       "location": ""
     },
     {
-      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-08-17",
-      "day": "Monday",
-      "description": "TSS 68, IF 0.74, kJ(Cal) 771.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
+      "day": "Friday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-08-30",
+      "day": "Sunday",
+      "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
+      "summary": "1:05 - Cadence Work - end of range",
+      "date": "2026-09-08",
+      "day": "Tuesday",
+      "description": "TSS 43, IF 0.63, kJ(Cal) 594.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
+      "location": ""
+    },
+    {
+      "summary": "Adapted Endurance Short LT2 into SS",
+      "date": "2026-09-09",
+      "day": "Wednesday",
+      "description": "TSS 61, IF 0.77, kJ(Cal) 648.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
+      "location": ""
+    },
+    {
+      "summary": "1:14 - Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 736.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "location": ""
+    },
+    {
+      "summary": "2:25 - Race specific Tempo Blocks",
+      "date": "2026-09-12",
+      "day": "Saturday",
+      "description": "TSS 152, IF 0.79, kJ(Cal) 1595.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
+      "location": ""
+    },
+    {
+      "summary": "1:07 - 8 x 4 mins BG Progressive",
+      "date": "2026-08-19",
+      "day": "Wednesday",
+      "description": "TSS 53, IF 0.69, kJ(Cal) 620.  Description: 10 mins easy 2mins moderate 1min recovery  Main set - BG / low cadence work - the on screen cadence targets are suggestions only (see below)  4x3mins 80% FTP at 60-65rpms 6x2mins 90% FTP at 55-60rpms 2min recoveries throughout  10min CD at mod / high cadence",
       "location": ""
     },
     {
@@ -83,13 +90,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "TSS 156.  Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "Adapted Endurance Short LT2 into SS",
-      "date": "2026-09-09",
-      "day": "Wednesday",
-      "description": "TSS 61, IF 0.77, kJ(Cal) 648.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
       "location": ""
     },
     {
