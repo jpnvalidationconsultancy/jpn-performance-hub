@@ -1,53 +1,11 @@
 {
-  "updated_at": "2026-09-13T00:08:52.893902Z",
+  "updated_at": "2026-09-13T05:13:34.246772Z",
   "sessions": [
     {
       "summary": "1:15 - LT1 Aerobic Support",
       "date": "2026-08-14",
       "day": "Friday",
       "description": "TSS 56, IF 0.67, kJ(Cal) 715.  Description: Warm-up 25min build to 65% 2min easy  Main set 8x4min LT1 with 1min easy  8min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
-      "date": "2026-08-17",
-      "day": "Monday",
-      "description": "TSS 68, IF 0.74, kJ(Cal) 771.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
-      "location": ""
-    },
-    {
-      "summary": "1:15 - PLEWS Muscular Endurance",
-      "date": "2026-08-28",
-      "day": "Friday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
-      "day": "Sunday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "Adapted Endurance Short LT2 into SS",
-      "date": "2026-09-09",
-      "day": "Wednesday",
-      "description": "TSS 61, IF 0.77, kJ(Cal) 648.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
-      "location": ""
-    },
-    {
-      "summary": "1:05 - Cadence Work - end of range",
-      "date": "2026-09-08",
-      "day": "Tuesday",
-      "description": "TSS 43, IF 0.63, kJ(Cal) 594.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
-      "location": ""
-    },
-    {
-      "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
-      "date": "2026-08-25",
-      "day": "Tuesday",
-      "description": "TSS 72, IF 0.78, kJ(Cal) 761.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
       "location": ""
     },
     {
@@ -58,10 +16,45 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
+      "date": "2026-08-25",
+      "day": "Tuesday",
+      "description": "TSS 72, IF 0.78, kJ(Cal) 761.  Description: 8 min easy spin to LT2 4x1min building 2min easy 4x45 at v02 with same recoveries 2min extra recovery before the main set  Main set 4x(5 mins at LT1, 4 mins at LT2, 1 min easy)  10 min cool down",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-08-30",
+      "day": "Sunday",
+      "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
+      "summary": "1:05 - Cadence Work - end of range",
+      "date": "2026-09-08",
+      "day": "Tuesday",
+      "description": "TSS 43, IF 0.63, kJ(Cal) 594.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
+      "location": ""
+    },
+    {
+      "summary": "Adapted Endurance Short LT2 into SS",
+      "date": "2026-09-09",
+      "day": "Wednesday",
+      "description": "TSS 61, IF 0.77, kJ(Cal) 648.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
+      "location": ""
+    },
+    {
+      "summary": "1:14 - Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 736.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "location": ""
+    },
+    {
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -72,10 +65,24 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
+      "day": "Friday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 792.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - ADAPTED Endurance LT1-LT2",
+      "date": "2026-08-17",
+      "day": "Monday",
+      "description": "TSS 68, IF 0.74, kJ(Cal) 771.  Description: 10 min easy spin 4x1min building to LT2 2min easy 6x30 sec V02 efforts- 30 sec easy Main set 4x(8 mins at LT1, 2mins at LT2, 1 min easy)  7 min cool down",
       "location": ""
     },
     {
