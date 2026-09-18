@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T17:47:35.973387Z",
+  "updated_at": "2026-09-18T20:37:00.228407Z",
   "sessions": [
     {
       "summary": "1:07 - 8 x 4 mins BG Progressive",
@@ -16,10 +16,10 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
-      "day": "Sunday",
-      "description": "Description: Rest Day",
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
+      "day": "Friday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 770.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
       "location": ""
     },
     {
@@ -44,10 +44,10 @@
       "location": ""
     },
     {
-      "summary": "1:15 - PLEWS Muscular Endurance",
-      "date": "2026-08-28",
-      "day": "Friday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 770.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
+      "summary": "Rest Day",
+      "date": "2026-08-30",
+      "day": "Sunday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
