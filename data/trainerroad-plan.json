@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-09-19T01:26:54.648924Z",
+  "updated_at": "2026-09-19T06:28:53.428196Z",
   "sessions": [
-    {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
-      "day": "Sunday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
     {
       "summary": "1:05 - Cadence Work - end of range",
       "date": "2026-09-08",
       "day": "Tuesday",
       "description": "TSS 43, IF 0.63, kJ(Cal) 577.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
+      "location": ""
+    },
+    {
+      "summary": "2:25 - Race specific Tempo Blocks",
+      "date": "2026-09-12",
+      "day": "Saturday",
+      "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
       "location": ""
     },
     {
@@ -23,10 +23,10 @@
       "location": ""
     },
     {
-      "summary": "2:25 - Race specific Tempo Blocks",
-      "date": "2026-09-12",
-      "day": "Saturday",
-      "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
+      "summary": "Rest Day",
+      "date": "2026-08-30",
+      "day": "Sunday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
