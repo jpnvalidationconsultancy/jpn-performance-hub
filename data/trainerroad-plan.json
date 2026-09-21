@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T19:07:57.559475Z",
+  "updated_at": "2026-09-21T22:44:30.390535Z",
   "sessions": [
     {
       "summary": "1:15 - PLEWS Muscular Endurance",
@@ -51,6 +51,13 @@
       "location": ""
     },
     {
+      "summary": "3:00 - Progressive Race Efforts",
+      "date": "2026-09-19",
+      "day": "Saturday",
+      "description": "TSS 140, IF 0.68, kJ(Cal) 1725.  Description: 90 mins zone 1-2 endurance 30 mins LT1- in race position 15 mins easy endurance 3 x 8 mins Tempo",
+      "location": ""
+    },
+    {
       "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
       "date": "2026-08-25",
       "day": "Tuesday",
@@ -76,13 +83,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "TSS 156.  Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "3:00 - Progressive Race Efforts",
-      "date": "2026-09-19",
-      "day": "Saturday",
-      "description": "TSS 140, IF 0.68, kJ(Cal) 1725.  Description: 90 mins zone 1-2 endurance 30 mins LT1- in race position 15 mins easy endurance 3 x 8 mins Tempo",
       "location": ""
     },
     {
