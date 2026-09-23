@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T07:31:34.728247Z",
+  "updated_at": "2026-09-23T13:26:55.509982Z",
   "sessions": [
     {
       "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
@@ -9,10 +9,10 @@
       "location": ""
     },
     {
-      "summary": "1:15 - PLEWS Muscular Endurance",
-      "date": "2026-08-28",
-      "day": "Friday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 770.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
+      "summary": "Adapted Endurance Short LT2 into SS",
+      "date": "2026-09-09",
+      "day": "Wednesday",
+      "description": "TSS 61, IF 0.77, kJ(Cal) 630.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
       "location": ""
     },
     {
@@ -30,17 +30,17 @@
       "location": ""
     },
     {
+      "summary": "3:00 - Progressive Race Efforts",
+      "date": "2026-09-19",
+      "day": "Saturday",
+      "description": "TSS 140, IF 0.68, kJ(Cal) 1725.  Description: 90 mins zone 1-2 endurance 30 mins LT1- in race position 15 mins easy endurance 3 x 8 mins Tempo",
+      "location": ""
+    },
+    {
       "summary": "Descending Progressive",
       "date": "2026-09-15",
       "day": "Tuesday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
-      "location": ""
-    },
-    {
-      "summary": "Adapted Endurance Short LT2 into SS",
-      "date": "2026-09-09",
-      "day": "Wednesday",
-      "description": "TSS 61, IF 0.77, kJ(Cal) 630.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
       "location": ""
     },
     {
@@ -55,6 +55,13 @@
       "date": "2026-08-30",
       "day": "Sunday",
       "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - PLEWS Muscular Endurance",
+      "date": "2026-08-28",
+      "day": "Friday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 770.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
       "location": ""
     },
     {
@@ -83,13 +90,6 @@
       "date": "2026-09-24",
       "day": "Thursday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
-      "location": ""
-    },
-    {
-      "summary": "3:00 - Progressive Race Efforts",
-      "date": "2026-09-19",
-      "day": "Saturday",
-      "description": "TSS 140, IF 0.68, kJ(Cal) 1725.  Description: 90 mins zone 1-2 endurance 30 mins LT1- in race position 15 mins easy endurance 3 x 8 mins Tempo",
       "location": ""
     },
     {
