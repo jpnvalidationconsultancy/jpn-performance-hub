@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T18:35:38.869438Z",
+  "updated_at": "2026-09-24T22:06:23.534380Z",
   "sessions": [
     {
       "summary": "1:12 - ADAPTED Endurance LT1-LT2 and V02 prep",
@@ -51,9 +51,16 @@
       "location": ""
     },
     {
-      "summary": "Descending Progressive",
-      "date": "2026-09-15",
-      "day": "Tuesday",
+      "summary": "1:04 - Build to LT1 & Microbursts",
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "location": ""
+    },
+    {
+      "summary": "1:14 - Descending Progressive",
+      "date": "2026-09-24",
+      "day": "Thursday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
       "location": ""
     },
@@ -65,17 +72,10 @@
       "location": ""
     },
     {
-      "summary": "1:14 - Descending Progressive",
-      "date": "2026-09-24",
-      "day": "Thursday",
+      "summary": "Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
-      "location": ""
-    },
-    {
-      "summary": "1:04 - Build to LT1 & Microbursts",
-      "date": "2026-09-26",
-      "day": "Saturday",
-      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
       "location": ""
     },
     {
