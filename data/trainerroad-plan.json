@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-09-25T00:42:06.725391Z",
+  "updated_at": "2026-09-25T05:57:24.020797Z",
   "sessions": [
     {
       "summary": "1:15 - PLEWS Muscular Endurance",
       "date": "2026-08-28",
       "day": "Friday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 770.  Description: 2 blocks of muscular endurance work - power target varies back and forth within the tempo range (70.3 power).Cadence is quite low (<70rpms) to work the muscles hard.",
+      "location": ""
+    },
+    {
+      "summary": "Rest Day",
+      "date": "2026-08-30",
+      "day": "Sunday",
+      "description": "Description: Rest Day",
       "location": ""
     },
     {
@@ -65,17 +72,10 @@
       "location": ""
     },
     {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
-      "day": "Sunday",
-      "description": "Description: Rest Day",
-      "location": ""
-    },
-    {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -86,10 +86,10 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
