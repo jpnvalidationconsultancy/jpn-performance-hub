@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-09-25T16:50:50.184475Z",
+  "updated_at": "2026-09-25T20:19:39.601873Z",
   "sessions": [
-    {
-      "summary": "1:05 - Cadence Work - end of range",
-      "date": "2026-09-08",
-      "day": "Tuesday",
-      "description": "TSS 43, IF 0.63, kJ(Cal) 577.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
-      "location": ""
-    },
     {
       "summary": "Adapted Endurance Short LT2 into SS",
       "date": "2026-09-09",
@@ -20,6 +13,27 @@
       "date": "2026-09-12",
       "day": "Saturday",
       "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
+      "location": ""
+    },
+    {
+      "summary": "1:14 - Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "location": ""
+    },
+    {
+      "summary": "Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "location": ""
+    },
+    {
+      "summary": "3:00 - Progressive Race Efforts",
+      "date": "2026-09-19",
+      "day": "Saturday",
+      "description": "TSS 140, IF 0.68, kJ(Cal) 1725.  Description: 90 mins zone 1-2 endurance 30 mins LT1- in race position 15 mins easy endurance 3 x 8 mins Tempo",
       "location": ""
     },
     {
@@ -37,24 +51,10 @@
       "location": ""
     },
     {
-      "summary": "3:00 - Progressive Race Efforts",
-      "date": "2026-09-19",
-      "day": "Saturday",
-      "description": "TSS 140, IF 0.68, kJ(Cal) 1725.  Description: 90 mins zone 1-2 endurance 30 mins LT1- in race position 15 mins easy endurance 3 x 8 mins Tempo",
-      "location": ""
-    },
-    {
-      "summary": "Descending Progressive",
-      "date": "2026-09-15",
+      "summary": "1:05 - Cadence Work - end of range",
+      "date": "2026-09-08",
       "day": "Tuesday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
-      "location": ""
-    },
-    {
-      "summary": "1:14 - Descending Progressive",
-      "date": "2026-09-15",
-      "day": "Tuesday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "description": "TSS 43, IF 0.63, kJ(Cal) 577.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
       "location": ""
     },
     {
