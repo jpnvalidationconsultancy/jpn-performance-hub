@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T23:25:47.077045Z",
+  "updated_at": "2026-09-26T01:51:05.594569Z",
   "sessions": [
     {
       "summary": "Rest Day",
@@ -16,20 +16,6 @@
       "location": ""
     },
     {
-      "summary": "Adapted Endurance Short LT2 into SS",
-      "date": "2026-09-09",
-      "day": "Wednesday",
-      "description": "TSS 61, IF 0.77, kJ(Cal) 630.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
-      "location": ""
-    },
-    {
-      "summary": "2:25 - Race specific Tempo Blocks",
-      "date": "2026-09-12",
-      "day": "Saturday",
-      "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
-      "location": ""
-    },
-    {
       "summary": "1:14 - Descending Progressive",
       "date": "2026-09-15",
       "day": "Tuesday",
@@ -37,9 +23,9 @@
       "location": ""
     },
     {
-      "summary": "Descending Progressive",
-      "date": "2026-09-15",
-      "day": "Tuesday",
+      "summary": "1:14 - Descending Progressive",
+      "date": "2026-09-24",
+      "day": "Thursday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
       "location": ""
     },
@@ -51,17 +37,24 @@
       "location": ""
     },
     {
-      "summary": "1:14 - Descending Progressive",
-      "date": "2026-09-24",
-      "day": "Thursday",
+      "summary": "Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
       "location": ""
     },
     {
-      "summary": "1:04 - Build to LT1 & Microbursts",
-      "date": "2026-09-26",
+      "summary": "2:25 - Race specific Tempo Blocks",
+      "date": "2026-09-12",
       "day": "Saturday",
-      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
+      "location": ""
+    },
+    {
+      "summary": "Adapted Endurance Short LT2 into SS",
+      "date": "2026-09-09",
+      "day": "Wednesday",
+      "description": "TSS 61, IF 0.77, kJ(Cal) 630.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
       "location": ""
     },
     {
@@ -90,6 +83,13 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:04 - Build to LT1 & Microbursts",
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
       "location": ""
     },
     {
