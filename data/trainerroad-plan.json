@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-09-28T11:10:13.672730Z",
+  "updated_at": "2026-09-28T18:40:38.169913Z",
   "sessions": [
+    {
+      "summary": "Rest Day",
+      "date": "2026-08-30",
+      "day": "Sunday",
+      "description": "Description: Rest Day",
+      "location": ""
+    },
+    {
+      "summary": "1:05 - Cadence Work - end of range",
+      "date": "2026-09-08",
+      "day": "Tuesday",
+      "description": "TSS 43, IF 0.63, kJ(Cal) 577.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
+      "location": ""
+    },
     {
       "summary": "Adapted Endurance Short LT2 into SS",
       "date": "2026-09-09",
@@ -23,20 +37,6 @@
       "location": ""
     },
     {
-      "summary": "3:00 - Progressive Race Efforts",
-      "date": "2026-09-19",
-      "day": "Saturday",
-      "description": "TSS 140, IF 0.68, kJ(Cal) 1725.  Description: 90 mins zone 1-2 endurance 30 mins LT1- in race position 15 mins easy endurance 3 x 8 mins Tempo",
-      "location": ""
-    },
-    {
-      "summary": "1:04 - Build to LT1 & Microbursts",
-      "date": "2026-09-26",
-      "day": "Saturday",
-      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
-      "location": ""
-    },
-    {
       "summary": "Descending Progressive",
       "date": "2026-09-15",
       "day": "Tuesday",
@@ -44,17 +44,10 @@
       "location": ""
     },
     {
-      "summary": "1:05 - Cadence Work - end of range",
-      "date": "2026-09-08",
-      "day": "Tuesday",
-      "description": "TSS 43, IF 0.63, kJ(Cal) 577.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
-      "location": ""
-    },
-    {
-      "summary": "Rest Day",
-      "date": "2026-08-30",
-      "day": "Sunday",
-      "description": "Description: Rest Day",
+      "summary": "3:00 - Progressive Race Efforts",
+      "date": "2026-09-19",
+      "day": "Saturday",
+      "description": "TSS 140, IF 0.68, kJ(Cal) 1725.  Description: 90 mins zone 1-2 endurance 30 mins LT1- in race position 15 mins easy endurance 3 x 8 mins Tempo",
       "location": ""
     },
     {
@@ -65,10 +58,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "1:04 - Build to LT1 & Microbursts",
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "location": ""
+    },
+    {
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -79,10 +79,10 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
