@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T23:35:48.312022Z",
+  "updated_at": "2026-10-04T04:59:15.270951Z",
   "sessions": [
     {
       "summary": "1:05 - Cadence Work - end of range",
@@ -13,6 +13,13 @@
       "date": "2026-09-09",
       "day": "Wednesday",
       "description": "TSS 61, IF 0.77, kJ(Cal) 630.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
+      "location": ""
+    },
+    {
+      "summary": "2:25 - Race specific Tempo Blocks",
+      "date": "2026-09-12",
+      "day": "Saturday",
+      "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
       "location": ""
     },
     {
@@ -44,20 +51,6 @@
       "location": ""
     },
     {
-      "summary": "1:04 - Build to LT1 & Microbursts",
-      "date": "2026-09-26",
-      "day": "Saturday",
-      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
-      "location": ""
-    },
-    {
-      "summary": "2:25 - Race specific Tempo Blocks",
-      "date": "2026-09-12",
-      "day": "Saturday",
-      "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
-      "location": ""
-    },
-    {
       "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
@@ -83,6 +76,13 @@
       "date": "2026-10-03",
       "day": "Saturday",
       "description": "TSS 121, IF 0.73, kJ(Cal) 1387.  Description: Ideally done outdoors on race bike 3 blocks of race power and position - or indoor use the workout  Approx 20mins gradually warming up 45mins consistent 70.3 power/effort level - Easy spin Repeat with a 30min block and a 15 min block",
+      "location": ""
+    },
+    {
+      "summary": "1:04 - Build to LT1 & Microbursts",
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
       "location": ""
     },
     {
