@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T15:55:16.187629Z",
+  "updated_at": "2026-10-04T19:19:08.982708Z",
   "sessions": [
     {
       "summary": "1:05 - Cadence Work - end of range",
@@ -13,13 +13,6 @@
       "date": "2026-09-09",
       "day": "Wednesday",
       "description": "TSS 61, IF 0.77, kJ(Cal) 630.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
-      "location": ""
-    },
-    {
-      "summary": "1:14 - Descending Progressive",
-      "date": "2026-09-15",
-      "day": "Tuesday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
       "location": ""
     },
     {
@@ -37,9 +30,30 @@
       "location": ""
     },
     {
+      "summary": "1:04 - Build to LT1 & Microbursts",
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "location": ""
+    },
+    {
+      "summary": "2:15 - 70.3 Prep",
+      "date": "2026-10-03",
+      "day": "Saturday",
+      "description": "TSS 121, IF 0.73, kJ(Cal) 1387.  Description: Ideally done outdoors on race bike 3 blocks of race power and position - or indoor use the workout  Approx 20mins gradually warming up 45mins consistent 70.3 power/effort level - Easy spin Repeat with a 30min block and a 15 min block",
+      "location": ""
+    },
+    {
       "summary": "1:14 - Descending Progressive",
       "date": "2026-09-24",
       "day": "Thursday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "location": ""
+    },
+    {
+      "summary": "1:14 - Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
       "location": ""
     },
@@ -69,20 +83,6 @@
       "date": "2026-10-18",
       "day": "Sunday",
       "description": "TSS 156.  Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "2:15 - 70.3 Prep",
-      "date": "2026-10-03",
-      "day": "Saturday",
-      "description": "TSS 121, IF 0.73, kJ(Cal) 1387.  Description: Ideally done outdoors on race bike 3 blocks of race power and position - or indoor use the workout  Approx 20mins gradually warming up 45mins consistent 70.3 power/effort level - Easy spin Repeat with a 30min block and a 15 min block",
-      "location": ""
-    },
-    {
-      "summary": "1:04 - Build to LT1 & Microbursts",
-      "date": "2026-09-26",
-      "day": "Saturday",
-      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
       "location": ""
     },
     {
