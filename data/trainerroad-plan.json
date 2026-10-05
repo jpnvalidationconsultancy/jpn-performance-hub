@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-10-05T16:55:43.967760Z",
+  "updated_at": "2026-10-05T23:05:09.347006Z",
   "sessions": [
-    {
-      "summary": "2:25 - Race specific Tempo Blocks",
-      "date": "2026-09-12",
-      "day": "Saturday",
-      "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
-      "location": ""
-    },
     {
       "summary": "1:14 - Descending Progressive",
       "date": "2026-09-15",
@@ -41,6 +34,13 @@
       "date": "2026-09-26",
       "day": "Saturday",
       "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "location": ""
+    },
+    {
+      "summary": "2:25 - Race specific Tempo Blocks",
+      "date": "2026-09-12",
+      "day": "Saturday",
+      "description": "TSS 152, IF 0.79, kJ(Cal) 1550.  Description: After 15 mins warming up: Aim for 4 reps of 20mins in TT / race position and at estimated race power and cadence. Approx 5mins super easy between blocks Finish with steady riding based on how you feel for 15-30mins",
       "location": ""
     },
     {
