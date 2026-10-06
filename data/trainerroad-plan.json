@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026-10-05T23:05:09.347006Z",
+  "updated_at": "2026-10-06T03:13:10.088675Z",
   "sessions": [
-    {
-      "summary": "1:14 - Descending Progressive",
-      "date": "2026-09-15",
-      "day": "Tuesday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
-      "location": ""
-    },
-    {
-      "summary": "Descending Progressive",
-      "date": "2026-09-15",
-      "day": "Tuesday",
-      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
-      "location": ""
-    },
     {
       "summary": "3:00 - Progressive Race Efforts",
       "date": "2026-09-19",
@@ -34,6 +20,20 @@
       "date": "2026-09-26",
       "day": "Saturday",
       "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "location": ""
+    },
+    {
+      "summary": "Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "location": ""
+    },
+    {
+      "summary": "1:14 - Descending Progressive",
+      "date": "2026-09-15",
+      "day": "Tuesday",
+      "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
       "location": ""
     },
     {
