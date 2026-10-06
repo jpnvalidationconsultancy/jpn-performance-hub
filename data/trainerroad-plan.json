@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T10:39:39.406547Z",
+  "updated_at": "2026-10-06T17:04:02.934265Z",
   "sessions": [
     {
       "summary": "1:05 - Cadence Work - end of range",
@@ -51,6 +51,13 @@
       "location": ""
     },
     {
+      "summary": "1:04 - Build to LT1 & Microbursts",
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "location": ""
+    },
+    {
       "summary": "2:15 - 70.3 Prep",
       "date": "2026-10-03",
       "day": "Saturday",
@@ -65,10 +72,10 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -79,17 +86,10 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
-      "location": ""
-    },
-    {
-      "summary": "1:04 - Build to LT1 & Microbursts",
-      "date": "2026-09-26",
-      "day": "Saturday",
-      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
