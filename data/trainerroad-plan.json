@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-10-06T21:48:33.677280Z",
+  "updated_at": "2026-10-07T01:15:21.264208Z",
   "sessions": [
-    {
-      "summary": "1:05 - Cadence Work - end of range",
-      "date": "2026-09-08",
-      "day": "Tuesday",
-      "description": "TSS 43, IF 0.63, kJ(Cal) 577.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
-      "location": ""
-    },
     {
       "summary": "Adapted Endurance Short LT2 into SS",
       "date": "2026-09-09",
@@ -65,17 +58,17 @@
       "location": ""
     },
     {
-      "summary": "1:15 - ADAPTEDendurance LT1 under/overs",
-      "date": "2026-10-08",
-      "day": "Thursday",
-      "description": "TSS 64, IF 0.72, kJ(Cal) 731.  Description: 8min easy spin 4x1min build to under LT2- 90 sec easy 2x1min at LT2/20min power 3x30 sec building to V02- 1min easy  Main set 4x(3min under LT1, 3min LT1, 3min Over LT1, 2min aerobic)  8min easy cd",
+      "summary": "1:05 - Cadence Work - end of range",
+      "date": "2026-09-08",
+      "day": "Tuesday",
+      "description": "TSS 43, IF 0.63, kJ(Cal) 577.  Description: 10 mins very easy warm up 2 x 4 mins build rpm each minute to fast by the end of the 4 mins (1 min between) 2 mins easy Main set 13 x 2 mins at zone 2 all with 1 minute easy Alternating low and high cadence Cool down 5mins",
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -86,10 +79,17 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
+      "location": ""
+    },
+    {
+      "summary": "1:15 - ADAPTEDendurance LT1 under/overs",
+      "date": "2026-10-08",
+      "day": "Thursday",
+      "description": "TSS 64, IF 0.72, kJ(Cal) 731.  Description: 8min easy spin 4x1min build to under LT2- 90 sec easy 2x1min at LT2/20min power 3x30 sec building to V02- 1min easy  Main set 4x(3min under LT1, 3min LT1, 3min Over LT1, 2min aerobic)  8min easy cd",
       "location": ""
     },
     {
