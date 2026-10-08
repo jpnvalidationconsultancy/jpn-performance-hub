@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T07:06:35.227391Z",
+  "updated_at": "2026-10-08T14:47:19.762377Z",
   "sessions": [
     {
       "summary": "1:05 - Cadence Work - end of range",
@@ -51,17 +51,17 @@
       "location": ""
     },
     {
+      "summary": "1:04 - Build to LT1 & Microbursts",
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "location": ""
+    },
+    {
       "summary": "2:15 - 70.3 Prep",
       "date": "2026-10-03",
       "day": "Saturday",
       "description": "TSS 121, IF 0.73, kJ(Cal) 1387.  Description: Ideally done outdoors on race bike 3 blocks of race power and position - or indoor use the workout  Approx 20mins gradually warming up 45mins consistent 70.3 power/effort level - Easy spin Repeat with a 30min block and a 15 min block",
-      "location": ""
-    },
-    {
-      "summary": "1:52 - Race Prep Set",
-      "date": "2026-10-10",
-      "day": "Saturday",
-      "description": "TSS 101, IF 0.74, kJ(Cal) 1127.  Description: Warm-up 15mins build Z1-2  Main set 2x20 min @76%- 3 min easy 15min @ 80%- 3min easy 10min @ 85%- 3min easy 2x5min @ 90%",
       "location": ""
     },
     {
@@ -72,10 +72,10 @@
       "location": ""
     },
     {
-      "summary": "1:04 - Build to LT1 & Microbursts",
-      "date": "2026-09-26",
+      "summary": "1:52 - Race Prep Set",
+      "date": "2026-10-10",
       "day": "Saturday",
-      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "description": "TSS 101, IF 0.74, kJ(Cal) 1127.  Description: Warm-up 15mins build Z1-2  Main set 2x20 min @76%- 3 min easy 15min @ 80%- 3min easy 10min @ 85%- 3min easy 2x5min @ 90%",
       "location": ""
     },
     {
