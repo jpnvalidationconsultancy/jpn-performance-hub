@@ -1,13 +1,6 @@
 {
-  "updated_at": "2026-10-09T01:02:18.983620Z",
+  "updated_at": "2026-10-09T07:49:33.683542Z",
   "sessions": [
-    {
-      "summary": "Adapted Endurance Short LT2 into SS",
-      "date": "2026-09-09",
-      "day": "Wednesday",
-      "description": "TSS 61, IF 0.77, kJ(Cal) 630.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
-      "location": ""
-    },
     {
       "summary": "2:25 - Race specific Tempo Blocks",
       "date": "2026-09-12",
@@ -37,6 +30,13 @@
       "location": ""
     },
     {
+      "summary": "1:15 - ADAPTEDendurance LT1 under/overs",
+      "date": "2026-10-08",
+      "day": "Thursday",
+      "description": "TSS 64, IF 0.72, kJ(Cal) 731.  Description: 8min easy spin 4x1min build to under LT2- 90 sec easy 2x1min at LT2/20min power 3x30 sec building to V02- 1min easy  Main set 4x(3min under LT1, 3min LT1, 3min Over LT1, 2min aerobic)  8min easy cd",
+      "location": ""
+    },
+    {
       "summary": "1:04 - Build to LT1 & Microbursts",
       "date": "2026-09-26",
       "day": "Saturday",
@@ -48,6 +48,13 @@
       "date": "2026-09-15",
       "day": "Tuesday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "location": ""
+    },
+    {
+      "summary": "Adapted Endurance Short LT2 into SS",
+      "date": "2026-09-09",
+      "day": "Wednesday",
+      "description": "TSS 61, IF 0.77, kJ(Cal) 630.  Description: 10 mins easy 3 rounds of 90 sec LT1+, 30 sec hard, 1 min easy  Main Session 2 sets of 1min FTP, 30 secs easy 2min recovery between sets into 15 mins sweetspot/ sub LT2 10 mins easy",
       "location": ""
     },
     {
@@ -76,13 +83,6 @@
       "date": "2026-10-10",
       "day": "Saturday",
       "description": "TSS 101, IF 0.74, kJ(Cal) 1127.  Description: Warm-up 15mins build Z1-2  Main set 2x20 min @76%- 3 min easy 15min @ 80%- 3min easy 10min @ 85%- 3min easy 2x5min @ 90%",
-      "location": ""
-    },
-    {
-      "summary": "1:15 - ADAPTEDendurance LT1 under/overs",
-      "date": "2026-10-08",
-      "day": "Thursday",
-      "description": "TSS 64, IF 0.72, kJ(Cal) 731.  Description: 8min easy spin 4x1min build to under LT2- 90 sec easy 2x1min at LT2/20min power 3x30 sec building to V02- 1min easy  Main set 4x(3min under LT1, 3min LT1, 3min Over LT1, 2min aerobic)  8min easy cd",
       "location": ""
     },
     {
