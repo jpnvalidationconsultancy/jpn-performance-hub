@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T20:03:15.058877Z",
+  "updated_at": "2026-10-14T23:21:41.728194Z",
   "sessions": [
     {
       "summary": "1:14 - Descending Progressive",
@@ -51,13 +51,6 @@
       "location": ""
     },
     {
-      "summary": "1:52 - Race Prep Set",
-      "date": "2026-10-10",
-      "day": "Saturday",
-      "description": "TSS 101, IF 0.74, kJ(Cal) 1127.  Description: Warm-up 15mins build Z1-2  Main set 2x20 min @76%- 3 min easy 15min @ 80%- 3min easy 10min @ 85%- 3min easy 2x5min @ 90%",
-      "location": ""
-    },
-    {
       "summary": "Jumba Kang",
       "date": "2026-10-12",
       "day": "Monday",
@@ -65,10 +58,17 @@
       "location": ""
     },
     {
-      "summary": "2:20 - 70.3 Malaga",
+      "summary": "1:52 - Race Prep Set",
+      "date": "2026-10-10",
+      "day": "Saturday",
+      "description": "TSS 101, IF 0.74, kJ(Cal) 1127.  Description: Warm-up 15mins build Z1-2  Main set 2x20 min @76%- 3 min easy 15min @ 80%- 3min easy 10min @ 85%- 3min easy 2x5min @ 90%",
+      "location": ""
+    },
+    {
+      "summary": "1:45 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "TSS 156.  Description: 70.3 Malaga",
+      "description": "Description: 70.3 Malaga",
       "location": ""
     },
     {
@@ -79,10 +79,10 @@
       "location": ""
     },
     {
-      "summary": "1:45 - 70.3 Malaga",
+      "summary": "2:20 - 70.3 Malaga",
       "date": "2026-10-18",
       "day": "Sunday",
-      "description": "Description: 70.3 Malaga",
+      "description": "TSS 156.  Description: 70.3 Malaga",
       "location": ""
     },
     {
