@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T14:19:40.874501Z",
+  "updated_at": "2026-10-17T17:27:13.106178Z",
   "sessions": [
     {
       "summary": "3:00 - Progressive Race Efforts",
@@ -13,6 +13,13 @@
       "date": "2026-09-24",
       "day": "Thursday",
       "description": "TSS 70, IF 0.75, kJ(Cal) 716.  Description: 10 mins wu building to LT1 2 min easy 3x1min build from under to over LT2- 1min between each extra 2min  MAIN SET: 10, 2x6, 2x4, 2 Building from 75-110%. 2 mins recovery between each  10 mins w/d",
+      "location": ""
+    },
+    {
+      "summary": "1:04 - Build to LT1 & Microbursts",
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
       "location": ""
     },
     {
@@ -30,13 +37,6 @@
       "location": ""
     },
     {
-      "summary": "Jumba Kang",
-      "date": "2026-10-12",
-      "day": "Monday",
-      "description": "TSS 34, IF 0.58, kJ(Cal) 500.  Description: 1 hour split into 5x10 minute intervals alternating between 55 and 62% FTP with a 5 minute warmup and 5 minute cooldown. Goals: Aerobic Endurance workouts are aimed at improving your aerobic-power-producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing fat for fuel and sparing sugar stores for more intense efforts. Additionally, Endurance workouts like this can improve oxygen delivery & utilization, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
-      "location": ""
-    },
-    {
       "summary": "1:52 - Race Prep Set",
       "date": "2026-10-10",
       "day": "Saturday",
@@ -44,10 +44,10 @@
       "location": ""
     },
     {
-      "summary": "1:04 - Build to LT1 & Microbursts",
-      "date": "2026-09-26",
-      "day": "Saturday",
-      "description": "TSS 50, IF 0.68, kJ(Cal) 617.  Description: Build to LT1 & Microbursts",
+      "summary": "Jumba Kang",
+      "date": "2026-10-12",
+      "day": "Monday",
+      "description": "TSS 34, IF 0.58, kJ(Cal) 500.  Description: 1 hour split into 5x10 minute intervals alternating between 55 and 62% FTP with a 5 minute warmup and 5 minute cooldown. Goals: Aerobic Endurance workouts are aimed at improving your aerobic-power-producing capabilities in a low-stress manner. By riding for increasingly longer periods of time, your endurance muscle fibers become more efficient at utilizing fat for fuel and sparing sugar stores for more intense efforts. Additionally, Endurance workouts like this can improve oxygen delivery & utilization, increase muscular resistance to fatigue, improve integrity of connective tissue, and even help you improve your on-bike nutrition strategies.",
       "location": ""
     },
     {
